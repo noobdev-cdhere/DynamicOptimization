@@ -9,7 +9,7 @@ Pkg.add("Plots")
 =#
 
 using Pkg
-Pkg.activate("Estudo_Ines")
+Pkg.activate("Study_Frame3dd")
 Pkg.status()
 # Truss Geometry ---------------------------------------------------------------
 using KhepriFrame3DD
