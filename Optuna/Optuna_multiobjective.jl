@@ -54,36 +54,6 @@ function getproblem(id)
     return f, bounds, reference_point 
 end
 
-pwd()
-
-
-function make_optimized_folder()
-    base_dir = pwd() 
-    folder_dir = ""
-
-    try
-        if isdefined(Main, :optuna)
-            folder_dir = joinpath(base_dir, "Optuna")
-        elseif isdefined(Main, :HyperTuning)
-            folder_dir = joinpath(base_dir, "HyperTuning")
-        else
-            error("No optimization library detected!")
-        end
-    catch e
-        println("You can't have two optimization libraries in use in the same script")
-        return
-    end
-
-    folder_dir = joinpath(folder_dir, "result_optimized")
-    if isdir(folder_dir)
-        rm(folder_dir; recursive=true, force=true)  
-    end
-    mkpath(folder_dir)
-    cd(folder_dir)
-    return folder_dir
-end
-
-folder_dir = make_optimized_folder()
 
 # Detect search spaces
 last_index = 1
@@ -118,6 +88,8 @@ run(`clear`)
 
 HyperTuning_configuration = utils.HyperTuning_Problems_config(1,50,100)
 
+path = Aux_func_Hypertuning.make_folder()
+
 function objective(trial, current_instance)
     params = set_configuration_optuna(trial)
     try
@@ -135,15 +107,14 @@ function objective(trial, current_instance)
             reference_point = Aux_func_Hypertuning.ref_points_offset[current_instance]
         end
 
-        open(joinpath(folder_dir, "reference_points.txt"), "a") do file
+        open(joinpath(path, "reference_points.txt"), "a") do file
             write(file, "$problem_name :::: $reference_point\n")
         end
 
         hv_values = Aux_func_Hypertuning.run_optimization(
             current_instance, problem_name, f, searchspace, reference_point,
-            string(Algorithm_structure.Name), params, Algorithm_structure
-        )
-
+            string(Algorithm_structure.Name), params, Algorithm_structure, path)
+        println(@isdefined path)
         println("HV Values: ", hv_values)
 
         return isempty(hv_values) ? -Inf : -maximum(values(hv_values))
@@ -155,9 +126,10 @@ end
 
 run(`clear`)
 
-db_path = joinpath(folder_dir, "db.sqlite3")
+db_path = joinpath(path, "db.sqlite3")
 
 for current_instance in HyperTuning_configuration.lb_instaces:HyperTuning_configuration.max_instace
+
 
     study = optuna.create_study( storage="sqlite:///$db_path",study_name="$(HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[current_instance])", sampler=optuna.samplers.RandomSampler())
 

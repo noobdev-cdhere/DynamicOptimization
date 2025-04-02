@@ -4,9 +4,9 @@ module Aux_func_Hypertuning
     using Metaheuristics
     using Metaheuristics: optimize, get_non_dominated_solutions, pareto_front, Options
     import Metaheuristics.PerformanceIndicators: hypervolume
+    using DataStructures
 
-
-    export ref_points_offset, run_optimization
+    export ref_points_offset, run_optimization, make_folder
 
     ref_points_offset = Dict(
         1 => [370000, -7330],
@@ -49,14 +49,20 @@ module Aux_func_Hypertuning
         50 => [100000, 2000]
     )
 
-    function make_optimized_folder()
-        base_dir = pwd() 
+    function make_folder()
+        global path
+    
+        if @isdefined(path)
+            return path
+        end
+    
+        base_dir = pwd()
         folder_dir = ""
     
         try
-            if isdefined(Main, :optuna)
+            if isdefined(Main, :optuna) && !occursin("Optuna", base_dir)
                 folder_dir = joinpath(base_dir, "Optuna")
-            elseif isdefined(Main, :HyperTuning)
+            elseif isdefined(Main, :HyperTuning) && !occursin("HyperTuning", base_dir)
                 folder_dir = joinpath(base_dir, "HyperTuning")
             else
                 error("No optimization library detected!")
@@ -68,16 +74,18 @@ module Aux_func_Hypertuning
     
         folder_dir = joinpath(folder_dir, "result_optimized")
         if isdir(folder_dir)
-            rm(folder_dir; recursive=true, force=true)  
+            rm(folder_dir; recursive=true, force=true)
         end
         mkpath(folder_dir)
         cd(folder_dir)
-        return folder_dir
+    
+        path = folder_dir  # Store globally
+        return path
     end
-
-    function create_directories(metaheuristic_str, iteration_counts, problem_folder_name, result_path_opti)
+    
+    function create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
         
-        algorithm_dir = joinpath(result_path_opti, metaheuristic_str)
+        algorithm_dir = joinpath(path, metaheuristic_str)
         mkpath(algorithm_dir)
 
         iter_dir = joinpath(algorithm_dir, string(iteration_counts))
@@ -98,18 +106,16 @@ module Aux_func_Hypertuning
         end
     end
 
-    function run_optimization(current_inst, problem_name, f, searchspace, reference_point, metaheuristic_str, params, Algorithm_structure)
+    function run_optimization(current_inst, problem_name, f, searchspace, reference_point, metaheuristic_str, params, Algorithm_structure, path)
         
         hv_values = Dict()
         problem_folder_name = "Problem $(current_inst):  $problem_name"
         iteration_counts = [100]
-        if !@isdefined(result_path_opti)
-            global result_path_opti = make_optimized_folder()
-        end
-        println(result_path_opti)
-        problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, result_path_opti)
         
-        open(joinpath(result_path_opti, "reference_points.txt"), "a") do file
+        println(path)
+        problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
+        
+        open(joinpath(path, "reference_points.txt"), "a") do file
              write(file, "$problem_name :::: $reference_point\n")
         end
 
@@ -240,8 +246,6 @@ module Aux_func_Hypertuning
         end
 
     end
-
-
 
     
 end
