@@ -1,0 +1,110 @@
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=161, η_cr=49.115644431900606, p_cr=0.9, η_m=83.71280018252266, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012495665587726015
+Dict{Any, Any}(:N => 161, :η_cr => 49.115644431900606, :η_m => 83.71280018252266)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=238, η_cr=72.48519553915374, p_cr=0.9, η_m=21.4815649027174, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012521249278779309
+Dict{Any, Any}(:N => 238, :η_cr => 72.48519553915374, :η_m => 21.4815649027174)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=233, η_cr=75.42604029681262, p_cr=0.9, η_m=52.92785514018262, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012525631604341466
+Dict{Any, Any}(:N => 233, :η_cr => 75.42604029681262, :η_m => 52.92785514018262)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=291, η_cr=13.484201269148976, p_cr=0.9, η_m=82.0094990003148, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.01253826869187091
+Dict{Any, Any}(:N => 291, :η_cr => 13.484201269148976, :η_m => 82.0094990003148)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=181, η_cr=21.653149200453814, p_cr=0.9, η_m=96.74052806672061, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012507278004055319
+Dict{Any, Any}(:N => 181, :η_cr => 21.653149200453814, :η_m => 96.74052806672061)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=461, η_cr=44.807396770501626, p_cr=0.9, η_m=11.133900371786753, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012557328435856087
+Dict{Any, Any}(:N => 461, :η_cr => 44.807396770501626, :η_m => 11.133900371786753)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=305, η_cr=24.52285430416985, p_cr=0.9, η_m=95.17828657061294, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012538216364667261
+Dict{Any, Any}(:N => 305, :η_cr => 24.52285430416985, :η_m => 95.17828657061294)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=86, η_cr=85.28759230355033, p_cr=0.9, η_m=15.729933311761924, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012424343741094745
+Dict{Any, Any}(:N => 86, :η_cr => 85.28759230355033, :η_m => 15.729933311761924)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=449, η_cr=78.3598981300147, p_cr=0.9, η_m=70.82063282934776, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012552691403847252
+Dict{Any, Any}(:N => 449, :η_cr => 78.3598981300147, :η_m => 70.82063282934776)
+
+front_rail_design problem number 18 ---- Algorithm Parameters
+====================
+  NSGA2(N=440, η_cr=31.383396143427632, p_cr=0.9, η_m=12.378805799057169, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.012555327740294943
+Dict{Any, Any}(:N => 440, :η_cr => 31.383396143427632, :η_m => 12.378805799057169)
+

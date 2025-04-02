@@ -1,0 +1,3751 @@
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=19, η_cr=15.205513067411047, p_cr=0.9, η_m=62.67942482000396, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 9.53432534777893e12
+Dict{Any, Any}(:N => 19, :η_cr => 15.205513067411047, :η_m => 62.67942482000396)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=267, η_cr=8.118890427246017, p_cr=0.9, η_m=45.00023712205113, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.177498192313992e13
+Dict{Any, Any}(:N => 267, :η_cr => 8.118890427246017, :η_m => 45.00023712205113)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=163, η_cr=26.662883069965204, p_cr=0.9, η_m=76.87685193619926, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1722860576126822e13
+Dict{Any, Any}(:N => 163, :η_cr => 26.662883069965204, :η_m => 76.87685193619926)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=427, η_cr=89.09890466511783, p_cr=0.9, η_m=93.90309943127522, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803836710209445e13
+Dict{Any, Any}(:N => 427, :η_cr => 89.09890466511783, :η_m => 93.90309943127522)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=439, η_cr=90.21775314200721, p_cr=0.9, η_m=52.94350721135782, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1804107575937996e13
+Dict{Any, Any}(:N => 439, :η_cr => 90.21775314200721, :η_m => 52.94350721135782)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=37, η_cr=64.29418337769435, p_cr=0.9, η_m=56.959199207815104, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.10712852381151e13
+Dict{Any, Any}(:N => 37, :η_cr => 64.29418337769435, :η_m => 56.959199207815104)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=86.87243137062924, p_cr=0.9, η_m=31.883010070278107, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.14233904806446e13
+Dict{Any, Any}(:N => 61, :η_cr => 86.87243137062924, :η_m => 31.883010070278107)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=89, η_cr=50.38032548258043, p_cr=0.9, η_m=81.84613745088207, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1584632353392525e13
+Dict{Any, Any}(:N => 89, :η_cr => 50.38032548258043, :η_m => 81.84613745088207)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=220, η_cr=45.70555713692933, p_cr=0.9, η_m=75.02117988201432, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1758606099637033e13
+Dict{Any, Any}(:N => 220, :η_cr => 45.70555713692933, :η_m => 75.02117988201432)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=115, η_cr=84.44255971807343, p_cr=0.9, η_m=68.33943362747854, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.163370237074924e13
+Dict{Any, Any}(:N => 115, :η_cr => 84.44255971807343, :η_m => 68.33943362747854)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=413, η_cr=62.09159259709828, p_cr=0.9, η_m=6.307189708005434, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.177580276035951e13
+Dict{Any, Any}(:N => 413, :η_cr => 62.09159259709828, :η_m => 6.307189708005434)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=378, η_cr=10.087012647208793, p_cr=0.9, η_m=77.38409540475268, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1798622507543812e13
+Dict{Any, Any}(:N => 378, :η_cr => 10.087012647208793, :η_m => 77.38409540475268)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=479, η_cr=90.15967476600304, p_cr=0.9, η_m=78.82172794469751, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1806038409758645e13
+Dict{Any, Any}(:N => 479, :η_cr => 90.15967476600304, :η_m => 78.82172794469751)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=266, η_cr=23.31570856132522, p_cr=0.9, η_m=39.35456702189612, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1775775066270902e13
+Dict{Any, Any}(:N => 266, :η_cr => 23.31570856132522, :η_m => 39.35456702189612)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=457, η_cr=27.038136926647972, p_cr=0.9, η_m=42.902373737727004, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180614239360153e13
+Dict{Any, Any}(:N => 457, :η_cr => 27.038136926647972, :η_m => 42.902373737727004)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=499, η_cr=60.099459829507076, p_cr=0.9, η_m=74.84219476686775, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1810187527192607e13
+Dict{Any, Any}(:N => 499, :η_cr => 60.099459829507076, :η_m => 74.84219476686775)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=351, η_cr=44.571771423875525, p_cr=0.9, η_m=73.60991113250923, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1795511624001713e13
+Dict{Any, Any}(:N => 351, :η_cr => 44.571771423875525, :η_m => 73.60991113250923)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=179, η_cr=30.7815379288335, p_cr=0.9, η_m=13.571566610096308, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1723108089345795e13
+Dict{Any, Any}(:N => 179, :η_cr => 30.7815379288335, :η_m => 13.571566610096308)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=391, η_cr=12.711885449781313, p_cr=0.9, η_m=24.353815610034403, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1796228393405979e13
+Dict{Any, Any}(:N => 391, :η_cr => 12.711885449781313, :η_m => 24.353815610034403)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=468, η_cr=54.957630036146746, p_cr=0.9, η_m=69.82859963728433, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1805492641454242e13
+Dict{Any, Any}(:N => 468, :η_cr => 54.957630036146746, :η_m => 69.82859963728433)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=48.84821856531428, p_cr=0.9, η_m=62.01328218734188, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1483353396191951e13
+Dict{Any, Any}(:N => 61, :η_cr => 48.84821856531428, :η_m => 62.01328218734188)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=385, η_cr=82.26706625939791, p_cr=0.9, η_m=66.85388339721324, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179948677984652e13
+Dict{Any, Any}(:N => 385, :η_cr => 82.26706625939791, :η_m => 66.85388339721324)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=500, η_cr=38.67980493337866, p_cr=0.9, η_m=13.832023516660652, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1809576068075082e13
+Dict{Any, Any}(:N => 500, :η_cr => 38.67980493337866, :η_m => 13.832023516660652)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=406, η_cr=45.945273003071165, p_cr=0.9, η_m=87.53385312892162, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1802474916607523e13
+Dict{Any, Any}(:N => 406, :η_cr => 45.945273003071165, :η_m => 87.53385312892162)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=204, η_cr=55.07272189061593, p_cr=0.9, η_m=94.00360531418032, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1748181493872871e13
+Dict{Any, Any}(:N => 204, :η_cr => 55.07272189061593, :η_m => 94.00360531418032)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=199, η_cr=47.26645737925955, p_cr=0.9, η_m=10.020496588578354, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.173782702945856e13
+Dict{Any, Any}(:N => 199, :η_cr => 47.26645737925955, :η_m => 10.020496588578354)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=48, η_cr=37.22397149049787, p_cr=0.9, η_m=87.63667323325217, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1285019756853227e13
+Dict{Any, Any}(:N => 48, :η_cr => 37.22397149049787, :η_m => 87.63667323325217)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=404, η_cr=59.740640837445135, p_cr=0.9, η_m=36.22938195894433, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179752953531984e13
+Dict{Any, Any}(:N => 404, :η_cr => 59.740640837445135, :η_m => 36.22938195894433)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=469, η_cr=73.00340429755343, p_cr=0.9, η_m=65.81444437459858, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1805743698880373e13
+Dict{Any, Any}(:N => 469, :η_cr => 73.00340429755343, :η_m => 65.81444437459858)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=311, η_cr=87.58946315837011, p_cr=0.9, η_m=57.08957663687039, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1784472489506977e13
+Dict{Any, Any}(:N => 311, :η_cr => 87.58946315837011, :η_m => 57.08957663687039)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=465, η_cr=13.573658395612831, p_cr=0.9, η_m=4.006664102149959, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.178972150654185e13
+Dict{Any, Any}(:N => 465, :η_cr => 13.573658395612831, :η_m => 4.006664102149959)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=249, η_cr=45.26592321627058, p_cr=0.9, η_m=42.040322682133024, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.176512183730025e13
+Dict{Any, Any}(:N => 249, :η_cr => 45.26592321627058, :η_m => 42.040322682133024)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=136, η_cr=60.630728917253826, p_cr=0.9, η_m=74.91916411673792, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1665572922478541e13
+Dict{Any, Any}(:N => 136, :η_cr => 60.630728917253826, :η_m => 74.91916411673792)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=42, η_cr=64.53353558272048, p_cr=0.9, η_m=24.50100423967295, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1198978111155893e13
+Dict{Any, Any}(:N => 42, :η_cr => 64.53353558272048, :η_m => 24.50100423967295)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=401, η_cr=27.979582994585627, p_cr=0.9, η_m=98.12883624143666, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180462744226837e13
+Dict{Any, Any}(:N => 401, :η_cr => 27.979582994585627, :η_m => 98.12883624143666)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=87, η_cr=52.284444778198576, p_cr=0.9, η_m=43.97050496051226, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.155807353738913e13
+Dict{Any, Any}(:N => 87, :η_cr => 52.284444778198576, :η_m => 43.97050496051226)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=341, η_cr=3.6832383380890565, p_cr=0.9, η_m=7.134617276804034, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.176980632546598e13
+Dict{Any, Any}(:N => 341, :η_cr => 3.6832383380890565, :η_m => 7.134617276804034)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=62, η_cr=32.46885424064118, p_cr=0.9, η_m=13.651515815232251, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1384286744670719e13
+Dict{Any, Any}(:N => 62, :η_cr => 32.46885424064118, :η_m => 13.651515815232251)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=316, η_cr=50.43343493157071, p_cr=0.9, η_m=49.34211401742875, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1784445490496207e13
+Dict{Any, Any}(:N => 316, :η_cr => 50.43343493157071, :η_m => 49.34211401742875)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=179, η_cr=2.1052427524672845, p_cr=0.9, η_m=65.45701666439373, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1729056315417145e13
+Dict{Any, Any}(:N => 179, :η_cr => 2.1052427524672845, :η_m => 65.45701666439373)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=332, η_cr=89.03632849537783, p_cr=0.9, η_m=9.608561585869857, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1760846305794984e13
+Dict{Any, Any}(:N => 332, :η_cr => 89.03632849537783, :η_m => 9.608561585869857)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=233, η_cr=4.417365700889553, p_cr=0.9, η_m=66.37849340708675, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1758037226832172e13
+Dict{Any, Any}(:N => 233, :η_cr => 4.417365700889553, :η_m => 66.37849340708675)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=38.41657892273991, p_cr=0.9, η_m=30.55187687116877, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1752354866671395e13
+Dict{Any, Any}(:N => 210, :η_cr => 38.41657892273991, :η_m => 30.55187687116877)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=467, η_cr=66.33704504853637, p_cr=0.9, η_m=44.661536721318896, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807482795350867e13
+Dict{Any, Any}(:N => 467, :η_cr => 66.33704504853637, :η_m => 44.661536721318896)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=156, η_cr=37.42182865267535, p_cr=0.9, η_m=77.35608055072477, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1713218216425064e13
+Dict{Any, Any}(:N => 156, :η_cr => 37.42182865267535, :η_m => 77.35608055072477)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=274, η_cr=55.80185039283027, p_cr=0.9, η_m=33.27984482002804, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1776466969494232e13
+Dict{Any, Any}(:N => 274, :η_cr => 55.80185039283027, :η_m => 33.27984482002804)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=17.415593715305565, p_cr=0.9, η_m=82.7797930440233, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.171754018192072e13
+Dict{Any, Any}(:N => 155, :η_cr => 17.415593715305565, :η_m => 82.7797930440233)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=76, η_cr=78.88401778961882, p_cr=0.9, η_m=56.6828152267427, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.151700082958258e13
+Dict{Any, Any}(:N => 76, :η_cr => 78.88401778961882, :η_m => 56.6828152267427)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=33, η_cr=82.25530880680952, p_cr=0.9, η_m=0.8451707707530454, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0733239385673582e13
+Dict{Any, Any}(:N => 33, :η_cr => 82.25530880680952, :η_m => 0.8451707707530454)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=283, η_cr=19.4539600191439, p_cr=0.9, η_m=98.7418779429185, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.178308298759665e13
+Dict{Any, Any}(:N => 283, :η_cr => 19.4539600191439, :η_m => 98.7418779429185)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=328, η_cr=70.0423767947102, p_cr=0.9, η_m=77.85059368303784, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179211696774508e13
+Dict{Any, Any}(:N => 328, :η_cr => 70.0423767947102, :η_m => 77.85059368303784)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=365, η_cr=30.00605650346998, p_cr=0.9, η_m=27.816689081788592, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1793814497427691e13
+Dict{Any, Any}(:N => 365, :η_cr => 30.00605650346998, :η_m => 27.816689081788592)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=8, η_cr=54.66710158067324, p_cr=0.9, η_m=18.787185407034624, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.964037312865493e12
+Dict{Any, Any}(:N => 8, :η_cr => 54.66710158067324, :η_m => 18.787185407034624)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=128, η_cr=50.62221684592466, p_cr=0.9, η_m=66.92910213895422, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1670402447938414e13
+Dict{Any, Any}(:N => 128, :η_cr => 50.62221684592466, :η_m => 66.92910213895422)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=177, η_cr=23.801623631361856, p_cr=0.9, η_m=35.47495152040716, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1737469112892912e13
+Dict{Any, Any}(:N => 177, :η_cr => 23.801623631361856, :η_m => 35.47495152040716)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=89, η_cr=19.759190423603723, p_cr=0.9, η_m=95.69357159634492, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1577762644091064e13
+Dict{Any, Any}(:N => 89, :η_cr => 19.759190423603723, :η_m => 95.69357159634492)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=415, η_cr=6.5567215698458465, p_cr=0.9, η_m=70.23841443484274, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179999201148141e13
+Dict{Any, Any}(:N => 415, :η_cr => 6.5567215698458465, :η_m => 70.23841443484274)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=174, η_cr=42.065488674247, p_cr=0.9, η_m=13.711168919992078, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1720520933022113e13
+Dict{Any, Any}(:N => 174, :η_cr => 42.065488674247, :η_m => 13.711168919992078)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=295, η_cr=81.0174330892227, p_cr=0.9, η_m=45.469905370225185, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1777760038417182e13
+Dict{Any, Any}(:N => 295, :η_cr => 81.0174330892227, :η_m => 45.469905370225185)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=414, η_cr=3.849937451714047, p_cr=0.9, η_m=54.621718470035866, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1795490399839232e13
+Dict{Any, Any}(:N => 414, :η_cr => 3.849937451714047, :η_m => 54.621718470035866)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=218, η_cr=79.98864770003449, p_cr=0.9, η_m=26.95741322270615, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1741701436468854e13
+Dict{Any, Any}(:N => 218, :η_cr => 79.98864770003449, :η_m => 26.95741322270615)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=181, η_cr=72.13694536457209, p_cr=0.9, η_m=53.78787636231388, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1730753350477322e13
+Dict{Any, Any}(:N => 181, :η_cr => 72.13694536457209, :η_m => 53.78787636231388)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=216, η_cr=7.468163422919538, p_cr=0.9, η_m=30.93402297554364, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1753045593620875e13
+Dict{Any, Any}(:N => 216, :η_cr => 7.468163422919538, :η_m => 30.93402297554364)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=238, η_cr=46.60215778977362, p_cr=0.9, η_m=66.53779600711194, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1763162627927557e13
+Dict{Any, Any}(:N => 238, :η_cr => 46.60215778977362, :η_m => 66.53779600711194)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=213, η_cr=48.88456914039655, p_cr=0.9, η_m=33.976508828764, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1749951351762666e13
+Dict{Any, Any}(:N => 213, :η_cr => 48.88456914039655, :η_m => 33.976508828764)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=214, η_cr=89.46843121562283, p_cr=0.9, η_m=59.46184816700776, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1755752746885076e13
+Dict{Any, Any}(:N => 214, :η_cr => 89.46843121562283, :η_m => 59.46184816700776)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=267, η_cr=58.2705106611357, p_cr=0.9, η_m=1.6287369813463237, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.173245763481813e13
+Dict{Any, Any}(:N => 267, :η_cr => 58.2705106611357, :η_m => 1.6287369813463237)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=347, η_cr=26.88590276278948, p_cr=0.9, η_m=31.45256031507433, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1792723978921691e13
+Dict{Any, Any}(:N => 347, :η_cr => 26.88590276278948, :η_m => 31.45256031507433)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=105, η_cr=19.082508299456812, p_cr=0.9, η_m=59.011340599978965, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.165150082460107e13
+Dict{Any, Any}(:N => 105, :η_cr => 19.082508299456812, :η_m => 59.011340599978965)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=183, η_cr=32.593915694687006, p_cr=0.9, η_m=98.61338557559223, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1741433303062494e13
+Dict{Any, Any}(:N => 183, :η_cr => 32.593915694687006, :η_m => 98.61338557559223)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=221, η_cr=47.01900821072598, p_cr=0.9, η_m=97.84699623724443, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.176185544373636e13
+Dict{Any, Any}(:N => 221, :η_cr => 47.01900821072598, :η_m => 97.84699623724443)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=225, η_cr=61.443794523465044, p_cr=0.9, η_m=6.19475182216881, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1731539306555615e13
+Dict{Any, Any}(:N => 225, :η_cr => 61.443794523465044, :η_m => 6.19475182216881)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=64, η_cr=88.21483357371972, p_cr=0.9, η_m=23.940755583570883, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1403107469423752e13
+Dict{Any, Any}(:N => 64, :η_cr => 88.21483357371972, :η_m => 23.940755583570883)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=37, η_cr=58.90703944080761, p_cr=0.9, η_m=94.7558638452038, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1097783109371293e13
+Dict{Any, Any}(:N => 37, :η_cr => 58.90703944080761, :η_m => 94.7558638452038)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=418, η_cr=44.52728988475263, p_cr=0.9, η_m=77.47498466318164, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803659328911705e13
+Dict{Any, Any}(:N => 418, :η_cr => 44.52728988475263, :η_m => 77.47498466318164)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=187, η_cr=88.98665522451753, p_cr=0.9, η_m=25.29539656498, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1728278125761688e13
+Dict{Any, Any}(:N => 187, :η_cr => 88.98665522451753, :η_m => 25.29539656498)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=327, η_cr=38.52281196112166, p_cr=0.9, η_m=30.544746058580706, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179048392757588e13
+Dict{Any, Any}(:N => 327, :η_cr => 38.52281196112166, :η_m => 30.544746058580706)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=445, η_cr=89.88146584289336, p_cr=0.9, η_m=44.51786283492329, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1802477319433883e13
+Dict{Any, Any}(:N => 445, :η_cr => 89.88146584289336, :η_m => 44.51786283492329)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=96.03574601290859, p_cr=0.9, η_m=69.79807801487293, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.17738702607504e13
+Dict{Any, Any}(:N => 293, :η_cr => 96.03574601290859, :η_m => 69.79807801487293)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=44, η_cr=44.148246141054436, p_cr=0.9, η_m=40.37598723725091, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1133257637552277e13
+Dict{Any, Any}(:N => 44, :η_cr => 44.148246141054436, :η_m => 40.37598723725091)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=99, η_cr=66.35836192123371, p_cr=0.9, η_m=81.30410645567045, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1612036952540924e13
+Dict{Any, Any}(:N => 99, :η_cr => 66.35836192123371, :η_m => 81.30410645567045)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=237, η_cr=32.672513029550345, p_cr=0.9, η_m=5.734013418593742, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1751888143145492e13
+Dict{Any, Any}(:N => 237, :η_cr => 32.672513029550345, :η_m => 5.734013418593742)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=248, η_cr=49.67775930766077, p_cr=0.9, η_m=28.901096962973472, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.176212947459564e13
+Dict{Any, Any}(:N => 248, :η_cr => 49.67775930766077, :η_m => 28.901096962973472)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=121, η_cr=60.45927373246934, p_cr=0.9, η_m=44.233452025350985, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1661643821113139e13
+Dict{Any, Any}(:N => 121, :η_cr => 60.45927373246934, :η_m => 44.233452025350985)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=344, η_cr=11.464389844919198, p_cr=0.9, η_m=47.91298763252689, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1787146472398934e13
+Dict{Any, Any}(:N => 344, :η_cr => 11.464389844919198, :η_m => 47.91298763252689)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=257, η_cr=42.85396269223105, p_cr=0.9, η_m=99.91285344000033, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.17726023324704e13
+Dict{Any, Any}(:N => 257, :η_cr => 42.85396269223105, :η_m => 99.91285344000033)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=279, η_cr=49.4934463680771, p_cr=0.9, η_m=51.28430863709895, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1778293923907115e13
+Dict{Any, Any}(:N => 279, :η_cr => 49.4934463680771, :η_m => 51.28430863709895)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=17, η_cr=29.403535268283743, p_cr=0.9, η_m=51.844252911534085, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 9.314480065206896e12
+Dict{Any, Any}(:N => 17, :η_cr => 29.403535268283743, :η_m => 51.844252911534085)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=386, η_cr=90.99165325314883, p_cr=0.9, η_m=23.847693170166927, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1794382207727643e13
+Dict{Any, Any}(:N => 386, :η_cr => 90.99165325314883, :η_m => 23.847693170166927)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=496, η_cr=96.78184343563103, p_cr=0.9, η_m=45.94414857645713, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1809931665438162e13
+Dict{Any, Any}(:N => 496, :η_cr => 96.78184343563103, :η_m => 45.94414857645713)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=276, η_cr=27.6903933178253, p_cr=0.9, η_m=8.592302834085498, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1770393403982281e13
+Dict{Any, Any}(:N => 276, :η_cr => 27.6903933178253, :η_m => 8.592302834085498)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=370, η_cr=43.317232712649826, p_cr=0.9, η_m=60.722701940926136, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1793894369098627e13
+Dict{Any, Any}(:N => 370, :η_cr => 43.317232712649826, :η_m => 60.722701940926136)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=453, η_cr=44.99726025182178, p_cr=0.9, η_m=58.857486610351096, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1802119013051062e13
+Dict{Any, Any}(:N => 453, :η_cr => 44.99726025182178, :η_m => 58.857486610351096)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=68, η_cr=75.92139841038717, p_cr=0.9, η_m=99.84018280473387, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1429908162313553e13
+Dict{Any, Any}(:N => 68, :η_cr => 75.92139841038717, :η_m => 99.84018280473387)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=28, η_cr=81.17544372774015, p_cr=0.9, η_m=50.79394436422101, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0336948335416414e13
+Dict{Any, Any}(:N => 28, :η_cr => 81.17544372774015, :η_m => 50.79394436422101)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=427, η_cr=85.29838624807307, p_cr=0.9, η_m=10.97754913778427, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1791965263698086e13
+Dict{Any, Any}(:N => 427, :η_cr => 85.29838624807307, :η_m => 10.97754913778427)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=405, η_cr=43.338923318078336, p_cr=0.9, η_m=3.0626738968512757, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1787262763726123e13
+Dict{Any, Any}(:N => 405, :η_cr => 43.338923318078336, :η_m => 3.0626738968512757)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=467, η_cr=5.220786032556768, p_cr=0.9, η_m=74.91690912388903, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180233084315389e13
+Dict{Any, Any}(:N => 467, :η_cr => 5.220786032556768, :η_m => 74.91690912388903)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=282, η_cr=4.706025738464092, p_cr=0.9, η_m=83.60153366104699, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1779357020285275e13
+Dict{Any, Any}(:N => 282, :η_cr => 4.706025738464092, :η_m => 83.60153366104699)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=350, η_cr=89.17815786004681, p_cr=0.9, η_m=45.33171118808522, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1790842623776617e13
+Dict{Any, Any}(:N => 350, :η_cr => 89.17815786004681, :η_m => 45.33171118808522)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=429, η_cr=35.4134688180968, p_cr=0.9, η_m=19.130725947320027, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1800772219103113e13
+Dict{Any, Any}(:N => 429, :η_cr => 35.4134688180968, :η_m => 19.130725947320027)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=389, η_cr=46.15244297266782, p_cr=0.9, η_m=92.5432653570051, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1800392659987576e13
+Dict{Any, Any}(:N => 389, :η_cr => 46.15244297266782, :η_m => 92.5432653570051)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=388, η_cr=42.026048180593854, p_cr=0.9, η_m=87.73122918423458, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1800392040162318e13
+Dict{Any, Any}(:N => 388, :η_cr => 42.026048180593854, :η_m => 87.73122918423458)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=34, η_cr=17.969199372058842, p_cr=0.9, η_m=31.961625173441888, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.104674565298359e13
+Dict{Any, Any}(:N => 34, :η_cr => 17.969199372058842, :η_m => 31.961625173441888)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=191, η_cr=38.7974120397216, p_cr=0.9, η_m=21.495019476822065, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.174431349345771e13
+Dict{Any, Any}(:N => 191, :η_cr => 38.7974120397216, :η_m => 21.495019476822065)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=62, η_cr=19.177985893235384, p_cr=0.9, η_m=33.348230670138626, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1460493143122346e13
+Dict{Any, Any}(:N => 62, :η_cr => 19.177985893235384, :η_m => 33.348230670138626)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=30, η_cr=84.52503402460015, p_cr=0.9, η_m=84.87882571319223, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0735661064183719e13
+Dict{Any, Any}(:N => 30, :η_cr => 84.52503402460015, :η_m => 84.87882571319223)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=469, η_cr=5.002004258969695, p_cr=0.9, η_m=15.826441420472214, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1793812092838213e13
+Dict{Any, Any}(:N => 469, :η_cr => 5.002004258969695, :η_m => 15.826441420472214)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=245, η_cr=58.91741108237254, p_cr=0.9, η_m=38.5530976490429, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1762995990405186e13
+Dict{Any, Any}(:N => 245, :η_cr => 58.91741108237254, :η_m => 38.5530976490429)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=95, η_cr=29.358347839173092, p_cr=0.9, η_m=38.300697376559924, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1600523710568354e13
+Dict{Any, Any}(:N => 95, :η_cr => 29.358347839173092, :η_m => 38.300697376559924)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=201, η_cr=5.474645217215334, p_cr=0.9, η_m=92.07069699279604, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.174880363971479e13
+Dict{Any, Any}(:N => 201, :η_cr => 5.474645217215334, :η_m => 92.07069699279604)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=452, η_cr=79.03556568576282, p_cr=0.9, η_m=33.22823789537972, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803974412207836e13
+Dict{Any, Any}(:N => 452, :η_cr => 79.03556568576282, :η_m => 33.22823789537972)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=500, η_cr=9.880674713841753, p_cr=0.9, η_m=44.80683489284563, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1806425125038447e13
+Dict{Any, Any}(:N => 500, :η_cr => 9.880674713841753, :η_m => 44.80683489284563)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=427, η_cr=17.15166910355238, p_cr=0.9, η_m=6.932041518576271, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179157870279796e13
+Dict{Any, Any}(:N => 427, :η_cr => 17.15166910355238, :η_m => 6.932041518576271)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=429, η_cr=7.112071921787855, p_cr=0.9, η_m=1.100401878568824, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.178984304550634e13
+Dict{Any, Any}(:N => 429, :η_cr => 7.112071921787855, :η_m => 1.100401878568824)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=232, η_cr=60.12965640257608, p_cr=0.9, η_m=41.99411297531081, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1762746716856125e13
+Dict{Any, Any}(:N => 232, :η_cr => 60.12965640257608, :η_m => 41.99411297531081)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=316, η_cr=29.114328201893823, p_cr=0.9, η_m=39.612313157146616, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1785202751760816e13
+Dict{Any, Any}(:N => 316, :η_cr => 29.114328201893823, :η_m => 39.612313157146616)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=12, η_cr=6.990826691069429, p_cr=0.9, η_m=86.85352253816946, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 9.375867789233416e12
+Dict{Any, Any}(:N => 12, :η_cr => 6.990826691069429, :η_m => 86.85352253816946)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=216, η_cr=50.01879224484467, p_cr=0.9, η_m=78.83556798940884, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1746517734286117e13
+Dict{Any, Any}(:N => 216, :η_cr => 50.01879224484467, :η_m => 78.83556798940884)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=334, η_cr=20.03115712897683, p_cr=0.9, η_m=81.92977867547651, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1793171187918527e13
+Dict{Any, Any}(:N => 334, :η_cr => 20.03115712897683, :η_m => 81.92977867547651)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=14, η_cr=31.578278861143172, p_cr=0.9, η_m=31.190571046587824, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0020295259809602e13
+Dict{Any, Any}(:N => 14, :η_cr => 31.578278861143172, :η_m => 31.190571046587824)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=196, η_cr=17.480540893199493, p_cr=0.9, η_m=45.54270028799656, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1749426740100514e13
+Dict{Any, Any}(:N => 196, :η_cr => 17.480540893199493, :η_m => 45.54270028799656)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=263, η_cr=48.917309173446945, p_cr=0.9, η_m=6.3533993068807915, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1764614655987027e13
+Dict{Any, Any}(:N => 263, :η_cr => 48.917309173446945, :η_m => 6.3533993068807915)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=68, η_cr=19.32645143445385, p_cr=0.9, η_m=69.45812932956136, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1512211364553102e13
+Dict{Any, Any}(:N => 68, :η_cr => 19.32645143445385, :η_m => 69.45812932956136)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=5, η_cr=6.523829170862849, p_cr=0.9, η_m=69.81734520635078, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.04672069469181e12
+Dict{Any, Any}(:N => 5, :η_cr => 6.523829170862849, :η_m => 69.81734520635078)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=253, η_cr=34.88025708653356, p_cr=0.9, η_m=4.524388723146499, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.172920589305224e13
+Dict{Any, Any}(:N => 253, :η_cr => 34.88025708653356, :η_m => 4.524388723146499)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=148, η_cr=51.71595970754376, p_cr=0.9, η_m=90.4435611197982, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1701018927180756e13
+Dict{Any, Any}(:N => 148, :η_cr => 51.71595970754376, :η_m => 90.4435611197982)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=421, η_cr=61.37062562107636, p_cr=0.9, η_m=77.8025841659402, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803152415515277e13
+Dict{Any, Any}(:N => 421, :η_cr => 61.37062562107636, :η_m => 77.8025841659402)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=412, η_cr=12.941361635707771, p_cr=0.9, η_m=68.78514994441154, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1800546273992482e13
+Dict{Any, Any}(:N => 412, :η_cr => 12.941361635707771, :η_m => 68.78514994441154)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=374, η_cr=13.227088867999282, p_cr=0.9, η_m=29.53932969644614, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1795136664527541e13
+Dict{Any, Any}(:N => 374, :η_cr => 13.227088867999282, :η_m => 29.53932969644614)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=214, η_cr=39.08522860361604, p_cr=0.9, η_m=48.87090723480553, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1756804014160896e13
+Dict{Any, Any}(:N => 214, :η_cr => 39.08522860361604, :η_m => 48.87090723480553)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=138, η_cr=9.637336709661405, p_cr=0.9, η_m=58.22677888322093, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.170116679566711e13
+Dict{Any, Any}(:N => 138, :η_cr => 9.637336709661405, :η_m => 58.22677888322093)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=25, η_cr=43.16435102492024, p_cr=0.9, η_m=94.701042896748, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0683596917015223e13
+Dict{Any, Any}(:N => 25, :η_cr => 43.16435102492024, :η_m => 94.701042896748)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=424, η_cr=70.6129741900281, p_cr=0.9, η_m=2.540844566664746, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.176694892549422e13
+Dict{Any, Any}(:N => 424, :η_cr => 70.6129741900281, :η_m => 2.540844566664746)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=496, η_cr=18.335993437983646, p_cr=0.9, η_m=95.3311746807214, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.181001983461129e13
+Dict{Any, Any}(:N => 496, :η_cr => 18.335993437983646, :η_m => 95.3311746807214)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=373, η_cr=56.029455227493585, p_cr=0.9, η_m=99.50793625665688, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1795958028258254e13
+Dict{Any, Any}(:N => 373, :η_cr => 56.029455227493585, :η_m => 99.50793625665688)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=172, η_cr=19.840288689519248, p_cr=0.9, η_m=68.59991604890251, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1728476862781383e13
+Dict{Any, Any}(:N => 172, :η_cr => 19.840288689519248, :η_m => 68.59991604890251)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=347, η_cr=76.38543631913525, p_cr=0.9, η_m=96.06513504557653, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1788933029849508e13
+Dict{Any, Any}(:N => 347, :η_cr => 76.38543631913525, :η_m => 96.06513504557653)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=481, η_cr=4.964482695167726, p_cr=0.9, η_m=57.0172046431054, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803717724255201e13
+Dict{Any, Any}(:N => 481, :η_cr => 4.964482695167726, :η_m => 57.0172046431054)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=126, η_cr=22.111803447080035, p_cr=0.9, η_m=54.32524020356555, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.167492849636223e13
+Dict{Any, Any}(:N => 126, :η_cr => 22.111803447080035, :η_m => 54.32524020356555)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=467, η_cr=97.20866750482105, p_cr=0.9, η_m=36.690655032878006, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180571475279035e13
+Dict{Any, Any}(:N => 467, :η_cr => 97.20866750482105, :η_m => 36.690655032878006)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=96, η_cr=50.034724948012396, p_cr=0.9, η_m=71.46344408030035, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.161146874520816e13
+Dict{Any, Any}(:N => 96, :η_cr => 50.034724948012396, :η_m => 71.46344408030035)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=161, η_cr=39.83436922812772, p_cr=0.9, η_m=58.90866346630885, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1727155504764045e13
+Dict{Any, Any}(:N => 161, :η_cr => 39.83436922812772, :η_m => 58.90866346630885)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=45.620549154606095, p_cr=0.9, η_m=0.4921741383073108, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1700287246584863e13
+Dict{Any, Any}(:N => 210, :η_cr => 45.620549154606095, :η_m => 0.4921741383073108)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=237, η_cr=49.11766980552502, p_cr=0.9, η_m=85.98403193122591, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1756917197474129e13
+Dict{Any, Any}(:N => 237, :η_cr => 49.11766980552502, :η_m => 85.98403193122591)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=92, η_cr=41.44239506367568, p_cr=0.9, η_m=76.80882810583054, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1607071633726943e13
+Dict{Any, Any}(:N => 92, :η_cr => 41.44239506367568, :η_m => 76.80882810583054)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=451, η_cr=1.3893284080825685, p_cr=0.9, η_m=3.059824774385378, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.172878725931561e13
+Dict{Any, Any}(:N => 451, :η_cr => 1.3893284080825685, :η_m => 3.059824774385378)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=197, η_cr=12.572313453759797, p_cr=0.9, η_m=52.17057388043822, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1748014139545795e13
+Dict{Any, Any}(:N => 197, :η_cr => 12.572313453759797, :η_m => 52.17057388043822)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=16, η_cr=97.13191114749186, p_cr=0.9, η_m=96.22466855660066, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 9.493379936662457e12
+Dict{Any, Any}(:N => 16, :η_cr => 97.13191114749186, :η_m => 96.22466855660066)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=118, η_cr=17.594280513326787, p_cr=0.9, η_m=81.97351402912268, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1653886065736256e13
+Dict{Any, Any}(:N => 118, :η_cr => 17.594280513326787, :η_m => 81.97351402912268)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=119, η_cr=4.2354212089733, p_cr=0.9, η_m=31.523748535313768, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.167288675024009e13
+Dict{Any, Any}(:N => 119, :η_cr => 4.2354212089733, :η_m => 31.523748535313768)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=305, η_cr=14.519333305837579, p_cr=0.9, η_m=82.70017115003209, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1786411684689871e13
+Dict{Any, Any}(:N => 305, :η_cr => 14.519333305837579, :η_m => 82.70017115003209)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=154, η_cr=75.68411058396862, p_cr=0.9, η_m=4.447195497421941, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1663701112190982e13
+Dict{Any, Any}(:N => 154, :η_cr => 75.68411058396862, :η_m => 4.447195497421941)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=324, η_cr=90.93491280809737, p_cr=0.9, η_m=14.784281837196644, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1780857013116674e13
+Dict{Any, Any}(:N => 324, :η_cr => 90.93491280809737, :η_m => 14.784281837196644)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=82, η_cr=6.938217478323128, p_cr=0.9, η_m=21.748029148740542, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1547433556076629e13
+Dict{Any, Any}(:N => 82, :η_cr => 6.938217478323128, :η_m => 21.748029148740542)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=374, η_cr=50.50522518398576, p_cr=0.9, η_m=23.847432524654376, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1794828997475293e13
+Dict{Any, Any}(:N => 374, :η_cr => 50.50522518398576, :η_m => 23.847432524654376)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=496, η_cr=18.238048600751455, p_cr=0.9, η_m=49.12364690982588, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1808566383431143e13
+Dict{Any, Any}(:N => 496, :η_cr => 18.238048600751455, :η_m => 49.12364690982588)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=215, η_cr=67.92844871197208, p_cr=0.9, η_m=81.21913987399024, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1749634688511752e13
+Dict{Any, Any}(:N => 215, :η_cr => 67.92844871197208, :η_m => 81.21913987399024)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=184, η_cr=41.28916674141122, p_cr=0.9, η_m=6.749377841064497, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.172748905451464e13
+Dict{Any, Any}(:N => 184, :η_cr => 41.28916674141122, :η_m => 6.749377841064497)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=246, η_cr=74.24490633716589, p_cr=0.9, η_m=98.80733801857153, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1756296019211662e13
+Dict{Any, Any}(:N => 246, :η_cr => 74.24490633716589, :η_m => 98.80733801857153)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=169, η_cr=10.95680547498532, p_cr=0.9, η_m=9.391278581407258, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1712260182636875e13
+Dict{Any, Any}(:N => 169, :η_cr => 10.95680547498532, :η_m => 9.391278581407258)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=365, η_cr=67.16052258007376, p_cr=0.9, η_m=5.0341285345845925, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1774248624354818e13
+Dict{Any, Any}(:N => 365, :η_cr => 67.16052258007376, :η_m => 5.0341285345845925)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=459, η_cr=93.5498234715255, p_cr=0.9, η_m=45.078820543082855, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1804538521253443e13
+Dict{Any, Any}(:N => 459, :η_cr => 93.5498234715255, :η_m => 45.078820543082855)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=466, η_cr=72.63182738698092, p_cr=0.9, η_m=35.1258884158768, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803599823445086e13
+Dict{Any, Any}(:N => 466, :η_cr => 72.63182738698092, :η_m => 35.1258884158768)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=97, η_cr=54.560751369443516, p_cr=0.9, η_m=36.24004724572221, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1605916003904426e13
+Dict{Any, Any}(:N => 97, :η_cr => 54.560751369443516, :η_m => 36.24004724572221)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=197, η_cr=49.774921958945626, p_cr=0.9, η_m=54.73700849348631, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1738647065008326e13
+Dict{Any, Any}(:N => 197, :η_cr => 49.774921958945626, :η_m => 54.73700849348631)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=476, η_cr=20.46973870527191, p_cr=0.9, η_m=54.56938855862342, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1808384735289727e13
+Dict{Any, Any}(:N => 476, :η_cr => 20.46973870527191, :η_m => 54.56938855862342)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=193, η_cr=12.714777360652063, p_cr=0.9, η_m=78.28335184049303, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1746628227588045e13
+Dict{Any, Any}(:N => 193, :η_cr => 12.714777360652063, :η_m => 78.28335184049303)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=214, η_cr=95.95407883608812, p_cr=0.9, η_m=25.867864610949688, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1733183835556773e13
+Dict{Any, Any}(:N => 214, :η_cr => 95.95407883608812, :η_m => 25.867864610949688)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=379, η_cr=17.681473977677786, p_cr=0.9, η_m=69.3285683830602, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179936593152572e13
+Dict{Any, Any}(:N => 379, :η_cr => 17.681473977677786, :η_m => 69.3285683830602)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=53, η_cr=66.35189543049178, p_cr=0.9, η_m=24.972175959667997, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.128675335374511e13
+Dict{Any, Any}(:N => 53, :η_cr => 66.35189543049178, :η_m => 24.972175959667997)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=159, η_cr=12.323446360227264, p_cr=0.9, η_m=97.97431637612662, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1724014469879516e13
+Dict{Any, Any}(:N => 159, :η_cr => 12.323446360227264, :η_m => 97.97431637612662)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=255, η_cr=57.7348059870925, p_cr=0.9, η_m=44.85563885522463, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.177617684718065e13
+Dict{Any, Any}(:N => 255, :η_cr => 57.7348059870925, :η_m => 44.85563885522463)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=165, η_cr=36.028507271614565, p_cr=0.9, η_m=63.72148732219004, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1721231550531697e13
+Dict{Any, Any}(:N => 165, :η_cr => 36.028507271614565, :η_m => 63.72148732219004)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=24, η_cr=69.08066397353953, p_cr=0.9, η_m=80.21171604001799, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.00855802346298e13
+Dict{Any, Any}(:N => 24, :η_cr => 69.08066397353953, :η_m => 80.21171604001799)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=464, η_cr=34.631306329936095, p_cr=0.9, η_m=49.934520573592046, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807504015070889e13
+Dict{Any, Any}(:N => 464, :η_cr => 34.631306329936095, :η_m => 49.934520573592046)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=197, η_cr=19.538586972681415, p_cr=0.9, η_m=39.22443707119449, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1753766738685283e13
+Dict{Any, Any}(:N => 197, :η_cr => 19.538586972681415, :η_m => 39.22443707119449)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=308, η_cr=9.564288641241781, p_cr=0.9, η_m=13.124282427007882, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1781624044476664e13
+Dict{Any, Any}(:N => 308, :η_cr => 9.564288641241781, :η_m => 13.124282427007882)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=461, η_cr=47.37425451515058, p_cr=0.9, η_m=35.64370541121647, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1805543231601988e13
+Dict{Any, Any}(:N => 461, :η_cr => 47.37425451515058, :η_m => 35.64370541121647)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=216, η_cr=44.818626197200665, p_cr=0.9, η_m=95.95863155286038, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1755530524597023e13
+Dict{Any, Any}(:N => 216, :η_cr => 44.818626197200665, :η_m => 95.95863155286038)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=218, η_cr=17.067854178159337, p_cr=0.9, η_m=26.70750607631588, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.175703541198243e13
+Dict{Any, Any}(:N => 218, :η_cr => 17.067854178159337, :η_m => 26.70750607631588)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=400, η_cr=38.59457108281745, p_cr=0.9, η_m=71.19882499775514, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.17960846236668e13
+Dict{Any, Any}(:N => 400, :η_cr => 38.59457108281745, :η_m => 71.19882499775514)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=142, η_cr=36.89589097608348, p_cr=0.9, η_m=13.973967844951707, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1685031884333723e13
+Dict{Any, Any}(:N => 142, :η_cr => 36.89589097608348, :η_m => 13.973967844951707)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=42, η_cr=72.70678996229137, p_cr=0.9, η_m=11.751817500414463, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1032196960359035e13
+Dict{Any, Any}(:N => 42, :η_cr => 72.70678996229137, :η_m => 11.751817500414463)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=171, η_cr=93.96162334255679, p_cr=0.9, η_m=98.92596810604141, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.172875059368584e13
+Dict{Any, Any}(:N => 171, :η_cr => 93.96162334255679, :η_m => 98.92596810604141)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=122, η_cr=44.92271690746223, p_cr=0.9, η_m=50.29016023460373, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1673165359344703e13
+Dict{Any, Any}(:N => 122, :η_cr => 44.92271690746223, :η_m => 50.29016023460373)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=474, η_cr=65.80902869351729, p_cr=0.9, η_m=68.65903579496882, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1806124894549676e13
+Dict{Any, Any}(:N => 474, :η_cr => 65.80902869351729, :η_m => 68.65903579496882)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=494, η_cr=25.921052905955555, p_cr=0.9, η_m=96.67262879289275, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.181188050664436e13
+Dict{Any, Any}(:N => 494, :η_cr => 25.921052905955555, :η_m => 96.67262879289275)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=425, η_cr=9.64131150718659, p_cr=0.9, η_m=95.45246514666533, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803936316218014e13
+Dict{Any, Any}(:N => 425, :η_cr => 9.64131150718659, :η_m => 95.45246514666533)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=74, η_cr=53.73096874357156, p_cr=0.9, η_m=94.34719349464133, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1495875811915566e13
+Dict{Any, Any}(:N => 74, :η_cr => 53.73096874357156, :η_m => 94.34719349464133)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=264, η_cr=68.08925909167046, p_cr=0.9, η_m=62.293521763040616, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1774234400823367e13
+Dict{Any, Any}(:N => 264, :η_cr => 68.08925909167046, :η_m => 62.293521763040616)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=130, η_cr=71.54046490218715, p_cr=0.9, η_m=9.509010954027397, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.165033256486948e13
+Dict{Any, Any}(:N => 130, :η_cr => 71.54046490218715, :η_m => 9.509010954027397)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=233, η_cr=38.48453985110025, p_cr=0.9, η_m=93.11931515322294, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1765626650926334e13
+Dict{Any, Any}(:N => 233, :η_cr => 38.48453985110025, :η_m => 93.11931515322294)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=8.134213752791164, p_cr=0.9, η_m=67.19871062488345, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1707046732571393e13
+Dict{Any, Any}(:N => 155, :η_cr => 8.134213752791164, :η_m => 67.19871062488345)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=9, η_cr=33.049424529513026, p_cr=0.9, η_m=6.9284818148826695, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 8.029020161100891e12
+Dict{Any, Any}(:N => 9, :η_cr => 33.049424529513026, :η_m => 6.9284818148826695)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=244, η_cr=34.5722245860926, p_cr=0.9, η_m=77.92687717562819, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1769253894929713e13
+Dict{Any, Any}(:N => 244, :η_cr => 34.5722245860926, :η_m => 77.92687717562819)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=174, η_cr=65.15577742692848, p_cr=0.9, η_m=88.48802597920185, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1726047360938824e13
+Dict{Any, Any}(:N => 174, :η_cr => 65.15577742692848, :η_m => 88.48802597920185)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=123, η_cr=2.6722612658566125, p_cr=0.9, η_m=12.147971153778226, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1643409366916943e13
+Dict{Any, Any}(:N => 123, :η_cr => 2.6722612658566125, :η_m => 12.147971153778226)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=324, η_cr=34.45619983036523, p_cr=0.9, η_m=47.70660518296752, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1790486884455518e13
+Dict{Any, Any}(:N => 324, :η_cr => 34.45619983036523, :η_m => 47.70660518296752)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=25.879758861587167, p_cr=0.9, η_m=35.959725460981865, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.178293242539341e13
+Dict{Any, Any}(:N => 293, :η_cr => 25.879758861587167, :η_m => 35.959725460981865)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=369, η_cr=1.288398404953528, p_cr=0.9, η_m=25.256188787581056, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1772273496907201e13
+Dict{Any, Any}(:N => 369, :η_cr => 1.288398404953528, :η_m => 25.256188787581056)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=244, η_cr=76.1151864918523, p_cr=0.9, η_m=57.19836575423284, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.176644902091795e13
+Dict{Any, Any}(:N => 244, :η_cr => 76.1151864918523, :η_m => 57.19836575423284)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=393, η_cr=59.88640323603666, p_cr=0.9, η_m=21.333791954861535, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1797670872954256e13
+Dict{Any, Any}(:N => 393, :η_cr => 59.88640323603666, :η_m => 21.333791954861535)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=78.84228670973269, p_cr=0.9, η_m=41.0871768639611, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1400397077879504e13
+Dict{Any, Any}(:N => 61, :η_cr => 78.84228670973269, :η_m => 41.0871768639611)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=38, η_cr=38.42470798607789, p_cr=0.9, η_m=2.7781884390879363, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0999227667937268e13
+Dict{Any, Any}(:N => 38, :η_cr => 38.42470798607789, :η_m => 2.7781884390879363)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=407, η_cr=23.836105867744894, p_cr=0.9, η_m=39.92323764687258, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1801697662049273e13
+Dict{Any, Any}(:N => 407, :η_cr => 23.836105867744894, :η_m => 39.92323764687258)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=55, η_cr=98.9985099493797, p_cr=0.9, η_m=54.98923897034692, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1369948762287994e13
+Dict{Any, Any}(:N => 55, :η_cr => 98.9985099493797, :η_m => 54.98923897034692)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=179, η_cr=78.61226022989901, p_cr=0.9, η_m=63.71873297638988, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1738096689644637e13
+Dict{Any, Any}(:N => 179, :η_cr => 78.61226022989901, :η_m => 63.71873297638988)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=353, η_cr=18.687355567853025, p_cr=0.9, η_m=34.06017646306153, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179018968191956e13
+Dict{Any, Any}(:N => 353, :η_cr => 18.687355567853025, :η_m => 34.06017646306153)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=139, η_cr=63.55259896341355, p_cr=0.9, η_m=63.05822032145918, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1689193452505504e13
+Dict{Any, Any}(:N => 139, :η_cr => 63.55259896341355, :η_m => 63.05822032145918)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=262, η_cr=13.488738146728863, p_cr=0.9, η_m=19.58534702107684, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1773403581615457e13
+Dict{Any, Any}(:N => 262, :η_cr => 13.488738146728863, :η_m => 19.58534702107684)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=211, η_cr=51.91188796309184, p_cr=0.9, η_m=86.64468610817208, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1747190261966799e13
+Dict{Any, Any}(:N => 211, :η_cr => 51.91188796309184, :η_m => 86.64468610817208)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=79, η_cr=28.186238598131485, p_cr=0.9, η_m=45.34190389175545, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1530874582743078e13
+Dict{Any, Any}(:N => 79, :η_cr => 28.186238598131485, :η_m => 45.34190389175545)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=184, η_cr=26.973141334557827, p_cr=0.9, η_m=22.542226482352802, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1733313097914402e13
+Dict{Any, Any}(:N => 184, :η_cr => 26.973141334557827, :η_m => 22.542226482352802)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=78, η_cr=96.85631410940032, p_cr=0.9, η_m=25.07978184408868, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1510814858937945e13
+Dict{Any, Any}(:N => 78, :η_cr => 96.85631410940032, :η_m => 25.07978184408868)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=342, η_cr=93.58787741996363, p_cr=0.9, η_m=71.28889228952995, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1789788898361639e13
+Dict{Any, Any}(:N => 342, :η_cr => 93.58787741996363, :η_m => 71.28889228952995)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=207, η_cr=52.5351706923065, p_cr=0.9, η_m=47.967076964655966, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1748977166114004e13
+Dict{Any, Any}(:N => 207, :η_cr => 52.5351706923065, :η_m => 47.967076964655966)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=29, η_cr=23.540677126015474, p_cr=0.9, η_m=74.04728915850185, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.094592580700504e13
+Dict{Any, Any}(:N => 29, :η_cr => 23.540677126015474, :η_m => 74.04728915850185)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=379, η_cr=23.226653703214197, p_cr=0.9, η_m=51.31127156360683, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1794865160919123e13
+Dict{Any, Any}(:N => 379, :η_cr => 23.226653703214197, :η_m => 51.31127156360683)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=217, η_cr=8.733090706938086, p_cr=0.9, η_m=2.9317803792016206, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1739838986324303e13
+Dict{Any, Any}(:N => 217, :η_cr => 8.733090706938086, :η_m => 2.9317803792016206)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=29.323437973433442, p_cr=0.9, η_m=25.211998960446913, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1414004386940688e13
+Dict{Any, Any}(:N => 61, :η_cr => 29.323437973433442, :η_m => 25.211998960446913)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=161, η_cr=56.87532557689449, p_cr=0.9, η_m=34.3457652273352, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.171441707732944e13
+Dict{Any, Any}(:N => 161, :η_cr => 56.87532557689449, :η_m => 34.3457652273352)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=428, η_cr=33.381425314500504, p_cr=0.9, η_m=47.37970875762908, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1801438127609516e13
+Dict{Any, Any}(:N => 428, :η_cr => 33.381425314500504, :η_m => 47.37970875762908)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=259, η_cr=47.97036885520141, p_cr=0.9, η_m=86.10073688917484, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1776132514341613e13
+Dict{Any, Any}(:N => 259, :η_cr => 47.97036885520141, :η_m => 86.10073688917484)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=109, η_cr=36.18699895538049, p_cr=0.9, η_m=98.59373076293716, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1650899792309025e13
+Dict{Any, Any}(:N => 109, :η_cr => 36.18699895538049, :η_m => 98.59373076293716)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=446, η_cr=73.05973453192892, p_cr=0.9, η_m=42.76051069429039, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1804751323103162e13
+Dict{Any, Any}(:N => 446, :η_cr => 73.05973453192892, :η_m => 42.76051069429039)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=92, η_cr=60.03461377345432, p_cr=0.9, η_m=23.325853960411834, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1599298944536938e13
+Dict{Any, Any}(:N => 92, :η_cr => 60.03461377345432, :η_m => 23.325853960411834)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=56, η_cr=83.47823063868732, p_cr=0.9, η_m=6.3687450203418035, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1252267414721293e13
+Dict{Any, Any}(:N => 56, :η_cr => 83.47823063868732, :η_m => 6.3687450203418035)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=150, η_cr=65.54960611800195, p_cr=0.9, η_m=79.86380953849364, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1694467599561904e13
+Dict{Any, Any}(:N => 150, :η_cr => 65.54960611800195, :η_m => 79.86380953849364)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=33, η_cr=9.217305163186628, p_cr=0.9, η_m=61.04737395830695, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1121187814125506e13
+Dict{Any, Any}(:N => 33, :η_cr => 9.217305163186628, :η_m => 61.04737395830695)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=66, η_cr=68.05508286860399, p_cr=0.9, η_m=58.16516487450155, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1509104275436992e13
+Dict{Any, Any}(:N => 66, :η_cr => 68.05508286860399, :η_m => 58.16516487450155)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=344, η_cr=11.012794884071386, p_cr=0.9, η_m=67.42160561156814, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1792388825766557e13
+Dict{Any, Any}(:N => 344, :η_cr => 11.012794884071386, :η_m => 67.42160561156814)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=405, η_cr=23.517225369693328, p_cr=0.9, η_m=51.10148571009159, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1802787991788541e13
+Dict{Any, Any}(:N => 405, :η_cr => 23.517225369693328, :η_m => 51.10148571009159)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=97, η_cr=26.552047367780794, p_cr=0.9, η_m=90.0184038163514, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1614517252938344e13
+Dict{Any, Any}(:N => 97, :η_cr => 26.552047367780794, :η_m => 90.0184038163514)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=47.88836749545443, p_cr=0.9, η_m=93.00789568897034, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1709417267090035e13
+Dict{Any, Any}(:N => 155, :η_cr => 47.88836749545443, :η_m => 93.00789568897034)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=240, η_cr=0.15986627901189987, p_cr=0.9, η_m=3.5954520614849494, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.16395088625831e13
+Dict{Any, Any}(:N => 240, :η_cr => 0.15986627901189987, :η_m => 3.5954520614849494)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=93, η_cr=31.189306155023033, p_cr=0.9, η_m=78.29822262589245, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1566396581953268e13
+Dict{Any, Any}(:N => 93, :η_cr => 31.189306155023033, :η_m => 78.29822262589245)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=470, η_cr=40.03585333179947, p_cr=0.9, η_m=40.985148251646244, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1810057497540748e13
+Dict{Any, Any}(:N => 470, :η_cr => 40.03585333179947, :η_m => 40.985148251646244)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=435, η_cr=94.14947255199692, p_cr=0.9, η_m=56.71459288403924, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1802717203891904e13
+Dict{Any, Any}(:N => 435, :η_cr => 94.14947255199692, :η_m => 56.71459288403924)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=232, η_cr=86.92813275244296, p_cr=0.9, η_m=55.56691136271341, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1757116871126125e13
+Dict{Any, Any}(:N => 232, :η_cr => 86.92813275244296, :η_m => 55.56691136271341)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=223, η_cr=35.36944330933035, p_cr=0.9, η_m=69.86216685876188, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1765830140849502e13
+Dict{Any, Any}(:N => 223, :η_cr => 35.36944330933035, :η_m => 69.86216685876188)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=45, η_cr=61.72054271114411, p_cr=0.9, η_m=48.44975394129698, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0662516626734873e13
+Dict{Any, Any}(:N => 45, :η_cr => 61.72054271114411, :η_m => 48.44975394129698)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=275, η_cr=84.79166173798099, p_cr=0.9, η_m=38.88272001483818, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1771522717439535e13
+Dict{Any, Any}(:N => 275, :η_cr => 84.79166173798099, :η_m => 38.88272001483818)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=413, η_cr=37.650425370003205, p_cr=0.9, η_m=78.35570880896124, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1801319776717904e13
+Dict{Any, Any}(:N => 413, :η_cr => 37.650425370003205, :η_m => 78.35570880896124)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=251, η_cr=85.29029074509715, p_cr=0.9, η_m=58.19076878447792, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1768205313289873e13
+Dict{Any, Any}(:N => 251, :η_cr => 85.29029074509715, :η_m => 58.19076878447792)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=360, η_cr=7.690848093122149, p_cr=0.9, η_m=88.16178640809203, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1793773480265324e13
+Dict{Any, Any}(:N => 360, :η_cr => 7.690848093122149, :η_m => 88.16178640809203)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=432, η_cr=49.13472003817297, p_cr=0.9, η_m=1.7123113156228609, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1774461674701076e13
+Dict{Any, Any}(:N => 432, :η_cr => 49.13472003817297, :η_m => 1.7123113156228609)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=310, η_cr=48.41971432631108, p_cr=0.9, η_m=16.69806424480974, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1782206573735133e13
+Dict{Any, Any}(:N => 310, :η_cr => 48.41971432631108, :η_m => 16.69806424480974)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=299, η_cr=77.0335271725545, p_cr=0.9, η_m=86.42751272576068, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1781317776482604e13
+Dict{Any, Any}(:N => 299, :η_cr => 77.0335271725545, :η_m => 86.42751272576068)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=306, η_cr=35.012297000701366, p_cr=0.9, η_m=53.33939181429347, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1787566294972049e13
+Dict{Any, Any}(:N => 306, :η_cr => 35.012297000701366, :η_m => 53.33939181429347)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=172, η_cr=8.027647169100282, p_cr=0.9, η_m=8.796345069740042, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1717733499338682e13
+Dict{Any, Any}(:N => 172, :η_cr => 8.027647169100282, :η_m => 8.796345069740042)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=216, η_cr=89.66626010541268, p_cr=0.9, η_m=4.553015007843553, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1709838571664506e13
+Dict{Any, Any}(:N => 216, :η_cr => 89.66626010541268, :η_m => 4.553015007843553)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=143, η_cr=73.36574400175138, p_cr=0.9, η_m=87.31047598731456, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1695870844642314e13
+Dict{Any, Any}(:N => 143, :η_cr => 73.36574400175138, :η_m => 87.31047598731456)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=116, η_cr=96.1468677618234, p_cr=0.9, η_m=21.485815030027965, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1633225611955473e13
+Dict{Any, Any}(:N => 116, :η_cr => 96.1468677618234, :η_m => 21.485815030027965)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=284, η_cr=95.08142776817348, p_cr=0.9, η_m=15.765095587062683, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1766321030435941e13
+Dict{Any, Any}(:N => 284, :η_cr => 95.08142776817348, :η_m => 15.765095587062683)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=82, η_cr=39.473367071085164, p_cr=0.9, η_m=25.149751003683296, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1527168244935393e13
+Dict{Any, Any}(:N => 82, :η_cr => 39.473367071085164, :η_m => 25.149751003683296)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=420, η_cr=64.24381033388757, p_cr=0.9, η_m=72.69540029280353, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1802737389722684e13
+Dict{Any, Any}(:N => 420, :η_cr => 64.24381033388757, :η_m => 72.69540029280353)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=344, η_cr=62.739125500021764, p_cr=0.9, η_m=62.1160896397387, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1791807511839766e13
+Dict{Any, Any}(:N => 344, :η_cr => 62.739125500021764, :η_m => 62.1160896397387)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=422, η_cr=61.520395465010935, p_cr=0.9, η_m=22.513645588264396, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1801996708618791e13
+Dict{Any, Any}(:N => 422, :η_cr => 61.520395465010935, :η_m => 22.513645588264396)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=486, η_cr=43.14837822701298, p_cr=0.9, η_m=37.17427328042984, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807940326620148e13
+Dict{Any, Any}(:N => 486, :η_cr => 43.14837822701298, :η_m => 37.17427328042984)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=168, η_cr=36.09232808512643, p_cr=0.9, η_m=55.43266290966786, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.172060585793444e13
+Dict{Any, Any}(:N => 168, :η_cr => 36.09232808512643, :η_m => 55.43266290966786)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=156, η_cr=72.9931743353792, p_cr=0.9, η_m=68.64329990806337, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1702808811584525e13
+Dict{Any, Any}(:N => 156, :η_cr => 72.9931743353792, :η_m => 68.64329990806337)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=152, η_cr=87.3574207906032, p_cr=0.9, η_m=45.60562878602261, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1705885624762674e13
+Dict{Any, Any}(:N => 152, :η_cr => 87.3574207906032, :η_m => 45.60562878602261)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=473, η_cr=61.898252112415406, p_cr=0.9, η_m=92.72716092209325, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807748732904734e13
+Dict{Any, Any}(:N => 473, :η_cr => 61.898252112415406, :η_m => 92.72716092209325)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=88, η_cr=45.652963972808955, p_cr=0.9, η_m=74.18997337274917, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1573563911195293e13
+Dict{Any, Any}(:N => 88, :η_cr => 45.652963972808955, :η_m => 74.18997337274917)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=193, η_cr=49.47148105742857, p_cr=0.9, η_m=67.7164391838174, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1739548987077484e13
+Dict{Any, Any}(:N => 193, :η_cr => 49.47148105742857, :η_m => 67.7164391838174)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=186, η_cr=17.275087631817286, p_cr=0.9, η_m=59.25255935153747, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1736577558014234e13
+Dict{Any, Any}(:N => 186, :η_cr => 17.275087631817286, :η_m => 59.25255935153747)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=351, η_cr=96.10273786117808, p_cr=0.9, η_m=52.562733459042455, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1792161393141637e13
+Dict{Any, Any}(:N => 351, :η_cr => 96.10273786117808, :η_m => 52.562733459042455)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=285, η_cr=58.7525289414735, p_cr=0.9, η_m=63.450140006624814, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1775852382161889e13
+Dict{Any, Any}(:N => 285, :η_cr => 58.7525289414735, :η_m => 63.450140006624814)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=130, η_cr=82.79623706705095, p_cr=0.9, η_m=86.67991522223792, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1666894154513127e13
+Dict{Any, Any}(:N => 130, :η_cr => 82.79623706705095, :η_m => 86.67991522223792)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=405, η_cr=25.7283174279615, p_cr=0.9, η_m=15.979889180720885, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1797343360869371e13
+Dict{Any, Any}(:N => 405, :η_cr => 25.7283174279615, :η_m => 15.979889180720885)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=156, η_cr=13.142211078875654, p_cr=0.9, η_m=84.15553598838068, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1725473980048814e13
+Dict{Any, Any}(:N => 156, :η_cr => 13.142211078875654, :η_m => 84.15553598838068)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=22, η_cr=35.225112664442946, p_cr=0.9, η_m=71.909310879142, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0450607863088262e13
+Dict{Any, Any}(:N => 22, :η_cr => 35.225112664442946, :η_m => 71.909310879142)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=220, η_cr=21.896313978509895, p_cr=0.9, η_m=99.87246323081479, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1763967874644375e13
+Dict{Any, Any}(:N => 220, :η_cr => 21.896313978509895, :η_m => 99.87246323081479)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=379, η_cr=16.601754474156316, p_cr=0.9, η_m=65.32867320972687, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179816698560386e13
+Dict{Any, Any}(:N => 379, :η_cr => 16.601754474156316, :η_m => 65.32867320972687)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=327, η_cr=55.607172311989075, p_cr=0.9, η_m=74.88104266188911, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1789791777121582e13
+Dict{Any, Any}(:N => 327, :η_cr => 55.607172311989075, :η_m => 74.88104266188911)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=385, η_cr=39.471042736045526, p_cr=0.9, η_m=57.16351623863313, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1800817138441018e13
+Dict{Any, Any}(:N => 385, :η_cr => 39.471042736045526, :η_m => 57.16351623863313)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=83, η_cr=68.38140681558069, p_cr=0.9, η_m=43.24794975037255, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.157175724209484e13
+Dict{Any, Any}(:N => 83, :η_cr => 68.38140681558069, :η_m => 43.24794975037255)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=461, η_cr=24.181347377116758, p_cr=0.9, η_m=94.83279299483375, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1809752286600592e13
+Dict{Any, Any}(:N => 461, :η_cr => 24.181347377116758, :η_m => 94.83279299483375)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=402, η_cr=64.43958245666867, p_cr=0.9, η_m=32.787508117602826, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1800700055033873e13
+Dict{Any, Any}(:N => 402, :η_cr => 64.43958245666867, :η_m => 32.787508117602826)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=400, η_cr=78.7519938749361, p_cr=0.9, η_m=65.75246351742992, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180089258867257e13
+Dict{Any, Any}(:N => 400, :η_cr => 78.7519938749361, :η_m => 65.75246351742992)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=478, η_cr=61.31184354368365, p_cr=0.9, η_m=46.66863141213473, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180674609534296e13
+Dict{Any, Any}(:N => 478, :η_cr => 61.31184354368365, :η_m => 46.66863141213473)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=83, η_cr=76.20738298263352, p_cr=0.9, η_m=81.66919738872714, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1544395626034938e13
+Dict{Any, Any}(:N => 83, :η_cr => 76.20738298263352, :η_m => 81.66919738872714)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=171, η_cr=1.1081656891536062, p_cr=0.9, η_m=14.071439742217706, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.168473975693741e13
+Dict{Any, Any}(:N => 171, :η_cr => 1.1081656891536062, :η_m => 14.071439742217706)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=462, η_cr=41.99120559081757, p_cr=0.9, η_m=81.73783386848966, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1810247829702223e13
+Dict{Any, Any}(:N => 462, :η_cr => 41.99120559081757, :η_m => 81.73783386848966)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=343, η_cr=34.1300092124214, p_cr=0.9, η_m=41.53300647193851, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1791619677366795e13
+Dict{Any, Any}(:N => 343, :η_cr => 34.1300092124214, :η_m => 41.53300647193851)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=317, η_cr=45.75269206426375, p_cr=0.9, η_m=96.8630098958321, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1790703421656004e13
+Dict{Any, Any}(:N => 317, :η_cr => 45.75269206426375, :η_m => 96.8630098958321)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=150, η_cr=15.689497740512293, p_cr=0.9, η_m=64.58511925744865, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1694199636572389e13
+Dict{Any, Any}(:N => 150, :η_cr => 15.689497740512293, :η_m => 64.58511925744865)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=158, η_cr=7.063766296781903, p_cr=0.9, η_m=18.881692989679465, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1724082507489021e13
+Dict{Any, Any}(:N => 158, :η_cr => 7.063766296781903, :η_m => 18.881692989679465)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=380, η_cr=94.6713580066163, p_cr=0.9, η_m=66.30710882714449, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1798945286924469e13
+Dict{Any, Any}(:N => 380, :η_cr => 94.6713580066163, :η_m => 66.30710882714449)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=418, η_cr=90.71890588832166, p_cr=0.9, η_m=87.77448975329071, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180273399354526e13
+Dict{Any, Any}(:N => 418, :η_cr => 90.71890588832166, :η_m => 87.77448975329071)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=204, η_cr=98.58923073876778, p_cr=0.9, η_m=67.22843115521206, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.17484376235601e13
+Dict{Any, Any}(:N => 204, :η_cr => 98.58923073876778, :η_m => 67.22843115521206)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=423, η_cr=25.73342880092727, p_cr=0.9, η_m=43.31412556550491, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803765594185064e13
+Dict{Any, Any}(:N => 423, :η_cr => 25.73342880092727, :η_m => 43.31412556550491)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=241, η_cr=38.65032020095139, p_cr=0.9, η_m=91.43645498029838, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1769046239310162e13
+Dict{Any, Any}(:N => 241, :η_cr => 38.65032020095139, :η_m => 91.43645498029838)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=160, η_cr=46.247350818992985, p_cr=0.9, η_m=82.47499503975284, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1717432641187904e13
+Dict{Any, Any}(:N => 160, :η_cr => 46.247350818992985, :η_m => 82.47499503975284)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=30, η_cr=65.46940895577605, p_cr=0.9, η_m=89.89416746036026, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 9.565339016370535e12
+Dict{Any, Any}(:N => 30, :η_cr => 65.46940895577605, :η_m => 89.89416746036026)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=466, η_cr=57.54866266785142, p_cr=0.9, η_m=95.16133475291049, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807309943099113e13
+Dict{Any, Any}(:N => 466, :η_cr => 57.54866266785142, :η_m => 95.16133475291049)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=105, η_cr=10.172976122577126, p_cr=0.9, η_m=91.86465190215418, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1649432906390896e13
+Dict{Any, Any}(:N => 105, :η_cr => 10.172976122577126, :η_m => 91.86465190215418)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=289, η_cr=54.36707214027773, p_cr=0.9, η_m=73.44272138812842, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1785116518748902e13
+Dict{Any, Any}(:N => 289, :η_cr => 54.36707214027773, :η_m => 73.44272138812842)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=8, η_cr=63.8760057271702, p_cr=0.9, η_m=86.45404300437983, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.0146705003512737e12
+Dict{Any, Any}(:N => 8, :η_cr => 63.8760057271702, :η_m => 86.45404300437983)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=497, η_cr=77.77666098523878, p_cr=0.9, η_m=66.04669468692508, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1811362162372666e13
+Dict{Any, Any}(:N => 497, :η_cr => 77.77666098523878, :η_m => 66.04669468692508)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=358, η_cr=6.636810167448082, p_cr=0.9, η_m=57.911224496311775, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.179302375387975e13
+Dict{Any, Any}(:N => 358, :η_cr => 6.636810167448082, :η_m => 57.911224496311775)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=215, η_cr=81.45794159984936, p_cr=0.9, η_m=93.94661167970952, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1742341067641752e13
+Dict{Any, Any}(:N => 215, :η_cr => 81.45794159984936, :η_m => 93.94661167970952)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=338, η_cr=65.822449895885, p_cr=0.9, η_m=82.33286780426171, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1794587050731191e13
+Dict{Any, Any}(:N => 338, :η_cr => 65.822449895885, :η_m => 82.33286780426171)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=107, η_cr=21.216979895486155, p_cr=0.9, η_m=52.61986398902453, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1639953198816885e13
+Dict{Any, Any}(:N => 107, :η_cr => 21.216979895486155, :η_m => 52.61986398902453)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=141, η_cr=59.56106002268757, p_cr=0.9, η_m=68.98947375443824, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.167513754663959e13
+Dict{Any, Any}(:N => 141, :η_cr => 59.56106002268757, :η_m => 68.98947375443824)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=181, η_cr=96.30560196734845, p_cr=0.9, η_m=24.16812022167003, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1724980886588357e13
+Dict{Any, Any}(:N => 181, :η_cr => 96.30560196734845, :η_m => 24.16812022167003)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=434, η_cr=49.71151252507832, p_cr=0.9, η_m=98.36382980473267, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1806486451034031e13
+Dict{Any, Any}(:N => 434, :η_cr => 49.71151252507832, :η_m => 98.36382980473267)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=25, η_cr=4.137632252081202, p_cr=0.9, η_m=98.59984854658606, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0858042577754416e13
+Dict{Any, Any}(:N => 25, :η_cr => 4.137632252081202, :η_m => 98.59984854658606)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=190, η_cr=60.97976181188011, p_cr=0.9, η_m=53.1340341629917, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1742994856081668e13
+Dict{Any, Any}(:N => 190, :η_cr => 60.97976181188011, :η_m => 53.1340341629917)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=5, η_cr=12.747606352351115, p_cr=0.9, η_m=54.976968806768845, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 8.665026089455391e10
+Dict{Any, Any}(:N => 5, :η_cr => 12.747606352351115, :η_m => 54.976968806768845)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=58, η_cr=38.874012232397234, p_cr=0.9, η_m=16.030528611929785, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1441310926942156e13
+Dict{Any, Any}(:N => 58, :η_cr => 38.874012232397234, :η_m => 16.030528611929785)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=254, η_cr=23.966107445054096, p_cr=0.9, η_m=70.13970567742602, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1778528086009639e13
+Dict{Any, Any}(:N => 254, :η_cr => 23.966107445054096, :η_m => 70.13970567742602)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=189, η_cr=45.49342196548744, p_cr=0.9, η_m=34.37709938160252, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1727271277170814e13
+Dict{Any, Any}(:N => 189, :η_cr => 45.49342196548744, :η_m => 34.37709938160252)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=349, η_cr=58.76562686950353, p_cr=0.9, η_m=75.70535557969778, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1790991563100602e13
+Dict{Any, Any}(:N => 349, :η_cr => 58.76562686950353, :η_m => 75.70535557969778)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=363, η_cr=76.40093831158165, p_cr=0.9, η_m=4.542982128092532, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1770388703531441e13
+Dict{Any, Any}(:N => 363, :η_cr => 76.40093831158165, :η_m => 4.542982128092532)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=24, η_cr=40.775425588539974, p_cr=0.9, η_m=73.78756885866457, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0723887756662006e13
+Dict{Any, Any}(:N => 24, :η_cr => 40.775425588539974, :η_m => 73.78756885866457)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=171, η_cr=26.043172703610693, p_cr=0.9, η_m=5.183784456125807, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1707223892587336e13
+Dict{Any, Any}(:N => 171, :η_cr => 26.043172703610693, :η_m => 5.183784456125807)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=470, η_cr=13.241453846104868, p_cr=0.9, η_m=9.296042745091704, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.180224321315097e13
+Dict{Any, Any}(:N => 470, :η_cr => 13.241453846104868, :η_m => 9.296042745091704)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=41, η_cr=35.94179700951863, p_cr=0.9, η_m=50.63622989886611, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1127253530333822e13
+Dict{Any, Any}(:N => 41, :η_cr => 35.94179700951863, :η_m => 50.63622989886611)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=230, η_cr=55.65014499118587, p_cr=0.9, η_m=38.67058182730542, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1763936576011512e13
+Dict{Any, Any}(:N => 230, :η_cr => 55.65014499118587, :η_m => 38.67058182730542)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=500, η_cr=72.51904918546958, p_cr=0.9, η_m=44.2360901128548, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807186541498045e13
+Dict{Any, Any}(:N => 500, :η_cr => 72.51904918546958, :η_m => 44.2360901128548)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=69, η_cr=11.03296990048771, p_cr=0.9, η_m=9.582226013851258, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1535976184657566e13
+Dict{Any, Any}(:N => 69, :η_cr => 11.03296990048771, :η_m => 9.582226013851258)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=137, η_cr=38.615512102358494, p_cr=0.9, η_m=71.5131106313558, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1687839333911898e13
+Dict{Any, Any}(:N => 137, :η_cr => 38.615512102358494, :η_m => 71.5131106313558)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=153, η_cr=50.62249457305904, p_cr=0.9, η_m=96.47820818187387, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1717592584507338e13
+Dict{Any, Any}(:N => 153, :η_cr => 50.62249457305904, :η_m => 96.47820818187387)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=139, η_cr=77.73705859348408, p_cr=0.9, η_m=5.844286983119629, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1639022380483621e13
+Dict{Any, Any}(:N => 139, :η_cr => 77.73705859348408, :η_m => 5.844286983119629)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=94, η_cr=60.49399261651263, p_cr=0.9, η_m=48.170460598407836, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1595274412662008e13
+Dict{Any, Any}(:N => 94, :η_cr => 60.49399261651263, :η_m => 48.170460598407836)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=23, η_cr=22.06028703580373, p_cr=0.9, η_m=42.13098798139278, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.0697660194366324e13
+Dict{Any, Any}(:N => 23, :η_cr => 22.06028703580373, :η_m => 42.13098798139278)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=85, η_cr=37.09150557276535, p_cr=0.9, η_m=97.01034706404045, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1563167295043041e13
+Dict{Any, Any}(:N => 85, :η_cr => 37.09150557276535, :η_m => 97.01034706404045)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=99, η_cr=73.46229571717895, p_cr=0.9, η_m=17.541217706297108, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.16104259980209e13
+Dict{Any, Any}(:N => 99, :η_cr => 73.46229571717895, :η_m => 17.541217706297108)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=270, η_cr=85.53876169431265, p_cr=0.9, η_m=10.678296178555957, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1751233200452156e13
+Dict{Any, Any}(:N => 270, :η_cr => 85.53876169431265, :η_m => 10.678296178555957)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=204, η_cr=66.02740362925184, p_cr=0.9, η_m=97.89012457045864, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1750882919768854e13
+Dict{Any, Any}(:N => 204, :η_cr => 66.02740362925184, :η_m => 97.89012457045864)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=68, η_cr=91.62763126742607, p_cr=0.9, η_m=42.99273226666508, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1466229341856135e13
+Dict{Any, Any}(:N => 68, :η_cr => 91.62763126742607, :η_m => 42.99273226666508)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=471, η_cr=58.56019854621015, p_cr=0.9, η_m=96.05804473425071, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1807961279200906e13
+Dict{Any, Any}(:N => 471, :η_cr => 58.56019854621015, :η_m => 96.05804473425071)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=343, η_cr=17.59841840824081, p_cr=0.9, η_m=17.831805169076965, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1790510812059096e13
+Dict{Any, Any}(:N => 343, :η_cr => 17.59841840824081, :η_m => 17.831805169076965)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=413, η_cr=29.351629017731064, p_cr=0.9, η_m=4.284883225019698, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1792722727775334e13
+Dict{Any, Any}(:N => 413, :η_cr => 29.351629017731064, :η_m => 4.284883225019698)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=139, η_cr=62.43907618004896, p_cr=0.9, η_m=12.577096805213317, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1674873401077447e13
+Dict{Any, Any}(:N => 139, :η_cr => 62.43907618004896, :η_m => 12.577096805213317)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=46, η_cr=86.77667720720609, p_cr=0.9, η_m=6.818710797895278, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1240219999865213e13
+Dict{Any, Any}(:N => 46, :η_cr => 86.77667720720609, :η_m => 6.818710797895278)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=337, η_cr=78.62443057233442, p_cr=0.9, η_m=38.546591228368776, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1786826830126764e13
+Dict{Any, Any}(:N => 337, :η_cr => 78.62443057233442, :η_m => 38.546591228368776)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=484, η_cr=9.25129851925901, p_cr=0.9, η_m=37.17676785395304, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1803638883960803e13
+Dict{Any, Any}(:N => 484, :η_cr => 9.25129851925901, :η_m => 37.17676785395304)
+
+pressure_vessel problem number 1 ---- Algorithm Parameters
+====================
+  NSGA2(N=255, η_cr=44.22236150231905, p_cr=0.9, η_m=58.1113807077554, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1771936461615436e13
+Dict{Any, Any}(:N => 255, :η_cr => 44.22236150231905, :η_m => 58.1113807077554)
+

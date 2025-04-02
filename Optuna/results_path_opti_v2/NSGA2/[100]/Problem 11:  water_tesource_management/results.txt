@@ -1,0 +1,110 @@
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=273, η_cr=30.200117909011702, p_cr=0.9, η_m=59.615247584999366, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.1460634337548105e25
+Dict{Any, Any}(:N => 273, :η_cr => 30.200117909011702, :η_m => 59.615247584999366)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=497, η_cr=42.76449571894885, p_cr=0.9, η_m=93.51991980195832, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.358991329420662e25
+Dict{Any, Any}(:N => 497, :η_cr => 42.76449571894885, :η_m => 93.51991980195832)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=483, η_cr=56.114919807166444, p_cr=0.9, η_m=19.132491683143037, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.422603826716232e25
+Dict{Any, Any}(:N => 483, :η_cr => 56.114919807166444, :η_m => 19.132491683143037)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=235, η_cr=58.26394649817497, p_cr=0.9, η_m=36.22387912355879, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.369307577465134e25
+Dict{Any, Any}(:N => 235, :η_cr => 58.26394649817497, :η_m => 36.22387912355879)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=109, η_cr=23.446953511378144, p_cr=0.9, η_m=43.24487581989154, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 3.940923264830755e25
+Dict{Any, Any}(:N => 109, :η_cr => 23.446953511378144, :η_m => 43.24487581989154)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=469, η_cr=53.71072222276694, p_cr=0.9, η_m=34.5785312941802, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.312401422816567e25
+Dict{Any, Any}(:N => 469, :η_cr => 53.71072222276694, :η_m => 34.5785312941802)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=240, η_cr=58.5967558509881, p_cr=0.9, η_m=46.25127313941291, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.147725391666237e25
+Dict{Any, Any}(:N => 240, :η_cr => 58.5967558509881, :η_m => 46.25127313941291)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=106, η_cr=32.77710415094658, p_cr=0.9, η_m=92.9292016559326, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 3.616669279389007e25
+Dict{Any, Any}(:N => 106, :η_cr => 32.77710415094658, :η_m => 92.9292016559326)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=93.78298174779917, p_cr=0.9, η_m=45.22332673194674, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 3.886902983315581e25
+Dict{Any, Any}(:N => 155, :η_cr => 93.78298174779917, :η_m => 45.22332673194674)
+
+water_tesource_management problem number 11 ---- Algorithm Parameters
+====================
+  NSGA2(N=278, η_cr=37.722861081585634, p_cr=0.9, η_m=54.45132335245903, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.1423768624659915e25
+Dict{Any, Any}(:N => 278, :η_cr => 37.722861081585634, :η_m => 54.45132335245903)
+

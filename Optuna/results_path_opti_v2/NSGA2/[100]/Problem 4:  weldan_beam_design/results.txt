@@ -1,0 +1,2310 @@
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=47.683245689921485, p_cr=0.9, η_m=86.13011127449678, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.431104565325851
+Dict{Any, Any}(:N => 210, :η_cr => 47.683245689921485, :η_m => 86.13011127449678)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=203, η_cr=16.742936612222614, p_cr=0.9, η_m=38.8651156005791, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.507476090976256
+Dict{Any, Any}(:N => 203, :η_cr => 16.742936612222614, :η_m => 38.8651156005791)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=349, η_cr=70.8477657716841, p_cr=0.9, η_m=15.388591916194738, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.489674024778141
+Dict{Any, Any}(:N => 349, :η_cr => 70.8477657716841, :η_m => 15.388591916194738)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=60, η_cr=79.17354885201901, p_cr=0.9, η_m=39.90160976539458, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.607532711728726
+Dict{Any, Any}(:N => 60, :η_cr => 79.17354885201901, :η_m => 39.90160976539458)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=362, η_cr=99.87134761111254, p_cr=0.9, η_m=5.444286637606988, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.604835014146969
+Dict{Any, Any}(:N => 362, :η_cr => 99.87134761111254, :η_m => 5.444286637606988)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=358, η_cr=95.97291711887436, p_cr=0.9, η_m=88.99103713361505, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5602160517554795
+Dict{Any, Any}(:N => 358, :η_cr => 95.97291711887436, :η_m => 88.99103713361505)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=413, η_cr=37.79970316984842, p_cr=0.9, η_m=15.00454904480193, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.609593090762895
+Dict{Any, Any}(:N => 413, :η_cr => 37.79970316984842, :η_m => 15.00454904480193)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=481, η_cr=34.40884712444976, p_cr=0.9, η_m=36.86386690496413, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.563757790195324
+Dict{Any, Any}(:N => 481, :η_cr => 34.40884712444976, :η_m => 36.86386690496413)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=473, η_cr=91.5320605777116, p_cr=0.9, η_m=43.427915861558205, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.395480082232225
+Dict{Any, Any}(:N => 473, :η_cr => 91.5320605777116, :η_m => 43.427915861558205)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=331, η_cr=89.28204646826472, p_cr=0.9, η_m=10.617263870715188, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.495531662297115
+Dict{Any, Any}(:N => 331, :η_cr => 89.28204646826472, :η_m => 10.617263870715188)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=255, η_cr=21.53383531528077, p_cr=0.9, η_m=42.36098784614269, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.569771440724446
+Dict{Any, Any}(:N => 255, :η_cr => 21.53383531528077, :η_m => 42.36098784614269)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=224, η_cr=67.23386698437918, p_cr=0.9, η_m=51.520460965940494, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5738514688269944
+Dict{Any, Any}(:N => 224, :η_cr => 67.23386698437918, :η_m => 51.520460965940494)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=55, η_cr=98.4631730762042, p_cr=0.9, η_m=23.44053901301706, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.14864074642753
+Dict{Any, Any}(:N => 55, :η_cr => 98.4631730762042, :η_m => 23.44053901301706)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=453, η_cr=37.07018829073602, p_cr=0.9, η_m=19.313447968414565, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.58795963376548
+Dict{Any, Any}(:N => 453, :η_cr => 37.07018829073602, :η_m => 19.313447968414565)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=477, η_cr=81.288915268001, p_cr=0.9, η_m=94.29007870153079, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.481565595023361
+Dict{Any, Any}(:N => 477, :η_cr => 81.288915268001, :η_m => 94.29007870153079)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=147, η_cr=13.922175304806728, p_cr=0.9, η_m=9.096519627304488, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.416179334910584
+Dict{Any, Any}(:N => 147, :η_cr => 13.922175304806728, :η_m => 9.096519627304488)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=356, η_cr=13.478967625537553, p_cr=0.9, η_m=41.29019325923983, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.510907283424584
+Dict{Any, Any}(:N => 356, :η_cr => 13.478967625537553, :η_m => 41.29019325923983)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=18, η_cr=52.23667579577368, p_cr=0.9, η_m=8.621127054377931, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.462393675609536
+Dict{Any, Any}(:N => 18, :η_cr => 52.23667579577368, :η_m => 8.621127054377931)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=114, η_cr=66.11627068537645, p_cr=0.9, η_m=73.62584097645198, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.352372698895838
+Dict{Any, Any}(:N => 114, :η_cr => 66.11627068537645, :η_m => 73.62584097645198)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=5.820617690768892, p_cr=0.9, η_m=55.44639408244654, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4349344275104725
+Dict{Any, Any}(:N => 61, :η_cr => 5.820617690768892, :η_m => 55.44639408244654)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=389, η_cr=53.00114544656173, p_cr=0.9, η_m=27.265669468882926, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.297858440259989
+Dict{Any, Any}(:N => 389, :η_cr => 53.00114544656173, :η_m => 27.265669468882926)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=475, η_cr=71.3959933509863, p_cr=0.9, η_m=89.26878750436325, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.495220213029078
+Dict{Any, Any}(:N => 475, :η_cr => 71.3959933509863, :η_m => 89.26878750436325)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=172, η_cr=51.10635548020582, p_cr=0.9, η_m=12.815308916192302, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5784495338648155
+Dict{Any, Any}(:N => 172, :η_cr => 51.10635548020582, :η_m => 12.815308916192302)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=415, η_cr=9.78071223012611, p_cr=0.9, η_m=98.98419406012938, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6136401249395025
+Dict{Any, Any}(:N => 415, :η_cr => 9.78071223012611, :η_m => 98.98419406012938)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=243, η_cr=98.32281678365311, p_cr=0.9, η_m=75.58455450083117, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.465680991018665
+Dict{Any, Any}(:N => 243, :η_cr => 98.32281678365311, :η_m => 75.58455450083117)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=82, η_cr=10.706699090653437, p_cr=0.9, η_m=28.11988570063174, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.348889670198877
+Dict{Any, Any}(:N => 82, :η_cr => 10.706699090653437, :η_m => 28.11988570063174)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=252, η_cr=66.67522756063092, p_cr=0.9, η_m=64.92170960409936, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.603139009876559
+Dict{Any, Any}(:N => 252, :η_cr => 66.67522756063092, :η_m => 64.92170960409936)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=415, η_cr=47.3835225487168, p_cr=0.9, η_m=87.4366834099369, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.611855436257478
+Dict{Any, Any}(:N => 415, :η_cr => 47.3835225487168, :η_m => 87.4366834099369)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=79, η_cr=44.41030608988324, p_cr=0.9, η_m=56.601288187647356, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.322416320251462
+Dict{Any, Any}(:N => 79, :η_cr => 44.41030608988324, :η_m => 56.601288187647356)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=420, η_cr=33.46279698865683, p_cr=0.9, η_m=93.18695942212369, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.602259376737396
+Dict{Any, Any}(:N => 420, :η_cr => 33.46279698865683, :η_m => 93.18695942212369)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=247, η_cr=22.381154971256656, p_cr=0.9, η_m=67.04650959318741, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.487790094175664
+Dict{Any, Any}(:N => 247, :η_cr => 22.381154971256656, :η_m => 67.04650959318741)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=81, η_cr=65.02685722088864, p_cr=0.9, η_m=74.20119275890828, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5804459424073976
+Dict{Any, Any}(:N => 81, :η_cr => 65.02685722088864, :η_m => 74.20119275890828)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=3, η_cr=96.54891143244959, p_cr=0.9, η_m=83.28911628396285, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.924181685349508
+Dict{Any, Any}(:N => 3, :η_cr => 96.54891143244959, :η_m => 83.28911628396285)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=2, η_cr=84.2018509274224, p_cr=0.9, η_m=47.986424302578754, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.8866125042024864
+Dict{Any, Any}(:N => 2, :η_cr => 84.2018509274224, :η_m => 47.986424302578754)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=314, η_cr=97.22288241633926, p_cr=0.9, η_m=31.086884632142542, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.621371199411821
+Dict{Any, Any}(:N => 314, :η_cr => 97.22288241633926, :η_m => 31.086884632142542)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=123, η_cr=88.99395843768482, p_cr=0.9, η_m=9.427795695377938, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.505778853031428
+Dict{Any, Any}(:N => 123, :η_cr => 88.99395843768482, :η_m => 9.427795695377938)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=494, η_cr=98.09621259655465, p_cr=0.9, η_m=13.657927077555676, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.616788740736383
+Dict{Any, Any}(:N => 494, :η_cr => 98.09621259655465, :η_m => 13.657927077555676)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=390, η_cr=28.44441631464749, p_cr=0.9, η_m=78.84638690516022, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.592893670452518
+Dict{Any, Any}(:N => 390, :η_cr => 28.44441631464749, :η_m => 78.84638690516022)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=200, η_cr=30.174112850932033, p_cr=0.9, η_m=25.45367996920085, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5976999845479165
+Dict{Any, Any}(:N => 200, :η_cr => 30.174112850932033, :η_m => 25.45367996920085)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=310, η_cr=91.74659000933792, p_cr=0.9, η_m=14.510399087386261, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5686455935810795
+Dict{Any, Any}(:N => 310, :η_cr => 91.74659000933792, :η_m => 14.510399087386261)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=327, η_cr=10.278312651009902, p_cr=0.9, η_m=14.982445350004781, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.557148933106881
+Dict{Any, Any}(:N => 327, :η_cr => 10.278312651009902, :η_m => 14.982445350004781)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=274, η_cr=6.950268594462006, p_cr=0.9, η_m=56.52793063144137, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.425304994424085
+Dict{Any, Any}(:N => 274, :η_cr => 6.950268594462006, :η_m => 56.52793063144137)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=17, η_cr=45.92382901875071, p_cr=0.9, η_m=69.30983247362833, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.48810807293983
+Dict{Any, Any}(:N => 17, :η_cr => 45.92382901875071, :η_m => 69.30983247362833)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=180, η_cr=83.19335857630861, p_cr=0.9, η_m=0.6384256502571128, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.594361625935392
+Dict{Any, Any}(:N => 180, :η_cr => 83.19335857630861, :η_m => 0.6384256502571128)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=30, η_cr=91.86276423335532, p_cr=0.9, η_m=60.95674203184749, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.198960376883968
+Dict{Any, Any}(:N => 30, :η_cr => 91.86276423335532, :η_m => 60.95674203184749)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=64, η_cr=9.220398152798715, p_cr=0.9, η_m=73.06487162600983, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.3306691069633345
+Dict{Any, Any}(:N => 64, :η_cr => 9.220398152798715, :η_m => 73.06487162600983)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=181, η_cr=48.507220183026824, p_cr=0.9, η_m=61.08767511173535, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.38531075610825
+Dict{Any, Any}(:N => 181, :η_cr => 48.507220183026824, :η_m => 61.08767511173535)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=327, η_cr=13.864611511932512, p_cr=0.9, η_m=73.74370028770059, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.594262807482355
+Dict{Any, Any}(:N => 327, :η_cr => 13.864611511932512, :η_m => 73.74370028770059)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=463, η_cr=64.02387657981677, p_cr=0.9, η_m=19.31812956979162, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.563401189230712
+Dict{Any, Any}(:N => 463, :η_cr => 64.02387657981677, :η_m => 19.31812956979162)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=183, η_cr=38.791743134214926, p_cr=0.9, η_m=57.461538548671996, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.594694580532061
+Dict{Any, Any}(:N => 183, :η_cr => 38.791743134214926, :η_m => 57.461538548671996)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=284, η_cr=5.39635630752664, p_cr=0.9, η_m=49.88732869846647, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.322697520213639
+Dict{Any, Any}(:N => 284, :η_cr => 5.39635630752664, :η_m => 49.88732869846647)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=304, η_cr=42.20392347369919, p_cr=0.9, η_m=72.69302634162781, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.451489396052636
+Dict{Any, Any}(:N => 304, :η_cr => 42.20392347369919, :η_m => 72.69302634162781)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=193, η_cr=55.91486740288737, p_cr=0.9, η_m=73.59665598174993, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.471153923385209
+Dict{Any, Any}(:N => 193, :η_cr => 55.91486740288737, :η_m => 73.59665598174993)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=368, η_cr=93.7196932255417, p_cr=0.9, η_m=80.0552910266132, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.54461379915659
+Dict{Any, Any}(:N => 368, :η_cr => 93.7196932255417, :η_m => 80.0552910266132)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=119, η_cr=77.85249865243749, p_cr=0.9, η_m=89.40809599684613, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.502099074240137
+Dict{Any, Any}(:N => 119, :η_cr => 77.85249865243749, :η_m => 89.40809599684613)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=384, η_cr=2.2809378836202043, p_cr=0.9, η_m=3.647722485601146, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.542051916917214
+Dict{Any, Any}(:N => 384, :η_cr => 2.2809378836202043, :η_m => 3.647722485601146)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=429, η_cr=62.19417620365887, p_cr=0.9, η_m=64.5448975704232, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.473324151005819
+Dict{Any, Any}(:N => 429, :η_cr => 62.19417620365887, :η_m => 64.5448975704232)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=435, η_cr=4.313215847541196, p_cr=0.9, η_m=37.8210381529023, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.525633927546329
+Dict{Any, Any}(:N => 435, :η_cr => 4.313215847541196, :η_m => 37.8210381529023)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=246, η_cr=85.98058800545904, p_cr=0.9, η_m=86.37729983832921, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4483894522927745
+Dict{Any, Any}(:N => 246, :η_cr => 85.98058800545904, :η_m => 86.37729983832921)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=453, η_cr=85.4914308897602, p_cr=0.9, η_m=0.986970886648586, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.605371231854265
+Dict{Any, Any}(:N => 453, :η_cr => 85.4914308897602, :η_m => 0.986970886648586)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=174, η_cr=6.035890203388561, p_cr=0.9, η_m=44.01027520782461, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.623601283683966
+Dict{Any, Any}(:N => 174, :η_cr => 6.035890203388561, :η_m => 44.01027520782461)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=91, η_cr=1.6985591546782697, p_cr=0.9, η_m=94.96172242226429, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.252812510447356
+Dict{Any, Any}(:N => 91, :η_cr => 1.6985591546782697, :η_m => 94.96172242226429)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=337, η_cr=13.323462248538531, p_cr=0.9, η_m=88.98407674357904, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.571635478084808
+Dict{Any, Any}(:N => 337, :η_cr => 13.323462248538531, :η_m => 88.98407674357904)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=215, η_cr=51.31582133011431, p_cr=0.9, η_m=51.13588896999543, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4981301237936675
+Dict{Any, Any}(:N => 215, :η_cr => 51.31582133011431, :η_m => 51.13588896999543)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=482, η_cr=97.74734871844694, p_cr=0.9, η_m=25.63704047037607, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.589402355883982
+Dict{Any, Any}(:N => 482, :η_cr => 97.74734871844694, :η_m => 25.63704047037607)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=234, η_cr=40.87255582478997, p_cr=0.9, η_m=57.44084248263207, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.45982433975759
+Dict{Any, Any}(:N => 234, :η_cr => 40.87255582478997, :η_m => 57.44084248263207)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=30, η_cr=15.906127793057824, p_cr=0.9, η_m=39.069066476811365, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.341433164035443
+Dict{Any, Any}(:N => 30, :η_cr => 15.906127793057824, :η_m => 39.069066476811365)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=404, η_cr=47.39246170894108, p_cr=0.9, η_m=10.398728252443357, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.625652756488495
+Dict{Any, Any}(:N => 404, :η_cr => 47.39246170894108, :η_m => 10.398728252443357)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=258, η_cr=60.66735021176356, p_cr=0.9, η_m=15.869918054027476, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.314045004286327
+Dict{Any, Any}(:N => 258, :η_cr => 60.66735021176356, :η_m => 15.869918054027476)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=66, η_cr=16.16553665819901, p_cr=0.9, η_m=8.86505179910493, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.406562054078096
+Dict{Any, Any}(:N => 66, :η_cr => 16.16553665819901, :η_m => 8.86505179910493)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=75.28030222817695, p_cr=0.9, η_m=15.288416294787533, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.451270654318914
+Dict{Any, Any}(:N => 155, :η_cr => 75.28030222817695, :η_m => 15.288416294787533)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=359, η_cr=47.83358676741929, p_cr=0.9, η_m=40.65932581947208, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.539818261417545
+Dict{Any, Any}(:N => 359, :η_cr => 47.83358676741929, :η_m => 40.65932581947208)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=462, η_cr=21.853847040891573, p_cr=0.9, η_m=37.83595896460893, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.604504404759218
+Dict{Any, Any}(:N => 462, :η_cr => 21.853847040891573, :η_m => 37.83595896460893)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=113, η_cr=20.044116763388264, p_cr=0.9, η_m=68.22663272085057, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.318097825607723
+Dict{Any, Any}(:N => 113, :η_cr => 20.044116763388264, :η_m => 68.22663272085057)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=460, η_cr=14.220123835130194, p_cr=0.9, η_m=17.683345133910734, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.60275894713858
+Dict{Any, Any}(:N => 460, :η_cr => 14.220123835130194, :η_m => 17.683345133910734)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=66, η_cr=23.011030180649595, p_cr=0.9, η_m=8.301094219277028, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.611206875854054
+Dict{Any, Any}(:N => 66, :η_cr => 23.011030180649595, :η_m => 8.301094219277028)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=312, η_cr=28.713842022933445, p_cr=0.9, η_m=98.49131766336241, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.516821620562498
+Dict{Any, Any}(:N => 312, :η_cr => 28.713842022933445, :η_m => 98.49131766336241)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=227, η_cr=60.89921240171252, p_cr=0.9, η_m=37.12327559054629, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5617640639088055
+Dict{Any, Any}(:N => 227, :η_cr => 60.89921240171252, :η_m => 37.12327559054629)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=40, η_cr=0.8739111418075485, p_cr=0.9, η_m=6.213676394546052, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.319976083396321
+Dict{Any, Any}(:N => 40, :η_cr => 0.8739111418075485, :η_m => 6.213676394546052)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=136, η_cr=7.682828534558905, p_cr=0.9, η_m=50.512065821313925, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.279469417506162
+Dict{Any, Any}(:N => 136, :η_cr => 7.682828534558905, :η_m => 50.512065821313925)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=383, η_cr=49.180341182003, p_cr=0.9, η_m=27.228931972445015, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.569543129786126
+Dict{Any, Any}(:N => 383, :η_cr => 49.180341182003, :η_m => 27.228931972445015)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=454, η_cr=31.539536291598836, p_cr=0.9, η_m=6.088780597560883, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.615428094741345
+Dict{Any, Any}(:N => 454, :η_cr => 31.539536291598836, :η_m => 6.088780597560883)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=411, η_cr=51.53150377540352, p_cr=0.9, η_m=49.11065853127883, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.624599392966275
+Dict{Any, Any}(:N => 411, :η_cr => 51.53150377540352, :η_m => 49.11065853127883)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=213, η_cr=17.880852186916773, p_cr=0.9, η_m=46.57559672056904, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.582938946017953
+Dict{Any, Any}(:N => 213, :η_cr => 17.880852186916773, :η_m => 46.57559672056904)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=54, η_cr=50.88918710418533, p_cr=0.9, η_m=49.57728969091482, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.254418137561423
+Dict{Any, Any}(:N => 54, :η_cr => 50.88918710418533, :η_m => 49.57728969091482)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=192, η_cr=62.62176347685301, p_cr=0.9, η_m=64.80831598226443, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.528551056940615
+Dict{Any, Any}(:N => 192, :η_cr => 62.62176347685301, :η_m => 64.80831598226443)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=399, η_cr=50.23500599534938, p_cr=0.9, η_m=49.31770251687793, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.49887550832784
+Dict{Any, Any}(:N => 399, :η_cr => 50.23500599534938, :η_m => 49.31770251687793)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=34, η_cr=21.552404473098985, p_cr=0.9, η_m=9.684059278622225, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.357054079463703
+Dict{Any, Any}(:N => 34, :η_cr => 21.552404473098985, :η_m => 9.684059278622225)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=47, η_cr=65.3518576034263, p_cr=0.9, η_m=25.044736545562007, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.341731031899218
+Dict{Any, Any}(:N => 47, :η_cr => 65.3518576034263, :η_m => 25.044736545562007)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=488, η_cr=84.02113328579134, p_cr=0.9, η_m=69.36323018542461, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6171057333565795
+Dict{Any, Any}(:N => 488, :η_cr => 84.02113328579134, :η_m => 69.36323018542461)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=176, η_cr=50.61336379248448, p_cr=0.9, η_m=38.21954870735858, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4637961080251705
+Dict{Any, Any}(:N => 176, :η_cr => 50.61336379248448, :η_m => 38.21954870735858)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=41, η_cr=91.87239512529707, p_cr=0.9, η_m=35.117843961535414, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.445279970096665
+Dict{Any, Any}(:N => 41, :η_cr => 91.87239512529707, :η_m => 35.117843961535414)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=37, η_cr=93.55843220101133, p_cr=0.9, η_m=18.915540023644862, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.611916617590601
+Dict{Any, Any}(:N => 37, :η_cr => 93.55843220101133, :η_m => 18.915540023644862)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=284, η_cr=22.91951804131064, p_cr=0.9, η_m=52.22285774589933, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.432092189794752
+Dict{Any, Any}(:N => 284, :η_cr => 22.91951804131064, :η_m => 52.22285774589933)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=112, η_cr=61.30149273583621, p_cr=0.9, η_m=83.1542256643229, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.388270700270768
+Dict{Any, Any}(:N => 112, :η_cr => 61.30149273583621, :η_m => 83.1542256643229)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=313, η_cr=33.61141174003895, p_cr=0.9, η_m=76.20220347964646, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.583977233298138
+Dict{Any, Any}(:N => 313, :η_cr => 33.61141174003895, :η_m => 76.20220347964646)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=276, η_cr=20.096934930089038, p_cr=0.9, η_m=84.57944251528615, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6160218428277
+Dict{Any, Any}(:N => 276, :η_cr => 20.096934930089038, :η_m => 84.57944251528615)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=271, η_cr=45.47563445437511, p_cr=0.9, η_m=34.32800080439434, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.49213086370729
+Dict{Any, Any}(:N => 271, :η_cr => 45.47563445437511, :η_m => 34.32800080439434)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=379, η_cr=71.39378902775077, p_cr=0.9, η_m=71.5872585459398, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5358038616082945
+Dict{Any, Any}(:N => 379, :η_cr => 71.39378902775077, :η_m => 71.5872585459398)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=452, η_cr=84.1462438997678, p_cr=0.9, η_m=48.17484321378605, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.50059580731126
+Dict{Any, Any}(:N => 452, :η_cr => 84.1462438997678, :η_m => 48.17484321378605)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=108, η_cr=35.770192583023196, p_cr=0.9, η_m=71.04244079731117, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.609369090562149
+Dict{Any, Any}(:N => 108, :η_cr => 35.770192583023196, :η_m => 71.04244079731117)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=129, η_cr=8.220750223033823, p_cr=0.9, η_m=91.41864350603524, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.441898242204735
+Dict{Any, Any}(:N => 129, :η_cr => 8.220750223033823, :η_m => 91.41864350603524)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=399, η_cr=5.312955221029981, p_cr=0.9, η_m=47.848338988919735, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.619953593134869
+Dict{Any, Any}(:N => 399, :η_cr => 5.312955221029981, :η_m => 47.848338988919735)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=493, η_cr=56.04712886246938, p_cr=0.9, η_m=11.112438662255252, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6198802427412975
+Dict{Any, Any}(:N => 493, :η_cr => 56.04712886246938, :η_m => 11.112438662255252)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=255, η_cr=1.680380020108574, p_cr=0.9, η_m=19.395944321908697, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.572345793803455
+Dict{Any, Any}(:N => 255, :η_cr => 1.680380020108574, :η_m => 19.395944321908697)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=273, η_cr=66.25185403147957, p_cr=0.9, η_m=72.04335259809889, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.515326084200342
+Dict{Any, Any}(:N => 273, :η_cr => 66.25185403147957, :η_m => 72.04335259809889)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=417, η_cr=19.139769507613224, p_cr=0.9, η_m=36.49956253011507, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.528033444387887
+Dict{Any, Any}(:N => 417, :η_cr => 19.139769507613224, :η_m => 36.49956253011507)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=298, η_cr=19.046131795081088, p_cr=0.9, η_m=82.6132621950905, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.553010038935121
+Dict{Any, Any}(:N => 298, :η_cr => 19.046131795081088, :η_m => 82.6132621950905)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=73, η_cr=28.585050529536915, p_cr=0.9, η_m=85.77980839852518, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.346814807613546
+Dict{Any, Any}(:N => 73, :η_cr => 28.585050529536915, :η_m => 85.77980839852518)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=394, η_cr=58.65854724565518, p_cr=0.9, η_m=76.95649392697047, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.608135359269113
+Dict{Any, Any}(:N => 394, :η_cr => 58.65854724565518, :η_m => 76.95649392697047)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=24, η_cr=4.165287380895199, p_cr=0.9, η_m=4.81794065923673, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.564228108657786
+Dict{Any, Any}(:N => 24, :η_cr => 4.165287380895199, :η_m => 4.81794065923673)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=79, η_cr=95.69538419670288, p_cr=0.9, η_m=8.312974142791695, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.605768543211468
+Dict{Any, Any}(:N => 79, :η_cr => 95.69538419670288, :η_m => 8.312974142791695)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=209, η_cr=61.5404001548714, p_cr=0.9, η_m=38.474537168045195, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.609878520715335
+Dict{Any, Any}(:N => 209, :η_cr => 61.5404001548714, :η_m => 38.474537168045195)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=354, η_cr=5.198294531597347, p_cr=0.9, η_m=72.60655000765452, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.615619459206332
+Dict{Any, Any}(:N => 354, :η_cr => 5.198294531597347, :η_m => 72.60655000765452)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=497, η_cr=20.354331022389218, p_cr=0.9, η_m=90.52762137080366, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.487102888388532
+Dict{Any, Any}(:N => 497, :η_cr => 20.354331022389218, :η_m => 90.52762137080366)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=113, η_cr=1.626164410143749, p_cr=0.9, η_m=77.35859929467466, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.517693640183143
+Dict{Any, Any}(:N => 113, :η_cr => 1.626164410143749, :η_m => 77.35859929467466)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=301, η_cr=6.9016791989913955, p_cr=0.9, η_m=53.19254106577982, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.599899773925247
+Dict{Any, Any}(:N => 301, :η_cr => 6.9016791989913955, :η_m => 53.19254106577982)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=69, η_cr=70.41378928768147, p_cr=0.9, η_m=79.34443789859384, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.326918653414603
+Dict{Any, Any}(:N => 69, :η_cr => 70.41378928768147, :η_m => 79.34443789859384)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=315, η_cr=57.06629373712961, p_cr=0.9, η_m=22.431957702825034, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.544913337538516
+Dict{Any, Any}(:N => 315, :η_cr => 57.06629373712961, :η_m => 22.431957702825034)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=183, η_cr=62.51157561335622, p_cr=0.9, η_m=53.48565639828109, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.618066056477821
+Dict{Any, Any}(:N => 183, :η_cr => 62.51157561335622, :η_m => 53.48565639828109)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=27, η_cr=19.270231421172056, p_cr=0.9, η_m=76.72887459717869, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.386169508626197
+Dict{Any, Any}(:N => 27, :η_cr => 19.270231421172056, :η_m => 76.72887459717869)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=272, η_cr=80.42776577431749, p_cr=0.9, η_m=49.9500380288498, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.491856762899503
+Dict{Any, Any}(:N => 272, :η_cr => 80.42776577431749, :η_m => 49.9500380288498)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=369, η_cr=27.32719018603985, p_cr=0.9, η_m=72.33857060070967, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.470768644358994
+Dict{Any, Any}(:N => 369, :η_cr => 27.32719018603985, :η_m => 72.33857060070967)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=161, η_cr=7.419385411690394, p_cr=0.9, η_m=6.962664437461252, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6198887166072495
+Dict{Any, Any}(:N => 161, :η_cr => 7.419385411690394, :η_m => 6.962664437461252)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=85, η_cr=72.21770748612548, p_cr=0.9, η_m=12.785597659844028, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.541974042385771
+Dict{Any, Any}(:N => 85, :η_cr => 72.21770748612548, :η_m => 12.785597659844028)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=190, η_cr=91.18198202244902, p_cr=0.9, η_m=65.31185622597056, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.547468164888358
+Dict{Any, Any}(:N => 190, :η_cr => 91.18198202244902, :η_m => 65.31185622597056)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=457, η_cr=40.6370696519296, p_cr=0.9, η_m=74.93371876963629, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.379502887963191
+Dict{Any, Any}(:N => 457, :η_cr => 40.6370696519296, :η_m => 74.93371876963629)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=59, η_cr=5.771398095914404, p_cr=0.9, η_m=24.254075426581455, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.558961411794576
+Dict{Any, Any}(:N => 59, :η_cr => 5.771398095914404, :η_m => 24.254075426581455)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=190, η_cr=10.486656140070295, p_cr=0.9, η_m=76.33419805923401, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4641364238412145
+Dict{Any, Any}(:N => 190, :η_cr => 10.486656140070295, :η_m => 76.33419805923401)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=294, η_cr=76.68511995544418, p_cr=0.9, η_m=50.405838285563384, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4606864092200205
+Dict{Any, Any}(:N => 294, :η_cr => 76.68511995544418, :η_m => 50.405838285563384)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=266, η_cr=23.331419216122995, p_cr=0.9, η_m=51.81273856830043, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5292020928914
+Dict{Any, Any}(:N => 266, :η_cr => 23.331419216122995, :η_m => 51.81273856830043)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=408, η_cr=75.71994486705034, p_cr=0.9, η_m=4.817039477333552, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.56206341777167
+Dict{Any, Any}(:N => 408, :η_cr => 75.71994486705034, :η_m => 4.817039477333552)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=475, η_cr=30.436690910280404, p_cr=0.9, η_m=44.38662463189693, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.624973838699458
+Dict{Any, Any}(:N => 475, :η_cr => 30.436690910280404, :η_m => 44.38662463189693)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=103, η_cr=13.585915306430962, p_cr=0.9, η_m=67.38980170186719, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.581490052357223
+Dict{Any, Any}(:N => 103, :η_cr => 13.585915306430962, :η_m => 67.38980170186719)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=195, η_cr=40.21984340545725, p_cr=0.9, η_m=89.95052072541637, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.424970261007925
+Dict{Any, Any}(:N => 195, :η_cr => 40.21984340545725, :η_m => 89.95052072541637)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=336, η_cr=4.0708923608332, p_cr=0.9, η_m=53.497094617772724, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.595817296321857
+Dict{Any, Any}(:N => 336, :η_cr => 4.0708923608332, :η_m => 53.497094617772724)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=165, η_cr=54.14544512368877, p_cr=0.9, η_m=22.03266722105314, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.477682416049183
+Dict{Any, Any}(:N => 165, :η_cr => 54.14544512368877, :η_m => 22.03266722105314)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=371, η_cr=6.562017676016064, p_cr=0.9, η_m=80.79973794507256, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.496206026895023
+Dict{Any, Any}(:N => 371, :η_cr => 6.562017676016064, :η_m => 80.79973794507256)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=458, η_cr=69.35028049473928, p_cr=0.9, η_m=25.689213627805074, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5431361412229565
+Dict{Any, Any}(:N => 458, :η_cr => 69.35028049473928, :η_m => 25.689213627805074)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=328, η_cr=88.28156363247882, p_cr=0.9, η_m=11.308788739209774, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.60142066716342
+Dict{Any, Any}(:N => 328, :η_cr => 88.28156363247882, :η_m => 11.308788739209774)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=374, η_cr=89.27995229456076, p_cr=0.9, η_m=98.40994472197589, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.392399059460291
+Dict{Any, Any}(:N => 374, :η_cr => 89.27995229456076, :η_m => 98.40994472197589)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=215, η_cr=38.693161788277585, p_cr=0.9, η_m=5.627075990439612, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.607731146718607
+Dict{Any, Any}(:N => 215, :η_cr => 38.693161788277585, :η_m => 5.627075990439612)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=223, η_cr=6.054464444242202, p_cr=0.9, η_m=29.442157283326864, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.514059885954992
+Dict{Any, Any}(:N => 223, :η_cr => 6.054464444242202, :η_m => 29.442157283326864)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=206, η_cr=23.61363756649445, p_cr=0.9, η_m=5.821135250898768, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.545569895265377
+Dict{Any, Any}(:N => 206, :η_cr => 23.61363756649445, :η_m => 5.821135250898768)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=217, η_cr=44.248216932888184, p_cr=0.9, η_m=13.776175925917789, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.611026938637255
+Dict{Any, Any}(:N => 217, :η_cr => 44.248216932888184, :η_m => 13.776175925917789)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=269, η_cr=16.451032902954477, p_cr=0.9, η_m=4.082356574186696, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.586957633783818
+Dict{Any, Any}(:N => 269, :η_cr => 16.451032902954477, :η_m => 4.082356574186696)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=457, η_cr=99.52066208863707, p_cr=0.9, η_m=36.40909086583803, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.433705028994955
+Dict{Any, Any}(:N => 457, :η_cr => 99.52066208863707, :η_m => 36.40909086583803)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=153, η_cr=44.049402503310645, p_cr=0.9, η_m=26.261290843366524, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.119531584582257
+Dict{Any, Any}(:N => 153, :η_cr => 44.049402503310645, :η_m => 26.261290843366524)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=418, η_cr=15.936606582466528, p_cr=0.9, η_m=23.68247879225104, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.593552336229205
+Dict{Any, Any}(:N => 418, :η_cr => 15.936606582466528, :η_m => 23.68247879225104)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=358, η_cr=91.06243368783332, p_cr=0.9, η_m=44.08086810203097, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.419072596006446
+Dict{Any, Any}(:N => 358, :η_cr => 91.06243368783332, :η_m => 44.08086810203097)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=198, η_cr=97.83516951276576, p_cr=0.9, η_m=39.199772859181216, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.537410305629644
+Dict{Any, Any}(:N => 198, :η_cr => 97.83516951276576, :η_m => 39.199772859181216)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=32, η_cr=63.519555798506325, p_cr=0.9, η_m=82.15963507009715, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.050300786314971
+Dict{Any, Any}(:N => 32, :η_cr => 63.519555798506325, :η_m => 82.15963507009715)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=237, η_cr=26.496347759463756, p_cr=0.9, η_m=41.89089061260083, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.623659261516791
+Dict{Any, Any}(:N => 237, :η_cr => 26.496347759463756, :η_m => 41.89089061260083)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=115, η_cr=18.755195646423072, p_cr=0.9, η_m=57.674067302141694, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.515999563153406
+Dict{Any, Any}(:N => 115, :η_cr => 18.755195646423072, :η_m => 57.674067302141694)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=395, η_cr=53.073215143063216, p_cr=0.9, η_m=62.54436304417108, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.572662639835329
+Dict{Any, Any}(:N => 395, :η_cr => 53.073215143063216, :η_m => 62.54436304417108)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=441, η_cr=67.76576207422278, p_cr=0.9, η_m=83.45534552754538, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.544839774435986
+Dict{Any, Any}(:N => 441, :η_cr => 67.76576207422278, :η_m => 83.45534552754538)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=15, η_cr=57.92623605808126, p_cr=0.9, η_m=47.72449109048016, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.222732509475406
+Dict{Any, Any}(:N => 15, :η_cr => 57.92623605808126, :η_m => 47.72449109048016)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=91, η_cr=18.749922424402797, p_cr=0.9, η_m=19.09811059094446, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4953153202994045
+Dict{Any, Any}(:N => 91, :η_cr => 18.749922424402797, :η_m => 19.09811059094446)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=193, η_cr=49.435674755808456, p_cr=0.9, η_m=82.20147976535472, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.492734866871121
+Dict{Any, Any}(:N => 193, :η_cr => 49.435674755808456, :η_m => 82.20147976535472)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=336, η_cr=73.9617005056068, p_cr=0.9, η_m=45.50101633969367, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.608153689664964
+Dict{Any, Any}(:N => 336, :η_cr => 73.9617005056068, :η_m => 45.50101633969367)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=448, η_cr=14.350762543896145, p_cr=0.9, η_m=29.694296157026923, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.516160305992688
+Dict{Any, Any}(:N => 448, :η_cr => 14.350762543896145, :η_m => 29.694296157026923)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=464, η_cr=14.403199030978875, p_cr=0.9, η_m=60.91696569141119, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.594994744160212
+Dict{Any, Any}(:N => 464, :η_cr => 14.403199030978875, :η_m => 60.91696569141119)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=133, η_cr=1.6410661518589942, p_cr=0.9, η_m=55.560871780941866, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.53328104931817
+Dict{Any, Any}(:N => 133, :η_cr => 1.6410661518589942, :η_m => 55.560871780941866)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=175, η_cr=61.35997447642981, p_cr=0.9, η_m=76.3216610349548, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.57917194711377
+Dict{Any, Any}(:N => 175, :η_cr => 61.35997447642981, :η_m => 76.3216610349548)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=6.648421766205381, p_cr=0.9, η_m=20.566661054429492, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.517561578115905
+Dict{Any, Any}(:N => 210, :η_cr => 6.648421766205381, :η_m => 20.566661054429492)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=486, η_cr=89.8685524316607, p_cr=0.9, η_m=97.5933451689546, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.612850354525137
+Dict{Any, Any}(:N => 486, :η_cr => 89.8685524316607, :η_m => 97.5933451689546)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=252, η_cr=40.492227434374186, p_cr=0.9, η_m=87.35900472894525, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.390519310809082
+Dict{Any, Any}(:N => 252, :η_cr => 40.492227434374186, :η_m => 87.35900472894525)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=431, η_cr=28.278129623510317, p_cr=0.9, η_m=60.75626333740941, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.400494868826445
+Dict{Any, Any}(:N => 431, :η_cr => 28.278129623510317, :η_m => 60.75626333740941)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=432, η_cr=94.3774179847856, p_cr=0.9, η_m=82.48605052958011, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.49189598178476
+Dict{Any, Any}(:N => 432, :η_cr => 94.3774179847856, :η_m => 82.48605052958011)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=147, η_cr=70.24767855749087, p_cr=0.9, η_m=25.913312746179052, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.563479280089918
+Dict{Any, Any}(:N => 147, :η_cr => 70.24767855749087, :η_m => 25.913312746179052)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=136, η_cr=99.21036787501751, p_cr=0.9, η_m=0.7173205105688973, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6050663568979635
+Dict{Any, Any}(:N => 136, :η_cr => 99.21036787501751, :η_m => 0.7173205105688973)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=279, η_cr=49.1246932338514, p_cr=0.9, η_m=50.60936206365931, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.258514639546397
+Dict{Any, Any}(:N => 279, :η_cr => 49.1246932338514, :η_m => 50.60936206365931)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=172, η_cr=42.57400082330292, p_cr=0.9, η_m=26.938766639647195, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.620869081675572
+Dict{Any, Any}(:N => 172, :η_cr => 42.57400082330292, :η_m => 26.938766639647195)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=235, η_cr=12.105668252807567, p_cr=0.9, η_m=54.9871590900718, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.463082798773231
+Dict{Any, Any}(:N => 235, :η_cr => 12.105668252807567, :η_m => 54.9871590900718)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=169, η_cr=7.4323695874481395, p_cr=0.9, η_m=52.70698964659742, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.466129899118402
+Dict{Any, Any}(:N => 169, :η_cr => 7.4323695874481395, :η_m => 52.70698964659742)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=130, η_cr=95.80180084998433, p_cr=0.9, η_m=57.53325687735753, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.596806888303359
+Dict{Any, Any}(:N => 130, :η_cr => 95.80180084998433, :η_m => 57.53325687735753)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=141, η_cr=35.84139755849181, p_cr=0.9, η_m=90.67885557268832, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.1297640167313805
+Dict{Any, Any}(:N => 141, :η_cr => 35.84139755849181, :η_m => 90.67885557268832)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=195, η_cr=0.9087739965955688, p_cr=0.9, η_m=47.082047888828946, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.505313553204622
+Dict{Any, Any}(:N => 195, :η_cr => 0.9087739965955688, :η_m => 47.082047888828946)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=305, η_cr=52.781854526924874, p_cr=0.9, η_m=4.79184349186662, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.57514763987436
+Dict{Any, Any}(:N => 305, :η_cr => 52.781854526924874, :η_m => 4.79184349186662)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=225, η_cr=1.956664782518791, p_cr=0.9, η_m=68.60627062858993, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5514214639229325
+Dict{Any, Any}(:N => 225, :η_cr => 1.956664782518791, :η_m => 68.60627062858993)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=393, η_cr=22.850811885168543, p_cr=0.9, η_m=75.14039221617375, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.621414026849111
+Dict{Any, Any}(:N => 393, :η_cr => 22.850811885168543, :η_m => 75.14039221617375)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=128, η_cr=5.76210421316794, p_cr=0.9, η_m=27.439527202882097, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.440980401947985
+Dict{Any, Any}(:N => 128, :η_cr => 5.76210421316794, :η_m => 27.439527202882097)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=351, η_cr=65.94936266761454, p_cr=0.9, η_m=2.3695703953803493, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.6162405161030575
+Dict{Any, Any}(:N => 351, :η_cr => 65.94936266761454, :η_m => 2.3695703953803493)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=19, η_cr=81.71213027684561, p_cr=0.9, η_m=36.357029538761054, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.5349735234527175
+Dict{Any, Any}(:N => 19, :η_cr => 81.71213027684561, :η_m => 36.357029538761054)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=230, η_cr=6.604538708001961, p_cr=0.9, η_m=92.72367026602609, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.615338223669914
+Dict{Any, Any}(:N => 230, :η_cr => 6.604538708001961, :η_m => 92.72367026602609)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=350, η_cr=35.00169614285269, p_cr=0.9, η_m=40.42267036334506, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.583701997106277
+Dict{Any, Any}(:N => 350, :η_cr => 35.00169614285269, :η_m => 40.42267036334506)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=200, η_cr=78.72474536983178, p_cr=0.9, η_m=5.822069154139942, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.442478818426905
+Dict{Any, Any}(:N => 200, :η_cr => 78.72474536983178, :η_m => 5.822069154139942)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=257, η_cr=97.51703619484844, p_cr=0.9, η_m=77.0944073182305, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.3705769889373505
+Dict{Any, Any}(:N => 257, :η_cr => 97.51703619484844, :η_m => 77.0944073182305)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=47, η_cr=2.1729310608734176, p_cr=0.9, η_m=30.551268924841324, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.607235489093921
+Dict{Any, Any}(:N => 47, :η_cr => 2.1729310608734176, :η_m => 30.551268924841324)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=215, η_cr=76.59626165730594, p_cr=0.9, η_m=44.59456286977185, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.484008213869574
+Dict{Any, Any}(:N => 215, :η_cr => 76.59626165730594, :η_m => 44.59456286977185)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=60, η_cr=90.6586041047732, p_cr=0.9, η_m=26.056544350303124, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.469766834216364
+Dict{Any, Any}(:N => 60, :η_cr => 90.6586041047732, :η_m => 26.056544350303124)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=38, η_cr=79.40665652506308, p_cr=0.9, η_m=39.1924384643916, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.041481246092959
+Dict{Any, Any}(:N => 38, :η_cr => 79.40665652506308, :η_m => 39.1924384643916)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=481, η_cr=82.90003018112189, p_cr=0.9, η_m=46.006992509977565, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.617634415939397
+Dict{Any, Any}(:N => 481, :η_cr => 82.90003018112189, :η_m => 46.006992509977565)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=93, η_cr=66.15970631257721, p_cr=0.9, η_m=66.13571415686673, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.448514201864489
+Dict{Any, Any}(:N => 93, :η_cr => 66.15970631257721, :η_m => 66.13571415686673)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=175, η_cr=7.154080677765418, p_cr=0.9, η_m=42.52457397471231, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.33352937482567
+Dict{Any, Any}(:N => 175, :η_cr => 7.154080677765418, :η_m => 42.52457397471231)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=88, η_cr=94.02967974546785, p_cr=0.9, η_m=44.93951391356066, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.246264492291858
+Dict{Any, Any}(:N => 88, :η_cr => 94.02967974546785, :η_m => 44.93951391356066)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=226, η_cr=70.06375561587099, p_cr=0.9, η_m=32.94034194852432, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.624585721663367
+Dict{Any, Any}(:N => 226, :η_cr => 70.06375561587099, :η_m => 32.94034194852432)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=368, η_cr=68.60918371410902, p_cr=0.9, η_m=33.61081290995707, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.425305284643231
+Dict{Any, Any}(:N => 368, :η_cr => 68.60918371410902, :η_m => 33.61081290995707)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=339, η_cr=54.877969882480514, p_cr=0.9, η_m=38.38395507003253, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.529502542558492
+Dict{Any, Any}(:N => 339, :η_cr => 54.877969882480514, :η_m => 38.38395507003253)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=397, η_cr=53.04334760571612, p_cr=0.9, η_m=92.45043394956716, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.616524642797571
+Dict{Any, Any}(:N => 397, :η_cr => 53.04334760571612, :η_m => 92.45043394956716)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=256, η_cr=10.095020803778155, p_cr=0.9, η_m=9.014006949093577, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.596620663315032
+Dict{Any, Any}(:N => 256, :η_cr => 10.095020803778155, :η_m => 9.014006949093577)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=139, η_cr=84.03548980193052, p_cr=0.9, η_m=23.19886940779642, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.26406034581513
+Dict{Any, Any}(:N => 139, :η_cr => 84.03548980193052, :η_m => 23.19886940779642)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=284, η_cr=85.03510335696168, p_cr=0.9, η_m=65.19310130775094, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.4323463695070435
+Dict{Any, Any}(:N => 284, :η_cr => 85.03510335696168, :η_m => 65.19310130775094)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=47, η_cr=14.092384183621476, p_cr=0.9, η_m=81.01115355907339, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.516716328083365
+Dict{Any, Any}(:N => 47, :η_cr => 14.092384183621476, :η_m => 81.01115355907339)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=411, η_cr=61.199999987551536, p_cr=0.9, η_m=19.328665261061605, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.3931989240966125
+Dict{Any, Any}(:N => 411, :η_cr => 61.199999987551536, :η_m => 19.328665261061605)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=208, η_cr=30.214655588607787, p_cr=0.9, η_m=36.68887890041205, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.547193203592217
+Dict{Any, Any}(:N => 208, :η_cr => 30.214655588607787, :η_m => 36.68887890041205)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=62, η_cr=91.80624501531685, p_cr=0.9, η_m=32.29722965796778, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.516852466500771
+Dict{Any, Any}(:N => 62, :η_cr => 91.80624501531685, :η_m => 32.29722965796778)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=67, η_cr=82.34538216331642, p_cr=0.9, η_m=18.804592280198907, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.400083707972334
+Dict{Any, Any}(:N => 67, :η_cr => 82.34538216331642, :η_m => 18.804592280198907)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=28, η_cr=52.17275150625785, p_cr=0.9, η_m=34.29279827452331, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.41202475221933
+Dict{Any, Any}(:N => 28, :η_cr => 52.17275150625785, :η_m => 34.29279827452331)
+
+weldan_beam_design problem number 4 ---- Algorithm Parameters
+====================
+  NSGA2(N=492, η_cr=33.084694366817914, p_cr=0.9, η_m=83.61862628063056, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 7.383520485646725
+Dict{Any, Any}(:N => 492, :η_cr => 33.084694366817914, :η_m => 83.61862628063056)
+

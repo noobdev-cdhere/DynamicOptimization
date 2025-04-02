@@ -1,0 +1,110 @@
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=218, η_cr=47.56059470466748, p_cr=0.9, η_m=11.498799027003837, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.062177133663849686
+Dict{Any, Any}(:N => 218, :η_cr => 47.56059470466748, :η_m => 11.498799027003837)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=192, η_cr=4.812581059156473, p_cr=0.9, η_m=28.54191423582503, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.06214698740252935
+Dict{Any, Any}(:N => 192, :η_cr => 4.812581059156473, :η_m => 28.54191423582503)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=29, η_cr=63.71666807209414, p_cr=0.9, η_m=3.0047063165876797, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.05878084378408638
+Dict{Any, Any}(:N => 29, :η_cr => 63.71666807209414, :η_m => 3.0047063165876797)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=99, η_cr=1.3054552205174041, p_cr=0.9, η_m=76.71094812282371, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.060927321761371084
+Dict{Any, Any}(:N => 99, :η_cr => 1.3054552205174041, :η_m => 76.71094812282371)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=481, η_cr=98.00243228302683, p_cr=0.9, η_m=5.416322685066277, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.06249359998778897
+Dict{Any, Any}(:N => 481, :η_cr => 98.00243228302683, :η_m => 5.416322685066277)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=259, η_cr=83.97959892163496, p_cr=0.9, η_m=35.084028237416064, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.06222538139753139
+Dict{Any, Any}(:N => 259, :η_cr => 83.97959892163496, :η_m => 35.084028237416064)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=230, η_cr=96.47680444531227, p_cr=0.9, η_m=90.98721842088413, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.062103008975183574
+Dict{Any, Any}(:N => 230, :η_cr => 96.47680444531227, :η_m => 90.98721842088413)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=496, η_cr=84.03521780113267, p_cr=0.9, η_m=31.230307577320314, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.06248922841526306
+Dict{Any, Any}(:N => 496, :η_cr => 84.03521780113267, :η_m => 31.230307577320314)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=370, η_cr=12.935441979123274, p_cr=0.9, η_m=76.08386678452604, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.06236125238351943
+Dict{Any, Any}(:N => 370, :η_cr => 12.935441979123274, :η_m => 76.08386678452604)
+
+crash_energy_management_for_high_speed_train problem number 21 ---- Algorithm Parameters
+====================
+  NSGA2(N=482, η_cr=67.33919010633798, p_cr=0.9, η_m=58.01027870842551, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.06244290959527401
+Dict{Any, Any}(:N => 482, :η_cr => 67.33919010633798, :η_m => 58.01027870842551)
+

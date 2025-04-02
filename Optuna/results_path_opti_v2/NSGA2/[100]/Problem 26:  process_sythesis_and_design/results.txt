@@ -1,0 +1,110 @@
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=127, η_cr=61.0985704482926, p_cr=0.9, η_m=5.936472313150909, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.020038367062023933
+Dict{Any, Any}(:N => 127, :η_cr => 61.0985704482926, :η_m => 5.936472313150909)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=85, η_cr=90.10315948185651, p_cr=0.9, η_m=18.345608953040905, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.002917871712913165
+Dict{Any, Any}(:N => 85, :η_cr => 90.10315948185651, :η_m => 18.345608953040905)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=342, η_cr=83.91426657081628, p_cr=0.9, η_m=1.713227809994844, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.027842547377074558
+Dict{Any, Any}(:N => 342, :η_cr => 83.91426657081628, :η_m => 1.713227809994844)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=27, η_cr=12.348167120365272, p_cr=0.9, η_m=66.81139283245095, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.02488537595225348
+Dict{Any, Any}(:N => 27, :η_cr => 12.348167120365272, :η_m => 66.81139283245095)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=402, η_cr=50.24285295770328, p_cr=0.9, η_m=23.553399902304896, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.008830152015802378
+Dict{Any, Any}(:N => 402, :η_cr => 50.24285295770328, :η_m => 23.553399902304896)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=211, η_cr=95.053407925923, p_cr=0.9, η_m=52.887908453363785, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.014618884036351722
+Dict{Any, Any}(:N => 211, :η_cr => 95.053407925923, :η_m => 52.887908453363785)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=146, η_cr=85.31477615002814, p_cr=0.9, η_m=32.64204532232095, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.020740787335313454
+Dict{Any, Any}(:N => 146, :η_cr => 85.31477615002814, :η_m => 32.64204532232095)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=420, η_cr=73.01045976882111, p_cr=0.9, η_m=21.650373583027218, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.019376757601419378
+Dict{Any, Any}(:N => 420, :η_cr => 73.01045976882111, :η_m => 21.650373583027218)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=136, η_cr=78.42452358301058, p_cr=0.9, η_m=48.08470655172364, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00608751028865174
+Dict{Any, Any}(:N => 136, :η_cr => 78.42452358301058, :η_m => 48.08470655172364)
+
+process_sythesis_and_design problem number 26 ---- Algorithm Parameters
+====================
+  NSGA2(N=326, η_cr=92.5712298551185, p_cr=0.9, η_m=14.624720664975055, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.027451369916706436
+Dict{Any, Any}(:N => 326, :η_cr => 92.5712298551185, :η_m => 14.624720664975055)
+

@@ -1,0 +1,110 @@
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=59, η_cr=11.720964566046298, p_cr=0.9, η_m=66.43579299798003, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.5661359118031238e6
+Dict{Any, Any}(:N => 59, :η_cr => 11.720964566046298, :η_m => 66.43579299798003)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=21, η_cr=37.22979165040233, p_cr=0.9, η_m=13.025087551910463, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.2893204301705295e6
+Dict{Any, Any}(:N => 21, :η_cr => 37.22979165040233, :η_m => 13.025087551910463)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=369, η_cr=84.56268204218804, p_cr=0.9, η_m=96.5895296112344, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.804314901921816e6
+Dict{Any, Any}(:N => 369, :η_cr => 84.56268204218804, :η_m => 96.5895296112344)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=479, η_cr=98.9811288736445, p_cr=0.9, η_m=92.77503103215862, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.6891001748655408e6
+Dict{Any, Any}(:N => 479, :η_cr => 98.9811288736445, :η_m => 92.77503103215862)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=204, η_cr=51.571491054814445, p_cr=0.9, η_m=95.92391197483585, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.595813059293156e6
+Dict{Any, Any}(:N => 204, :η_cr => 51.571491054814445, :η_m => 95.92391197483585)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=94, η_cr=34.7668520606398, p_cr=0.9, η_m=51.45449482917959, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.6992670252090222e6
+Dict{Any, Any}(:N => 94, :η_cr => 34.7668520606398, :η_m => 51.45449482917959)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=350, η_cr=79.3007508388968, p_cr=0.9, η_m=54.01923506450236, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.6836248078248815e6
+Dict{Any, Any}(:N => 350, :η_cr => 79.3007508388968, :η_m => 54.01923506450236)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=134, η_cr=73.08792377586575, p_cr=0.9, η_m=67.58398237580374, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.8036094161369712e6
+Dict{Any, Any}(:N => 134, :η_cr => 73.08792377586575, :η_m => 67.58398237580374)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=153, η_cr=53.474554329185295, p_cr=0.9, η_m=28.250455645171325, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.4820417401512552e6
+Dict{Any, Any}(:N => 153, :η_cr => 53.474554329185295, :η_m => 28.250455645171325)
+
+sizing_of_single_phase_distributed_generation_1 problem number 36 ---- Algorithm Parameters
+====================
+  NSGA2(N=403, η_cr=47.03845111910282, p_cr=0.9, η_m=28.353263153837784, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.802978037427017e6
+Dict{Any, Any}(:N => 403, :η_cr => 47.03845111910282, :η_m => 28.353263153837784)
+

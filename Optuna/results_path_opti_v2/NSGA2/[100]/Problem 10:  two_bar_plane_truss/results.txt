@@ -1,0 +1,781 @@
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=177, η_cr=84.84512857410179, p_cr=0.9, η_m=25.804766108526998, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879092030475553
+Dict{Any, Any}(:N => 177, :η_cr => 84.84512857410179, :η_m => 25.804766108526998)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=454, η_cr=89.71912743040966, p_cr=0.9, η_m=51.40809129860146, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879576982279092
+Dict{Any, Any}(:N => 454, :η_cr => 89.71912743040966, :η_m => 51.40809129860146)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=206, η_cr=82.34637776436007, p_cr=0.9, η_m=9.153150037463275, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048792499000593565
+Dict{Any, Any}(:N => 206, :η_cr => 82.34637776436007, :η_m => 9.153150037463275)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=427, η_cr=9.419088793312868, p_cr=0.9, η_m=16.996280364532545, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487962137555659
+Dict{Any, Any}(:N => 427, :η_cr => 9.419088793312868, :η_m => 16.996280364532545)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=323, η_cr=98.4506808148042, p_cr=0.9, η_m=2.652099188577306, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879427028910604
+Dict{Any, Any}(:N => 323, :η_cr => 98.4506808148042, :η_m => 2.652099188577306)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=371, η_cr=62.07330287210271, p_cr=0.9, η_m=53.20060379158097, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879522304755673
+Dict{Any, Any}(:N => 371, :η_cr => 62.07330287210271, :η_m => 53.20060379158097)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=219, η_cr=22.10253980234006, p_cr=0.9, η_m=65.75620327080735, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879192848519523
+Dict{Any, Any}(:N => 219, :η_cr => 22.10253980234006, :η_m => 65.75620327080735)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=386, η_cr=33.71211760591747, p_cr=0.9, η_m=42.127580414484676, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879519704781857
+Dict{Any, Any}(:N => 386, :η_cr => 33.71211760591747, :η_m => 42.127580414484676)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=380, η_cr=74.01019516940414, p_cr=0.9, η_m=22.571646846307925, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879524475240737
+Dict{Any, Any}(:N => 380, :η_cr => 74.01019516940414, :η_m => 22.571646846307925)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=21, η_cr=90.07513637399884, p_cr=0.9, η_m=51.17179325608737, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487124004782387
+Dict{Any, Any}(:N => 21, :η_cr => 90.07513637399884, :η_m => 51.17179325608737)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=276, η_cr=95.08650562971286, p_cr=0.9, η_m=20.912179967769617, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879408742344984
+Dict{Any, Any}(:N => 276, :η_cr => 95.08650562971286, :η_m => 20.912179967769617)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=185, η_cr=70.52820626055988, p_cr=0.9, η_m=27.182131963901103, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048790710799843685
+Dict{Any, Any}(:N => 185, :η_cr => 70.52820626055988, :η_m => 27.182131963901103)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=43, η_cr=16.40810370144632, p_cr=0.9, η_m=86.64384326088495, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004876668237138155
+Dict{Any, Any}(:N => 43, :η_cr => 16.40810370144632, :η_m => 86.64384326088495)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=386, η_cr=6.304628546040469, p_cr=0.9, η_m=80.53119550844227, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048795685708398675
+Dict{Any, Any}(:N => 386, :η_cr => 6.304628546040469, :η_m => 80.53119550844227)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=8, η_cr=81.88060957974245, p_cr=0.9, η_m=86.7166784184088, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004848186741407362
+Dict{Any, Any}(:N => 8, :η_cr => 81.88060957974245, :η_m => 86.7166784184088)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=125, η_cr=5.449694419602036, p_cr=0.9, η_m=99.72042270779927, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004878782609432751
+Dict{Any, Any}(:N => 125, :η_cr => 5.449694419602036, :η_m => 99.72042270779927)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=133, η_cr=32.14473238288473, p_cr=0.9, η_m=75.61395269100292, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004878639117124084
+Dict{Any, Any}(:N => 133, :η_cr => 32.14473238288473, :η_m => 75.61395269100292)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=456, η_cr=43.87698787983132, p_cr=0.9, η_m=52.39592010454655, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879644239477721
+Dict{Any, Any}(:N => 456, :η_cr => 43.87698787983132, :η_m => 52.39592010454655)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=17, η_cr=97.43855285434746, p_cr=0.9, η_m=4.320632717821004, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004867838301149592
+Dict{Any, Any}(:N => 17, :η_cr => 97.43855285434746, :η_m => 4.320632717821004)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=375, η_cr=30.995493472848146, p_cr=0.9, η_m=36.08575540606099, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879528982498008
+Dict{Any, Any}(:N => 375, :η_cr => 30.995493472848146, :η_m => 36.08575540606099)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=188, η_cr=56.41349054682361, p_cr=0.9, η_m=38.846717496292435, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487921606129096
+Dict{Any, Any}(:N => 188, :η_cr => 56.41349054682361, :η_m => 38.846717496292435)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=309, η_cr=4.55975346239158, p_cr=0.9, η_m=74.4881114574356, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879435203734192
+Dict{Any, Any}(:N => 309, :η_cr => 4.55975346239158, :η_m => 74.4881114574356)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=63.7136190198668, p_cr=0.9, η_m=30.815067305013667, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004876812532330671
+Dict{Any, Any}(:N => 61, :η_cr => 63.7136190198668, :η_m => 30.815067305013667)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=407, η_cr=84.49869822784922, p_cr=0.9, η_m=79.35938320798586, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048794968619212
+Dict{Any, Any}(:N => 407, :η_cr => 84.49869822784922, :η_m => 79.35938320798586)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=225, η_cr=24.460715908635333, p_cr=0.9, η_m=86.38029155414364, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879203871383376
+Dict{Any, Any}(:N => 225, :η_cr => 24.460715908635333, :η_m => 86.38029155414364)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=360, η_cr=79.97286389223515, p_cr=0.9, η_m=29.83491405675438, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879514574621205
+Dict{Any, Any}(:N => 360, :η_cr => 79.97286389223515, :η_m => 29.83491405675438)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=119, η_cr=79.86677797997017, p_cr=0.9, η_m=36.73913625890386, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004878696040024689
+Dict{Any, Any}(:N => 119, :η_cr => 79.86677797997017, :η_m => 36.73913625890386)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=53, η_cr=74.76608741184535, p_cr=0.9, η_m=58.511378502379884, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004875842544868013
+Dict{Any, Any}(:N => 53, :η_cr => 74.76608741184535, :η_m => 58.511378502379884)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=168, η_cr=33.13814233699192, p_cr=0.9, η_m=29.77368378984079, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879019249552619
+Dict{Any, Any}(:N => 168, :η_cr => 33.13814233699192, :η_m => 29.77368378984079)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=410, η_cr=86.38225583078912, p_cr=0.9, η_m=36.73657579349705, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879550690343995
+Dict{Any, Any}(:N => 410, :η_cr => 86.38225583078912, :η_m => 36.73657579349705)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=166, η_cr=38.81004213864081, p_cr=0.9, η_m=42.559670923476375, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048790449594374894
+Dict{Any, Any}(:N => 166, :η_cr => 38.81004213864081, :η_m => 42.559670923476375)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=468, η_cr=64.37840382095287, p_cr=0.9, η_m=20.844806383523807, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879585416872936
+Dict{Any, Any}(:N => 468, :η_cr => 64.37840382095287, :η_m => 20.844806383523807)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=260, η_cr=91.77597509248343, p_cr=0.9, η_m=17.893719574209644, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879399913201128
+Dict{Any, Any}(:N => 260, :η_cr => 91.77597509248343, :η_m => 17.893719574209644)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=147, η_cr=76.4138905713932, p_cr=0.9, η_m=47.635493706251694, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004878719050408359
+Dict{Any, Any}(:N => 147, :η_cr => 76.4138905713932, :η_m => 47.635493706251694)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=54, η_cr=19.48725231898808, p_cr=0.9, η_m=56.92816446915388, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004876247056704867
+Dict{Any, Any}(:N => 54, :η_cr => 19.48725231898808, :η_m => 56.92816446915388)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=241, η_cr=90.62500716315927, p_cr=0.9, η_m=83.85760788179026, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879283092797264
+Dict{Any, Any}(:N => 241, :η_cr => 90.62500716315927, :η_m => 83.85760788179026)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=328, η_cr=24.22424211996831, p_cr=0.9, η_m=15.973778574428843, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879493889424725
+Dict{Any, Any}(:N => 328, :η_cr => 24.22424211996831, :η_m => 15.973778574428843)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=19, η_cr=54.53481682518737, p_cr=0.9, η_m=75.61904613302232, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004869407154915203
+Dict{Any, Any}(:N => 19, :η_cr => 54.53481682518737, :η_m => 75.61904613302232)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=24, η_cr=33.01393490612893, p_cr=0.9, η_m=76.54218261358419, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004872529203712573
+Dict{Any, Any}(:N => 24, :η_cr => 33.01393490612893, :η_m => 76.54218261358419)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=160, η_cr=67.66376943291777, p_cr=0.9, η_m=49.32769417546135, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004878885518667218
+Dict{Any, Any}(:N => 160, :η_cr => 67.66376943291777, :η_m => 49.32769417546135)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=314, η_cr=21.587869827168017, p_cr=0.9, η_m=32.953431722500895, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879431365750413
+Dict{Any, Any}(:N => 314, :η_cr => 21.587869827168017, :η_m => 32.953431722500895)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=38, η_cr=87.04208029185494, p_cr=0.9, η_m=54.69626943043258, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004875295636989955
+Dict{Any, Any}(:N => 38, :η_cr => 87.04208029185494, :η_m => 54.69626943043258)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=238, η_cr=1.1509167305236212, p_cr=0.9, η_m=95.0058072917854, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048792603536101
+Dict{Any, Any}(:N => 238, :η_cr => 1.1509167305236212, :η_m => 95.0058072917854)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=52.78038687308273, p_cr=0.9, η_m=55.94818629999475, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004877382438316686
+Dict{Any, Any}(:N => 61, :η_cr => 52.78038687308273, :η_m => 55.94818629999475)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=441, η_cr=35.59927566301722, p_cr=0.9, η_m=50.48572979414621, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879623557743365
+Dict{Any, Any}(:N => 441, :η_cr => 35.59927566301722, :η_m => 50.48572979414621)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=98, η_cr=3.8402805052714095, p_cr=0.9, η_m=1.9880830931289117, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004878489925985901
+Dict{Any, Any}(:N => 98, :η_cr => 3.8402805052714095, :η_m => 1.9880830931289117)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=359, η_cr=96.36433555044292, p_cr=0.9, η_m=41.937131381301874, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487954469416783
+Dict{Any, Any}(:N => 359, :η_cr => 96.36433555044292, :η_m => 41.937131381301874)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=219, η_cr=76.40158241181545, p_cr=0.9, η_m=31.734592938429863, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879236985899231
+Dict{Any, Any}(:N => 219, :η_cr => 76.40158241181545, :η_m => 31.734592938429863)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=17, η_cr=91.88698756615334, p_cr=0.9, η_m=37.19572274111847, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004865991718858352
+Dict{Any, Any}(:N => 17, :η_cr => 91.88698756615334, :η_m => 37.19572274111847)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=178, η_cr=49.95338988853499, p_cr=0.9, η_m=8.135964921154503, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879060378837908
+Dict{Any, Any}(:N => 178, :η_cr => 49.95338988853499, :η_m => 8.135964921154503)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=488, η_cr=25.754115454262315, p_cr=0.9, η_m=85.10153691032228, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879617592975162
+Dict{Any, Any}(:N => 488, :η_cr => 25.754115454262315, :η_m => 85.10153691032228)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=36, η_cr=9.873817223557669, p_cr=0.9, η_m=73.01270732519023, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004874615163334957
+Dict{Any, Any}(:N => 36, :η_cr => 9.873817223557669, :η_m => 73.01270732519023)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=382, η_cr=98.23253141328169, p_cr=0.9, η_m=82.78522599612629, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879533447315742
+Dict{Any, Any}(:N => 382, :η_cr => 98.23253141328169, :η_m => 82.78522599612629)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=202, η_cr=61.93993865766678, p_cr=0.9, η_m=17.902982650454412, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879253418161891
+Dict{Any, Any}(:N => 202, :η_cr => 61.93993865766678, :η_m => 17.902982650454412)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=36.78697229534195, p_cr=0.9, η_m=51.7772016092778, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879009098028287
+Dict{Any, Any}(:N => 155, :η_cr => 36.78697229534195, :η_m => 51.7772016092778)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=269, η_cr=59.31271198539557, p_cr=0.9, η_m=43.29589851472883, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879404932430413
+Dict{Any, Any}(:N => 269, :η_cr => 59.31271198539557, :η_m => 43.29589851472883)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=48, η_cr=99.30407256503409, p_cr=0.9, η_m=39.318710714532216, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048765998723357415
+Dict{Any, Any}(:N => 48, :η_cr => 99.30407256503409, :η_m => 39.318710714532216)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=65, η_cr=65.46382364141832, p_cr=0.9, η_m=94.39524845764413, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487769133769347
+Dict{Any, Any}(:N => 65, :η_cr => 65.46382364141832, :η_m => 94.39524845764413)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=460, η_cr=36.2124458520624, p_cr=0.9, η_m=3.745607595754441, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879642355947225
+Dict{Any, Any}(:N => 460, :η_cr => 36.2124458520624, :η_m => 3.745607595754441)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=404, η_cr=85.85688984961789, p_cr=0.9, η_m=59.067760746253526, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879556332722197
+Dict{Any, Any}(:N => 404, :η_cr => 85.85688984961789, :η_m => 59.067760746253526)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=310, η_cr=10.096477714537333, p_cr=0.9, η_m=53.21800672779965, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048794748367622775
+Dict{Any, Any}(:N => 310, :η_cr => 10.096477714537333, :η_m => 53.21800672779965)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=384, η_cr=29.048169221320197, p_cr=0.9, η_m=32.93334534156212, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879550164155124
+Dict{Any, Any}(:N => 384, :η_cr => 29.048169221320197, :η_m => 32.93334534156212)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=253, η_cr=4.553474801172708, p_cr=0.9, η_m=46.49489278083183, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048793641061049865
+Dict{Any, Any}(:N => 253, :η_cr => 4.553474801172708, :η_m => 46.49489278083183)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=387, η_cr=10.888963973142285, p_cr=0.9, η_m=7.168836068273821, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487960616684886
+Dict{Any, Any}(:N => 387, :η_cr => 10.888963973142285, :η_m => 7.168836068273821)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=249, η_cr=24.51432488692552, p_cr=0.9, η_m=40.8583709273975, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048793778517807656
+Dict{Any, Any}(:N => 249, :η_cr => 24.51432488692552, :η_m => 40.8583709273975)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=219, η_cr=75.01856690358132, p_cr=0.9, η_m=32.04554612205723, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879280173039983
+Dict{Any, Any}(:N => 219, :η_cr => 75.01856690358132, :η_m => 32.04554612205723)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=133, η_cr=26.87355921139909, p_cr=0.9, η_m=38.40666799111704, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048787889053354735
+Dict{Any, Any}(:N => 133, :η_cr => 26.87355921139909, :η_m => 38.40666799111704)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=285, η_cr=77.04679612706663, p_cr=0.9, η_m=98.8538378350389, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879452658048886
+Dict{Any, Any}(:N => 285, :η_cr => 77.04679612706663, :η_m => 98.8538378350389)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=215, η_cr=95.64034160352482, p_cr=0.9, η_m=10.17439096034386, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.004879151887239096
+Dict{Any, Any}(:N => 215, :η_cr => 95.64034160352482, :η_m => 10.17439096034386)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=490, η_cr=38.426708229566486, p_cr=0.9, η_m=74.58835638006312, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.00487962400544582
+Dict{Any, Any}(:N => 490, :η_cr => 38.426708229566486, :η_m => 74.58835638006312)
+
+two_bar_plane_truss problem number 10 ---- Algorithm Parameters
+====================
+  NSGA2(N=255, η_cr=54.905065565672665, p_cr=0.9, η_m=45.511894146127965, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0048793873997293544
+Dict{Any, Any}(:N => 255, :η_cr => 54.905065565672665, :η_m => 45.511894146127965)
+

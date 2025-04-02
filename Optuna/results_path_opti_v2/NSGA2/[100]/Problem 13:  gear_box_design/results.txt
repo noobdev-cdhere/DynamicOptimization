@@ -1,0 +1,110 @@
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=461, η_cr=25.280808256062627, p_cr=0.9, η_m=91.74501831430119, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.635388705556063e9
+Dict{Any, Any}(:N => 461, :η_cr => 25.280808256062627, :η_m => 91.74501831430119)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=23, η_cr=79.4827065553566, p_cr=0.9, η_m=10.894663859151976, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.8875577409130175e9
+Dict{Any, Any}(:N => 23, :η_cr => 79.4827065553566, :η_m => 10.894663859151976)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=412, η_cr=6.302725258812236, p_cr=0.9, η_m=99.19802306558802, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.6847130019566483e9
+Dict{Any, Any}(:N => 412, :η_cr => 6.302725258812236, :η_m => 99.19802306558802)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=450, η_cr=70.96550996620792, p_cr=0.9, η_m=79.16471217653378, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.6968645566912646e9
+Dict{Any, Any}(:N => 450, :η_cr => 70.96550996620792, :η_m => 79.16471217653378)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=405, η_cr=53.41593452309073, p_cr=0.9, η_m=48.813428424504444, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.679195182715762e9
+Dict{Any, Any}(:N => 405, :η_cr => 53.41593452309073, :η_m => 48.813428424504444)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=323, η_cr=69.98806966592377, p_cr=0.9, η_m=98.44209846121731, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.591388372568432e9
+Dict{Any, Any}(:N => 323, :η_cr => 69.98806966592377, :η_m => 98.44209846121731)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=380, η_cr=68.51024598476818, p_cr=0.9, η_m=1.7354794204634927, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.688209484763815e9
+Dict{Any, Any}(:N => 380, :η_cr => 68.51024598476818, :η_m => 1.7354794204634927)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=456, η_cr=32.80577359668957, p_cr=0.9, η_m=66.50277922237828, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.692665778660954e9
+Dict{Any, Any}(:N => 456, :η_cr => 32.80577359668957, :η_m => 66.50277922237828)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=319, η_cr=92.6059723659148, p_cr=0.9, η_m=77.69286070868006, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.2498706064977846e9
+Dict{Any, Any}(:N => 319, :η_cr => 92.6059723659148, :η_m => 77.69286070868006)
+
+gear_box_design problem number 13 ---- Algorithm Parameters
+====================
+  NSGA2(N=321, η_cr=60.36495801270825, p_cr=0.9, η_m=35.3274040773643, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.464311058314521e9
+Dict{Any, Any}(:N => 321, :η_cr => 60.36495801270825, :η_m => 35.3274040773643)
+

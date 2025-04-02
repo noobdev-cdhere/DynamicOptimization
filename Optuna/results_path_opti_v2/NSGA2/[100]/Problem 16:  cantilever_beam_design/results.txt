@@ -1,0 +1,99 @@
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=461, η_cr=31.301723265998383, p_cr=0.9, η_m=54.8912900507737, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.04071950746437549
+Dict{Any, Any}(:N => 461, :η_cr => 31.301723265998383, :η_m => 54.8912900507737)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=407, η_cr=16.2399262024748, p_cr=0.9, η_m=68.63821162195407, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.040719433320983635
+Dict{Any, Any}(:N => 407, :η_cr => 16.2399262024748, :η_m => 68.63821162195407)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=208, η_cr=66.3389305169545, p_cr=0.9, η_m=6.764748243733287, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.04071886550439779
+Dict{Any, Any}(:N => 208, :η_cr => 66.3389305169545, :η_m => 6.764748243733287)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=312, η_cr=99.92873569395562, p_cr=0.9, η_m=31.077988671473545, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.040719285677995744
+Dict{Any, Any}(:N => 312, :η_cr => 99.92873569395562, :η_m => 31.077988671473545)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=432, η_cr=90.73421687486965, p_cr=0.9, η_m=4.455937714697223, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.040719428253066486
+Dict{Any, Any}(:N => 432, :η_cr => 90.73421687486965, :η_m => 4.455937714697223)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=4, η_cr=44.69102635125217, p_cr=0.9, η_m=67.49480614949712, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.040487063965475883
+Dict{Any, Any}(:N => 4, :η_cr => 44.69102635125217, :η_m => 67.49480614949712)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=307, η_cr=23.300680468225753, p_cr=0.9, η_m=89.78973019211064, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.04071933366554474
+Dict{Any, Any}(:N => 307, :η_cr => 23.300680468225753, :η_m => 89.78973019211064)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=109, η_cr=88.95818206816716, p_cr=0.9, η_m=81.3381337973715, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.04071853172942346
+Dict{Any, Any}(:N => 109, :η_cr => 88.95818206816716, :η_m => 81.3381337973715)
+
+cantilever_beam_design problem number 16 ---- Algorithm Parameters
+====================
+  NSGA2(N=429, η_cr=2.2620956768331313, p_cr=0.9, η_m=90.43235663421855, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.040719336757841874
+Dict{Any, Any}(:N => 429, :η_cr => 2.2620956768331313, :η_m => 90.43235663421855)
+

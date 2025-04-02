@@ -1,0 +1,110 @@
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=168, η_cr=73.07728279731532, p_cr=0.9, η_m=37.867907298015794, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 716454.2579099804
+Dict{Any, Any}(:N => 168, :η_cr => 73.07728279731532, :η_m => 37.867907298015794)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=236, η_cr=69.61120546764047, p_cr=0.9, η_m=74.40487932464347, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 921070.1389068628
+Dict{Any, Any}(:N => 236, :η_cr => 69.61120546764047, :η_m => 74.40487932464347)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=231, η_cr=87.65782729694816, p_cr=0.9, η_m=62.247820930424204, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 897417.3649829655
+Dict{Any, Any}(:N => 231, :η_cr => 87.65782729694816, :η_m => 62.247820930424204)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=31, η_cr=46.76517002017767, p_cr=0.9, η_m=70.73577341045058, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.2284025353337885e6
+Dict{Any, Any}(:N => 31, :η_cr => 46.76517002017767, :η_m => 70.73577341045058)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=404, η_cr=20.95903189842797, p_cr=0.9, η_m=74.26920711895781, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 606876.6012386439
+Dict{Any, Any}(:N => 404, :η_cr => 20.95903189842797, :η_m => 74.26920711895781)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=3, η_cr=12.936302794160326, p_cr=0.9, η_m=16.285827454510205, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.960684876914636e6
+Dict{Any, Any}(:N => 3, :η_cr => 12.936302794160326, :η_m => 16.285827454510205)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=486, η_cr=12.668404033747894, p_cr=0.9, η_m=95.42190794462087, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 673771.0809162833
+Dict{Any, Any}(:N => 486, :η_cr => 12.668404033747894, :η_m => 95.42190794462087)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=251, η_cr=36.96562029958804, p_cr=0.9, η_m=8.568502028632796, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 687105.8043236709
+Dict{Any, Any}(:N => 251, :η_cr => 36.96562029958804, :η_m => 8.568502028632796)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=43, η_cr=74.14041007738518, p_cr=0.9, η_m=97.86508749317841, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.9102752823413673e6
+Dict{Any, Any}(:N => 43, :η_cr => 74.14041007738518, :η_m => 97.86508749317841)
+
+haverlys_pooling_problem problem number 22 ---- Algorithm Parameters
+====================
+  NSGA2(N=350, η_cr=66.10312708503743, p_cr=0.9, η_m=33.72613804711846, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.1336433772562984e6
+Dict{Any, Any}(:N => 350, :η_cr => 66.10312708503743, :η_m => 33.72613804711846)
+

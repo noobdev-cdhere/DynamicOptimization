@@ -1,0 +1,2640 @@
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=97, η_cr=0.038241630415514205, p_cr=0.9, η_m=41.43557311525362, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 803.7871071641646
+Dict{Any, Any}(:N => 97, :η_cr => 0.038241630415514205, :η_m => 41.43557311525362)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=42, η_cr=70.71257418778907, p_cr=0.9, η_m=34.37193646455854, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 642.4292991616535
+Dict{Any, Any}(:N => 42, :η_cr => 70.71257418778907, :η_m => 34.37193646455854)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=185, η_cr=62.82781804208023, p_cr=0.9, η_m=8.27378046767705, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 797.1097116975499
+Dict{Any, Any}(:N => 185, :η_cr => 62.82781804208023, :η_m => 8.27378046767705)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=485, η_cr=86.59145243067834, p_cr=0.9, η_m=1.4471338583676774, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 804.76575603165
+Dict{Any, Any}(:N => 485, :η_cr => 86.59145243067834, :η_m => 1.4471338583676774)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=177, η_cr=35.159541267112616, p_cr=0.9, η_m=16.7944752904851, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3716012103108
+Dict{Any, Any}(:N => 177, :η_cr => 35.159541267112616, :η_m => 16.7944752904851)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=360, η_cr=32.042574419853956, p_cr=0.9, η_m=75.19185453759661, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 805.7758965651401
+Dict{Any, Any}(:N => 360, :η_cr => 32.042574419853956, :η_m => 75.19185453759661)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=44, η_cr=4.385907168367509, p_cr=0.9, η_m=15.38637130255479, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 720.8940945770042
+Dict{Any, Any}(:N => 44, :η_cr => 4.385907168367509, :η_m => 15.38637130255479)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=104, η_cr=65.12906976828367, p_cr=0.9, η_m=22.177309944354295, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 790.1974185658135
+Dict{Any, Any}(:N => 104, :η_cr => 65.12906976828367, :η_m => 22.177309944354295)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=7, η_cr=27.120074127299766, p_cr=0.9, η_m=50.75833628893508, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 389.26642158166294
+Dict{Any, Any}(:N => 7, :η_cr => 27.120074127299766, :η_m => 50.75833628893508)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=451, η_cr=99.70442066741577, p_cr=0.9, η_m=55.459513240348656, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3776073990612
+Dict{Any, Any}(:N => 451, :η_cr => 99.70442066741577, :η_m => 55.459513240348656)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=409, η_cr=53.74381870247416, p_cr=0.9, η_m=51.50307857273454, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 797.5962250142998
+Dict{Any, Any}(:N => 409, :η_cr => 53.74381870247416, :η_m => 51.50307857273454)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=489, η_cr=58.04945630328988, p_cr=0.9, η_m=78.13737280367545, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3624334503073
+Dict{Any, Any}(:N => 489, :η_cr => 58.04945630328988, :η_m => 78.13737280367545)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=458, η_cr=15.271238372779461, p_cr=0.9, η_m=86.7378162232502, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3699866717784
+Dict{Any, Any}(:N => 458, :η_cr => 15.271238372779461, :η_m => 86.7378162232502)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=443, η_cr=60.23183870066012, p_cr=0.9, η_m=87.38358549828904, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.7816372174211
+Dict{Any, Any}(:N => 443, :η_cr => 60.23183870066012, :η_m => 87.38358549828904)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=176, η_cr=9.618567356730823, p_cr=0.9, η_m=4.701046923152752, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 769.8528175727909
+Dict{Any, Any}(:N => 176, :η_cr => 9.618567356730823, :η_m => 4.701046923152752)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=192, η_cr=2.386667543210186, p_cr=0.9, η_m=8.913791898664414, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 642.6710415174055
+Dict{Any, Any}(:N => 192, :η_cr => 2.386667543210186, :η_m => 8.913791898664414)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=296, η_cr=91.81182109439648, p_cr=0.9, η_m=40.44849859502082, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 791.2321794303813
+Dict{Any, Any}(:N => 296, :η_cr => 91.81182109439648, :η_m => 40.44849859502082)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=428, η_cr=93.71146020187685, p_cr=0.9, η_m=2.7634409507636737, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.2219937536462
+Dict{Any, Any}(:N => 428, :η_cr => 93.71146020187685, :η_m => 2.7634409507636737)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=405, η_cr=86.25491850228182, p_cr=0.9, η_m=15.188444008513102, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 817.0355486956419
+Dict{Any, Any}(:N => 405, :η_cr => 86.25491850228182, :η_m => 15.188444008513102)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=338, η_cr=56.277008940404215, p_cr=0.9, η_m=96.12440456866909, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 800.3157127308634
+Dict{Any, Any}(:N => 338, :η_cr => 56.277008940404215, :η_m => 96.12440456866909)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=399, η_cr=85.54512812520653, p_cr=0.9, η_m=32.737903738751925, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 821.6644751891077
+Dict{Any, Any}(:N => 399, :η_cr => 85.54512812520653, :η_m => 32.737903738751925)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=102, η_cr=49.85156590006087, p_cr=0.9, η_m=31.40453591146969, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 776.8316633117679
+Dict{Any, Any}(:N => 102, :η_cr => 49.85156590006087, :η_m => 31.40453591146969)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=315, η_cr=39.21359200980524, p_cr=0.9, η_m=92.74981555898879, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 774.5180531174665
+Dict{Any, Any}(:N => 315, :η_cr => 39.21359200980524, :η_m => 92.74981555898879)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=154, η_cr=7.004368158024188, p_cr=0.9, η_m=27.01422199349529, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 813.543381259626
+Dict{Any, Any}(:N => 154, :η_cr => 7.004368158024188, :η_m => 27.01422199349529)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=318, η_cr=33.774121288375525, p_cr=0.9, η_m=39.381091779057854, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3812007884122
+Dict{Any, Any}(:N => 318, :η_cr => 33.774121288375525, :η_m => 39.381091779057854)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=155, η_cr=75.79209848356797, p_cr=0.9, η_m=17.786384792361076, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3313088030144
+Dict{Any, Any}(:N => 155, :η_cr => 75.79209848356797, :η_m => 17.786384792361076)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=42.6503698739963, p_cr=0.9, η_m=58.85436794411403, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 771.5930343610088
+Dict{Any, Any}(:N => 210, :η_cr => 42.6503698739963, :η_m => 58.85436794411403)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=193, η_cr=75.26858357103228, p_cr=0.9, η_m=87.66392688691161, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3518117925945
+Dict{Any, Any}(:N => 193, :η_cr => 75.26858357103228, :η_m => 87.66392688691161)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=208, η_cr=62.29667696736174, p_cr=0.9, η_m=42.92104501483308, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.2122004341956
+Dict{Any, Any}(:N => 208, :η_cr => 62.29667696736174, :η_m => 42.92104501483308)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=1.9608975701794873, p_cr=0.9, η_m=58.140651329580216, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3703476784378
+Dict{Any, Any}(:N => 293, :η_cr => 1.9608975701794873, :η_m => 58.140651329580216)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=83, η_cr=20.714579281831945, p_cr=0.9, η_m=57.24797875396762, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 740.3099467043036
+Dict{Any, Any}(:N => 83, :η_cr => 20.714579281831945, :η_m => 57.24797875396762)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=205, η_cr=94.63760861343513, p_cr=0.9, η_m=51.62360514638726, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 798.5487936651356
+Dict{Any, Any}(:N => 205, :η_cr => 94.63760861343513, :η_m => 51.62360514638726)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=305, η_cr=96.48653777524328, p_cr=0.9, η_m=29.92313114061259, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 817.2904499658126
+Dict{Any, Any}(:N => 305, :η_cr => 96.48653777524328, :η_m => 29.92313114061259)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=117, η_cr=57.36110237970657, p_cr=0.9, η_m=81.67694359899131, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 691.5156612915321
+Dict{Any, Any}(:N => 117, :η_cr => 57.36110237970657, :η_m => 81.67694359899131)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=188, η_cr=24.391189164453387, p_cr=0.9, η_m=19.753684510685687, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3609691727829
+Dict{Any, Any}(:N => 188, :η_cr => 24.391189164453387, :η_m => 19.753684510685687)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=280, η_cr=8.966952132571993, p_cr=0.9, η_m=9.821501602516003, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.1234554498874
+Dict{Any, Any}(:N => 280, :η_cr => 8.966952132571993, :η_m => 9.821501602516003)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=69, η_cr=12.270786513329313, p_cr=0.9, η_m=34.0826421162716, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 678.7198072001071
+Dict{Any, Any}(:N => 69, :η_cr => 12.270786513329313, :η_m => 34.0826421162716)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=84, η_cr=69.06322943665687, p_cr=0.9, η_m=58.29871678403558, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 799.3596690207888
+Dict{Any, Any}(:N => 84, :η_cr => 69.06322943665687, :η_m => 58.29871678403558)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=105, η_cr=86.16687964618247, p_cr=0.9, η_m=44.594678932282285, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 718.1613298434172
+Dict{Any, Any}(:N => 105, :η_cr => 86.16687964618247, :η_m => 44.594678932282285)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=339, η_cr=38.46661626278297, p_cr=0.9, η_m=0.9234514453692944, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3013279881347
+Dict{Any, Any}(:N => 339, :η_cr => 38.46661626278297, :η_m => 0.9234514453692944)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=39, η_cr=34.39881014577004, p_cr=0.9, η_m=43.51518428217429, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 741.7129164521192
+Dict{Any, Any}(:N => 39, :η_cr => 34.39881014577004, :η_m => 43.51518428217429)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=255, η_cr=4.1223224117520445, p_cr=0.9, η_m=66.01485695785219, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 778.9837694911474
+Dict{Any, Any}(:N => 255, :η_cr => 4.1223224117520445, :η_m => 66.01485695785219)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=237, η_cr=28.40280421158664, p_cr=0.9, η_m=83.29112451682384, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 816.2375512240193
+Dict{Any, Any}(:N => 237, :η_cr => 28.40280421158664, :η_m => 83.29112451682384)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=56, η_cr=54.81728739970085, p_cr=0.9, η_m=35.5557589367405, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 676.2043976743219
+Dict{Any, Any}(:N => 56, :η_cr => 54.81728739970085, :η_m => 35.5557589367405)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=150, η_cr=70.40533131421375, p_cr=0.9, η_m=2.4771704781627824, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 795.0923771011101
+Dict{Any, Any}(:N => 150, :η_cr => 70.40533131421375, :η_m => 2.4771704781627824)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=333, η_cr=61.322938045301676, p_cr=0.9, η_m=25.735153444309223, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 782.0915144152535
+Dict{Any, Any}(:N => 333, :η_cr => 61.322938045301676, :η_m => 25.735153444309223)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=139, η_cr=5.437397674223021, p_cr=0.9, η_m=36.60954680625138, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 814.4523383196615
+Dict{Any, Any}(:N => 139, :η_cr => 5.437397674223021, :η_m => 36.60954680625138)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=37, η_cr=96.54213660114156, p_cr=0.9, η_m=66.1689482400196, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 682.5779762754569
+Dict{Any, Any}(:N => 37, :η_cr => 96.54213660114156, :η_m => 66.1689482400196)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=23, η_cr=66.1904049718398, p_cr=0.9, η_m=3.66202116784764, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 795.4246597094717
+Dict{Any, Any}(:N => 23, :η_cr => 66.1904049718398, :η_m => 3.66202116784764)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=159, η_cr=93.51160544231125, p_cr=0.9, η_m=17.816637438390426, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 807.0552817914238
+Dict{Any, Any}(:N => 159, :η_cr => 93.51160544231125, :η_m => 17.816637438390426)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=72, η_cr=15.149857663907662, p_cr=0.9, η_m=37.25103856914001, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 798.8339102576924
+Dict{Any, Any}(:N => 72, :η_cr => 15.149857663907662, :η_m => 37.25103856914001)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=226, η_cr=91.9972741687165, p_cr=0.9, η_m=40.5224220254525, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.358942558762
+Dict{Any, Any}(:N => 226, :η_cr => 91.9972741687165, :η_m => 40.5224220254525)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=7, η_cr=34.62610313907765, p_cr=0.9, η_m=44.4772678268214, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 475.01859075666755
+Dict{Any, Any}(:N => 7, :η_cr => 34.62610313907765, :η_m => 44.4772678268214)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=422, η_cr=2.4347262147965454, p_cr=0.9, η_m=9.124407048489536, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.6976417590618
+Dict{Any, Any}(:N => 422, :η_cr => 2.4347262147965454, :η_m => 9.124407048489536)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=193, η_cr=15.477459145551709, p_cr=0.9, η_m=81.31326243358872, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3427608496305
+Dict{Any, Any}(:N => 193, :η_cr => 15.477459145551709, :η_m => 81.31326243358872)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=12, η_cr=57.940465315318335, p_cr=0.9, η_m=83.11691048980774, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 640.0728609997508
+Dict{Any, Any}(:N => 12, :η_cr => 57.940465315318335, :η_m => 83.11691048980774)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=230, η_cr=65.96520260110591, p_cr=0.9, η_m=48.58943001787935, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3649005134984
+Dict{Any, Any}(:N => 230, :η_cr => 65.96520260110591, :η_m => 48.58943001787935)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=498, η_cr=65.6915047621187, p_cr=0.9, η_m=96.28865056381677, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 796.0872401381362
+Dict{Any, Any}(:N => 498, :η_cr => 65.6915047621187, :η_m => 96.28865056381677)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=59, η_cr=12.002659733330068, p_cr=0.9, η_m=1.3749782357874274, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 812.4691585414298
+Dict{Any, Any}(:N => 59, :η_cr => 12.002659733330068, :η_m => 1.3749782357874274)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=235, η_cr=87.37298582195449, p_cr=0.9, η_m=91.87043875924749, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 823.2167638028386
+Dict{Any, Any}(:N => 235, :η_cr => 87.37298582195449, :η_m => 91.87043875924749)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=189, η_cr=50.308936451389684, p_cr=0.9, η_m=56.15954134257217, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 779.7372050694273
+Dict{Any, Any}(:N => 189, :η_cr => 50.308936451389684, :η_m => 56.15954134257217)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=489, η_cr=42.48754982855794, p_cr=0.9, η_m=86.09678465981848, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 799.7594209210522
+Dict{Any, Any}(:N => 489, :η_cr => 42.48754982855794, :η_m => 86.09678465981848)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=182, η_cr=13.720774102479771, p_cr=0.9, η_m=6.782466088426653, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 752.3945233071285
+Dict{Any, Any}(:N => 182, :η_cr => 13.720774102479771, :η_m => 6.782466088426653)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=338, η_cr=55.189230970915894, p_cr=0.9, η_m=48.02192331053937, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 800.0893690487621
+Dict{Any, Any}(:N => 338, :η_cr => 55.189230970915894, :η_m => 48.02192331053937)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=442, η_cr=71.33034985229733, p_cr=0.9, η_m=66.44310206363106, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3814518269551
+Dict{Any, Any}(:N => 442, :η_cr => 71.33034985229733, :η_m => 66.44310206363106)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=75, η_cr=94.0811209898172, p_cr=0.9, η_m=1.1160601181900875, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 798.5551758637761
+Dict{Any, Any}(:N => 75, :η_cr => 94.0811209898172, :η_m => 1.1160601181900875)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=91, η_cr=81.25485894582783, p_cr=0.9, η_m=85.66043233752025, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 751.9306837713932
+Dict{Any, Any}(:N => 91, :η_cr => 81.25485894582783, :η_m => 85.66043233752025)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=432, η_cr=89.48739779784623, p_cr=0.9, η_m=40.6085922232712, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 739.6301500086506
+Dict{Any, Any}(:N => 432, :η_cr => 89.48739779784623, :η_m => 40.6085922232712)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=411, η_cr=4.709365228515638, p_cr=0.9, η_m=5.356332787292207, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3505512261398
+Dict{Any, Any}(:N => 411, :η_cr => 4.709365228515638, :η_m => 5.356332787292207)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=401, η_cr=44.98051864305731, p_cr=0.9, η_m=0.8206788131809639, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3521616806044
+Dict{Any, Any}(:N => 401, :η_cr => 44.98051864305731, :η_m => 0.8206788131809639)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=181, η_cr=97.48031805197444, p_cr=0.9, η_m=64.88492139380678, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 744.1688934665506
+Dict{Any, Any}(:N => 181, :η_cr => 97.48031805197444, :η_m => 64.88492139380678)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=488, η_cr=28.94292930635949, p_cr=0.9, η_m=97.90644034527334, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 812.8428803988621
+Dict{Any, Any}(:N => 488, :η_cr => 28.94292930635949, :η_m => 97.90644034527334)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=318, η_cr=42.516072804934765, p_cr=0.9, η_m=6.051169264593959, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.9191371752735
+Dict{Any, Any}(:N => 318, :η_cr => 42.516072804934765, :η_m => 6.051169264593959)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=399, η_cr=70.94325533238802, p_cr=0.9, η_m=35.078134702327226, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3545807878237
+Dict{Any, Any}(:N => 399, :η_cr => 70.94325533238802, :η_m => 35.078134702327226)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=298, η_cr=52.72895280320073, p_cr=0.9, η_m=64.09050792137656, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 791.9955540583969
+Dict{Any, Any}(:N => 298, :η_cr => 52.72895280320073, :η_m => 64.09050792137656)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=380, η_cr=20.61434472846171, p_cr=0.9, η_m=32.348607065865444, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 813.3231023253053
+Dict{Any, Any}(:N => 380, :η_cr => 20.61434472846171, :η_m => 32.348607065865444)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=415, η_cr=73.7531062394582, p_cr=0.9, η_m=73.39456015704029, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 761.7437262662564
+Dict{Any, Any}(:N => 415, :η_cr => 73.7531062394582, :η_m => 73.39456015704029)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=405, η_cr=6.746979274481612, p_cr=0.9, η_m=32.05607585864711, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.0169539331315
+Dict{Any, Any}(:N => 405, :η_cr => 6.746979274481612, :η_m => 32.05607585864711)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=322, η_cr=21.874518739877825, p_cr=0.9, η_m=71.28288505235625, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3596133719478
+Dict{Any, Any}(:N => 322, :η_cr => 21.874518739877825, :η_m => 71.28288505235625)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=224, η_cr=24.052819329562926, p_cr=0.9, η_m=70.76916328772084, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 743.6037356455583
+Dict{Any, Any}(:N => 224, :η_cr => 24.052819329562926, :η_m => 70.76916328772084)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=376, η_cr=42.39318489581871, p_cr=0.9, η_m=89.76725677197796, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.8225081818879
+Dict{Any, Any}(:N => 376, :η_cr => 42.39318489581871, :η_m => 89.76725677197796)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=88, η_cr=68.32217822685323, p_cr=0.9, η_m=92.08233938035418, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 777.7265811276761
+Dict{Any, Any}(:N => 88, :η_cr => 68.32217822685323, :η_m => 92.08233938035418)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=464, η_cr=8.206861840519053, p_cr=0.9, η_m=76.09998813456839, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.378312081453
+Dict{Any, Any}(:N => 464, :η_cr => 8.206861840519053, :η_m => 76.09998813456839)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=51, η_cr=42.04992558042381, p_cr=0.9, η_m=3.068757758892904, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 662.0807405457771
+Dict{Any, Any}(:N => 51, :η_cr => 42.04992558042381, :η_m => 3.068757758892904)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=91, η_cr=66.20120723153362, p_cr=0.9, η_m=61.64541504798531, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 782.9061471767703
+Dict{Any, Any}(:N => 91, :η_cr => 66.20120723153362, :η_m => 61.64541504798531)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=133, η_cr=79.02573608238038, p_cr=0.9, η_m=5.006845580093511, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 819.4840978898936
+Dict{Any, Any}(:N => 133, :η_cr => 79.02573608238038, :η_m => 5.006845580093511)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=432, η_cr=87.44418846792779, p_cr=0.9, η_m=44.84861748023602, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3768717746032
+Dict{Any, Any}(:N => 432, :η_cr => 87.44418846792779, :η_m => 44.84861748023602)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=130, η_cr=0.0962605225632629, p_cr=0.9, η_m=60.97292697484653, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 809.0594796469306
+Dict{Any, Any}(:N => 130, :η_cr => 0.0962605225632629, :η_m => 60.97292697484653)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=484, η_cr=33.08731837672904, p_cr=0.9, η_m=98.06733133468586, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.7940425285478
+Dict{Any, Any}(:N => 484, :η_cr => 33.08731837672904, :η_m => 98.06733133468586)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=418, η_cr=23.337164991401906, p_cr=0.9, η_m=83.33725473759284, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3580974856632
+Dict{Any, Any}(:N => 418, :η_cr => 23.337164991401906, :η_m => 83.33725473759284)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=441, η_cr=61.9404427522636, p_cr=0.9, η_m=47.91254619670916, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 817.7584705903322
+Dict{Any, Any}(:N => 441, :η_cr => 61.9404427522636, :η_m => 47.91254619670916)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=127, η_cr=63.66460739878248, p_cr=0.9, η_m=32.19920087633722, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 804.1828743075845
+Dict{Any, Any}(:N => 127, :η_cr => 63.66460739878248, :η_m => 32.19920087633722)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=105, η_cr=20.472614741807117, p_cr=0.9, η_m=61.58127361148327, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 744.5531580655306
+Dict{Any, Any}(:N => 105, :η_cr => 20.472614741807117, :η_m => 61.58127361148327)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=356, η_cr=50.141276704240035, p_cr=0.9, η_m=47.39339946617296, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 790.3588588215571
+Dict{Any, Any}(:N => 356, :η_cr => 50.141276704240035, :η_m => 47.39339946617296)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=6, η_cr=41.997417280417956, p_cr=0.9, η_m=88.15123289105323, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 386.64238255790303
+Dict{Any, Any}(:N => 6, :η_cr => 41.997417280417956, :η_m => 88.15123289105323)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=175, η_cr=6.442043857559188, p_cr=0.9, η_m=64.6143107123885, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3534924027086
+Dict{Any, Any}(:N => 175, :η_cr => 6.442043857559188, :η_m => 64.6143107123885)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=8, η_cr=25.13102124194755, p_cr=0.9, η_m=34.62697952566358, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 493.111452370881
+Dict{Any, Any}(:N => 8, :η_cr => 25.13102124194755, :η_m => 34.62697952566358)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=474, η_cr=90.2238799715202, p_cr=0.9, η_m=86.55559397536695, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 782.267980771705
+Dict{Any, Any}(:N => 474, :η_cr => 90.2238799715202, :η_m => 86.55559397536695)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=400, η_cr=39.95564520689791, p_cr=0.9, η_m=53.87017633714019, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 765.7926442987988
+Dict{Any, Any}(:N => 400, :η_cr => 39.95564520689791, :η_m => 53.87017633714019)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=364, η_cr=77.16270126790766, p_cr=0.9, η_m=79.5703263919568, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3604878807043
+Dict{Any, Any}(:N => 364, :η_cr => 77.16270126790766, :η_m => 79.5703263919568)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=373, η_cr=71.03670623984235, p_cr=0.9, η_m=71.14359369668192, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 817.140861172203
+Dict{Any, Any}(:N => 373, :η_cr => 71.03670623984235, :η_m => 71.14359369668192)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=468, η_cr=95.77971942311642, p_cr=0.9, η_m=65.05767301740246, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 817.6223296974055
+Dict{Any, Any}(:N => 468, :η_cr => 95.77971942311642, :η_m => 65.05767301740246)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=320, η_cr=68.0172351882062, p_cr=0.9, η_m=24.804794509182248, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 822.80031413504
+Dict{Any, Any}(:N => 320, :η_cr => 68.0172351882062, :η_m => 24.804794509182248)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=498, η_cr=60.696320801289104, p_cr=0.9, η_m=65.1485389670114, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 819.3876541532275
+Dict{Any, Any}(:N => 498, :η_cr => 60.696320801289104, :η_m => 65.1485389670114)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=329, η_cr=64.62924317551332, p_cr=0.9, η_m=67.58154186694101, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 802.3495808971919
+Dict{Any, Any}(:N => 329, :η_cr => 64.62924317551332, :η_m => 67.58154186694101)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=372, η_cr=90.49915842765735, p_cr=0.9, η_m=50.836832376099785, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.8034583874688
+Dict{Any, Any}(:N => 372, :η_cr => 90.49915842765735, :η_m => 50.836832376099785)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=418, η_cr=98.66450265342348, p_cr=0.9, η_m=22.661401443422402, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 817.7371543258469
+Dict{Any, Any}(:N => 418, :η_cr => 98.66450265342348, :η_m => 22.661401443422402)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=271, η_cr=30.11660450785878, p_cr=0.9, η_m=1.3719281120278537, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 806.1172651500545
+Dict{Any, Any}(:N => 271, :η_cr => 30.11660450785878, :η_m => 1.3719281120278537)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=61, η_cr=34.7563262931118, p_cr=0.9, η_m=66.98713505461211, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 609.9457454157035
+Dict{Any, Any}(:N => 61, :η_cr => 34.7563262931118, :η_m => 66.98713505461211)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=382, η_cr=83.54147840424648, p_cr=0.9, η_m=31.42537107090302, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 823.0418179912842
+Dict{Any, Any}(:N => 382, :η_cr => 83.54147840424648, :η_m => 31.42537107090302)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=204, η_cr=34.842396527837536, p_cr=0.9, η_m=5.217320535210412, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 762.7811580786678
+Dict{Any, Any}(:N => 204, :η_cr => 34.842396527837536, :η_m => 5.217320535210412)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=76, η_cr=0.18072106752268224, p_cr=0.9, η_m=83.75680867484408, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 657.62683212207
+Dict{Any, Any}(:N => 76, :η_cr => 0.18072106752268224, :η_m => 83.75680867484408)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=139, η_cr=15.965200141813696, p_cr=0.9, η_m=59.319581207023184, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 785.1662291102064
+Dict{Any, Any}(:N => 139, :η_cr => 15.965200141813696, :η_m => 59.319581207023184)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=342, η_cr=88.32389818877786, p_cr=0.9, η_m=59.82521420851336, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 814.0798945339596
+Dict{Any, Any}(:N => 342, :η_cr => 88.32389818877786, :η_m => 59.82521420851336)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=224, η_cr=70.22749929684447, p_cr=0.9, η_m=59.3939733869165, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.8366127869099
+Dict{Any, Any}(:N => 224, :η_cr => 70.22749929684447, :η_m => 59.3939733869165)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=347, η_cr=40.27348907631395, p_cr=0.9, η_m=44.43915035704562, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3809186502647
+Dict{Any, Any}(:N => 347, :η_cr => 40.27348907631395, :η_m => 44.43915035704562)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=393, η_cr=95.2764263325799, p_cr=0.9, η_m=13.71735537677371, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 813.3741135337383
+Dict{Any, Any}(:N => 393, :η_cr => 95.2764263325799, :η_m => 13.71735537677371)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=8, η_cr=49.03260791053808, p_cr=0.9, η_m=60.986732829321944, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 478.4669797254883
+Dict{Any, Any}(:N => 8, :η_cr => 49.03260791053808, :η_m => 60.986732829321944)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=327, η_cr=89.05721549271347, p_cr=0.9, η_m=82.2199141307887, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 746.7879793684798
+Dict{Any, Any}(:N => 327, :η_cr => 89.05721549271347, :η_m => 82.2199141307887)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=163, η_cr=47.31481983619624, p_cr=0.9, η_m=60.402285992442664, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 795.228283727431
+Dict{Any, Any}(:N => 163, :η_cr => 47.31481983619624, :η_m => 60.402285992442664)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=290, η_cr=67.30410726579134, p_cr=0.9, η_m=28.740142521157885, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 809.4654212605958
+Dict{Any, Any}(:N => 290, :η_cr => 67.30410726579134, :η_m => 28.740142521157885)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=343, η_cr=59.307112951248584, p_cr=0.9, η_m=2.3485710722037534, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 822.9841170762977
+Dict{Any, Any}(:N => 343, :η_cr => 59.307112951248584, :η_m => 2.3485710722037534)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=69, η_cr=26.696671664454342, p_cr=0.9, η_m=32.0448662356984, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 739.3957706008218
+Dict{Any, Any}(:N => 69, :η_cr => 26.696671664454342, :η_m => 32.0448662356984)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=197, η_cr=8.627483331183495, p_cr=0.9, η_m=1.4908195249459855, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 816.2442882978881
+Dict{Any, Any}(:N => 197, :η_cr => 8.627483331183495, :η_m => 1.4908195249459855)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=92, η_cr=30.072755110668204, p_cr=0.9, η_m=55.44965068930408, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3649429164021
+Dict{Any, Any}(:N => 92, :η_cr => 30.072755110668204, :η_m => 55.44965068930408)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=232, η_cr=92.73554581754297, p_cr=0.9, η_m=66.09057309024371, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 793.7807353593187
+Dict{Any, Any}(:N => 232, :η_cr => 92.73554581754297, :η_m => 66.09057309024371)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=224, η_cr=44.6006791856782, p_cr=0.9, η_m=26.148287858641595, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3585815962794
+Dict{Any, Any}(:N => 224, :η_cr => 44.6006791856782, :η_m => 26.148287858641595)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=178, η_cr=9.141462468864237, p_cr=0.9, η_m=0.3645893280522339, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3707890151906
+Dict{Any, Any}(:N => 178, :η_cr => 9.141462468864237, :η_m => 0.3645893280522339)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=43, η_cr=1.6640887512746283, p_cr=0.9, η_m=75.19915273560069, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 790.150634608509
+Dict{Any, Any}(:N => 43, :η_cr => 1.6640887512746283, :η_m => 75.19915273560069)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=274, η_cr=23.225061633384414, p_cr=0.9, η_m=86.00015602032073, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 823.1057646832145
+Dict{Any, Any}(:N => 274, :η_cr => 23.225061633384414, :η_m => 86.00015602032073)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=40.583582106414454, p_cr=0.9, η_m=76.40406916560978, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3791519730486
+Dict{Any, Any}(:N => 210, :η_cr => 40.583582106414454, :η_m => 76.40406916560978)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=398, η_cr=56.82422200805468, p_cr=0.9, η_m=80.39652520385275, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 780.0680266171796
+Dict{Any, Any}(:N => 398, :η_cr => 56.82422200805468, :η_m => 80.39652520385275)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=330, η_cr=99.26992032027209, p_cr=0.9, η_m=82.11138434096816, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3493783981697
+Dict{Any, Any}(:N => 330, :η_cr => 99.26992032027209, :η_m => 82.11138434096816)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=302, η_cr=25.863796073790457, p_cr=0.9, η_m=15.138511203497762, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 787.5810116683609
+Dict{Any, Any}(:N => 302, :η_cr => 25.863796073790457, :η_m => 15.138511203497762)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=192, η_cr=34.54224473937051, p_cr=0.9, η_m=0.04474221950535595, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 790.0691526522775
+Dict{Any, Any}(:N => 192, :η_cr => 34.54224473937051, :η_m => 0.04474221950535595)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=104, η_cr=41.46047544107111, p_cr=0.9, η_m=15.832539324078132, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 789.4777572703968
+Dict{Any, Any}(:N => 104, :η_cr => 41.46047544107111, :η_m => 15.832539324078132)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=108, η_cr=85.21751800242342, p_cr=0.9, η_m=33.05923931514376, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3551224391385
+Dict{Any, Any}(:N => 108, :η_cr => 85.21751800242342, :η_m => 33.05923931514376)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=190, η_cr=30.253908112687323, p_cr=0.9, η_m=65.96435565329854, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3733267704426
+Dict{Any, Any}(:N => 190, :η_cr => 30.253908112687323, :η_m => 65.96435565329854)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=316, η_cr=99.71797474180373, p_cr=0.9, η_m=15.215346892839754, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.449877711646
+Dict{Any, Any}(:N => 316, :η_cr => 99.71797474180373, :η_m => 15.215346892839754)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=4, η_cr=49.96742877996906, p_cr=0.9, η_m=35.72979255573804, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 533.470149305527
+Dict{Any, Any}(:N => 4, :η_cr => 49.96742877996906, :η_m => 35.72979255573804)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=66, η_cr=79.77067654192565, p_cr=0.9, η_m=91.96276872876197, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 634.3921563777094
+Dict{Any, Any}(:N => 66, :η_cr => 79.77067654192565, :η_m => 91.96276872876197)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=143, η_cr=17.809558023633375, p_cr=0.9, η_m=69.73681169645978, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 815.1490002102483
+Dict{Any, Any}(:N => 143, :η_cr => 17.809558023633375, :η_m => 69.73681169645978)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=494, η_cr=39.00312252527743, p_cr=0.9, η_m=40.77300542918505, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 745.4547748211284
+Dict{Any, Any}(:N => 494, :η_cr => 39.00312252527743, :η_m => 40.77300542918505)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=326, η_cr=43.98949596643814, p_cr=0.9, η_m=36.71693920527383, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 813.3247348823807
+Dict{Any, Any}(:N => 326, :η_cr => 43.98949596643814, :η_m => 36.71693920527383)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=411, η_cr=30.820504077298626, p_cr=0.9, η_m=0.20805150935456762, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 821.9990960177502
+Dict{Any, Any}(:N => 411, :η_cr => 30.820504077298626, :η_m => 0.20805150935456762)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=71, η_cr=33.14656583601593, p_cr=0.9, η_m=63.490145010883644, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 727.2663113633066
+Dict{Any, Any}(:N => 71, :η_cr => 33.14656583601593, :η_m => 63.490145010883644)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=429, η_cr=25.010614849785274, p_cr=0.9, η_m=10.779612575069441, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3558739946855
+Dict{Any, Any}(:N => 429, :η_cr => 25.010614849785274, :η_m => 10.779612575069441)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=484, η_cr=8.909476390342641, p_cr=0.9, η_m=9.919501990505598, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 804.3711012759983
+Dict{Any, Any}(:N => 484, :η_cr => 8.909476390342641, :η_m => 9.919501990505598)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=257, η_cr=33.40819179731132, p_cr=0.9, η_m=66.33822921398107, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3778106490317
+Dict{Any, Any}(:N => 257, :η_cr => 33.40819179731132, :η_m => 66.33822921398107)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=105, η_cr=89.51635587869768, p_cr=0.9, η_m=91.4871522098614, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 662.6426486142866
+Dict{Any, Any}(:N => 105, :η_cr => 89.51635587869768, :η_m => 91.4871522098614)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=399, η_cr=64.95330685876318, p_cr=0.9, η_m=94.01257388175954, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 784.0041611912891
+Dict{Any, Any}(:N => 399, :η_cr => 64.95330685876318, :η_m => 94.01257388175954)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=164, η_cr=4.103269513500296, p_cr=0.9, η_m=85.56898847618136, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 813.215152743678
+Dict{Any, Any}(:N => 164, :η_cr => 4.103269513500296, :η_m => 85.56898847618136)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=243, η_cr=27.547029543736347, p_cr=0.9, η_m=8.465377837304056, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 760.5053602877256
+Dict{Any, Any}(:N => 243, :η_cr => 27.547029543736347, :η_m => 8.465377837304056)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=46.47183677622725, p_cr=0.9, η_m=34.00285852280953, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 805.774897928359
+Dict{Any, Any}(:N => 210, :η_cr => 46.47183677622725, :η_m => 34.00285852280953)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=173, η_cr=51.31747338437158, p_cr=0.9, η_m=70.95318532224418, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.9306581172242
+Dict{Any, Any}(:N => 173, :η_cr => 51.31747338437158, :η_m => 70.95318532224418)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=117, η_cr=95.80936246332449, p_cr=0.9, η_m=13.729311337531625, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 806.6743470887226
+Dict{Any, Any}(:N => 117, :η_cr => 95.80936246332449, :η_m => 13.729311337531625)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=64, η_cr=82.13157443697006, p_cr=0.9, η_m=75.452507831389, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 695.9856970792725
+Dict{Any, Any}(:N => 64, :η_cr => 82.13157443697006, :η_m => 75.452507831389)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=239, η_cr=45.34520487622348, p_cr=0.9, η_m=80.00546626054081, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3288184034752
+Dict{Any, Any}(:N => 239, :η_cr => 45.34520487622348, :η_m => 80.00546626054081)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=80.59792934451903, p_cr=0.9, η_m=45.83919048856339, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 797.8407608930622
+Dict{Any, Any}(:N => 293, :η_cr => 80.59792934451903, :η_m => 45.83919048856339)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=259, η_cr=40.321148711726394, p_cr=0.9, η_m=41.5268031902628, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 743.6481128955099
+Dict{Any, Any}(:N => 259, :η_cr => 40.321148711726394, :η_m => 41.5268031902628)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=42, η_cr=21.148319951173157, p_cr=0.9, η_m=90.74819285520658, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 594.3275203796476
+Dict{Any, Any}(:N => 42, :η_cr => 21.148319951173157, :η_m => 90.74819285520658)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=433, η_cr=16.734080041346843, p_cr=0.9, η_m=45.11279280394499, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3762324769282
+Dict{Any, Any}(:N => 433, :η_cr => 16.734080041346843, :η_m => 45.11279280394499)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=33, η_cr=63.51822369230082, p_cr=0.9, η_m=8.640594393352064, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 694.9896311123736
+Dict{Any, Any}(:N => 33, :η_cr => 63.51822369230082, :η_m => 8.640594393352064)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=110, η_cr=64.60540451619067, p_cr=0.9, η_m=42.242233530309214, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 655.9773445903649
+Dict{Any, Any}(:N => 110, :η_cr => 64.60540451619067, :η_m => 42.242233530309214)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=402, η_cr=42.20574881493672, p_cr=0.9, η_m=48.77642964060613, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 801.0083576179109
+Dict{Any, Any}(:N => 402, :η_cr => 42.20574881493672, :η_m => 48.77642964060613)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=373, η_cr=34.24192729413773, p_cr=0.9, η_m=33.21840430269415, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3656317917322
+Dict{Any, Any}(:N => 373, :η_cr => 34.24192729413773, :η_m => 33.21840430269415)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=275, η_cr=38.27859872296978, p_cr=0.9, η_m=13.691772001744873, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 815.3035109627656
+Dict{Any, Any}(:N => 275, :η_cr => 38.27859872296978, :η_m => 13.691772001744873)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=336, η_cr=15.543553726336356, p_cr=0.9, η_m=22.219482506259315, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3795103426929
+Dict{Any, Any}(:N => 336, :η_cr => 15.543553726336356, :η_m => 22.219482506259315)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=290, η_cr=62.75188398836142, p_cr=0.9, η_m=64.97366002515227, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 796.4263397655267
+Dict{Any, Any}(:N => 290, :η_cr => 62.75188398836142, :η_m => 64.97366002515227)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=141, η_cr=90.61483682370333, p_cr=0.9, η_m=10.235443587427252, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 783.8235604979153
+Dict{Any, Any}(:N => 141, :η_cr => 90.61483682370333, :η_m => 10.235443587427252)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=288, η_cr=67.21479557105302, p_cr=0.9, η_m=23.956497428659517, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 777.3705407403694
+Dict{Any, Any}(:N => 288, :η_cr => 67.21479557105302, :η_m => 23.956497428659517)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=238, η_cr=75.19391673008593, p_cr=0.9, η_m=63.410184723878785, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 796.6447008831192
+Dict{Any, Any}(:N => 238, :η_cr => 75.19391673008593, :η_m => 63.410184723878785)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=113, η_cr=41.988471706173435, p_cr=0.9, η_m=94.50959946226733, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 767.2221264122952
+Dict{Any, Any}(:N => 113, :η_cr => 41.988471706173435, :η_m => 94.50959946226733)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=268, η_cr=15.340391939961574, p_cr=0.9, η_m=12.320771947555787, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3725597239353
+Dict{Any, Any}(:N => 268, :η_cr => 15.340391939961574, :η_m => 12.320771947555787)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=85, η_cr=27.207216363042473, p_cr=0.9, η_m=19.381016173865696, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 764.984988671457
+Dict{Any, Any}(:N => 85, :η_cr => 27.207216363042473, :η_m => 19.381016173865696)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=68, η_cr=93.74459678003734, p_cr=0.9, η_m=32.482193958596184, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 723.7612878868237
+Dict{Any, Any}(:N => 68, :η_cr => 93.74459678003734, :η_m => 32.482193958596184)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=462, η_cr=52.82978635700856, p_cr=0.9, η_m=68.33795299624035, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3835801494408
+Dict{Any, Any}(:N => 462, :η_cr => 52.82978635700856, :η_m => 68.33795299624035)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=126, η_cr=31.777809887538954, p_cr=0.9, η_m=79.34954541260673, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 821.0245280347896
+Dict{Any, Any}(:N => 126, :η_cr => 31.777809887538954, :η_m => 79.34954541260673)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=368, η_cr=13.802111458711341, p_cr=0.9, η_m=83.46754401766626, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 819.4456328710286
+Dict{Any, Any}(:N => 368, :η_cr => 13.802111458711341, :η_m => 83.46754401766626)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=403, η_cr=40.68926898611856, p_cr=0.9, η_m=9.64267457122836, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3645095801943
+Dict{Any, Any}(:N => 403, :η_cr => 40.68926898611856, :η_m => 9.64267457122836)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=443, η_cr=12.324228974195584, p_cr=0.9, η_m=50.54544394807675, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3770919020815
+Dict{Any, Any}(:N => 443, :η_cr => 12.324228974195584, :η_m => 50.54544394807675)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=388, η_cr=54.62425713148996, p_cr=0.9, η_m=36.31672772620418, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3621132751819
+Dict{Any, Any}(:N => 388, :η_cr => 54.62425713148996, :η_m => 36.31672772620418)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=209, η_cr=48.62113189811177, p_cr=0.9, η_m=83.78714762607986, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 743.8490457442527
+Dict{Any, Any}(:N => 209, :η_cr => 48.62113189811177, :η_m => 83.78714762607986)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=173, η_cr=59.69358541779479, p_cr=0.9, η_m=18.827142840277865, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.4567541414362
+Dict{Any, Any}(:N => 173, :η_cr => 59.69358541779479, :η_m => 18.827142840277865)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=175, η_cr=84.85918161534076, p_cr=0.9, η_m=19.527623609223987, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 751.3390946720646
+Dict{Any, Any}(:N => 175, :η_cr => 84.85918161534076, :η_m => 19.527623609223987)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=98, η_cr=87.33317844940903, p_cr=0.9, η_m=39.99520723843795, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 741.7809761034592
+Dict{Any, Any}(:N => 98, :η_cr => 87.33317844940903, :η_m => 39.99520723843795)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=430, η_cr=73.30902764617797, p_cr=0.9, η_m=8.971459655984582, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 787.3745103939575
+Dict{Any, Any}(:N => 430, :η_cr => 73.30902764617797, :η_m => 8.971459655984582)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=130, η_cr=33.02653179163527, p_cr=0.9, η_m=48.76179255066309, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 798.3041970034352
+Dict{Any, Any}(:N => 130, :η_cr => 33.02653179163527, :η_m => 48.76179255066309)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=244, η_cr=5.072403071878306, p_cr=0.9, η_m=44.66945678323634, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 719.4519457136269
+Dict{Any, Any}(:N => 244, :η_cr => 5.072403071878306, :η_m => 44.66945678323634)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=150, η_cr=71.74278905130495, p_cr=0.9, η_m=74.41315091132908, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 758.4779591116433
+Dict{Any, Any}(:N => 150, :η_cr => 71.74278905130495, :η_m => 74.41315091132908)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=174, η_cr=72.21098948314776, p_cr=0.9, η_m=61.133858525732876, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 787.0257931098902
+Dict{Any, Any}(:N => 174, :η_cr => 72.21098948314776, :η_m => 61.133858525732876)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=236, η_cr=46.618777049133776, p_cr=0.9, η_m=53.71609665219176, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 822.494940888048
+Dict{Any, Any}(:N => 236, :η_cr => 46.618777049133776, :η_m => 53.71609665219176)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=408, η_cr=44.65085001753224, p_cr=0.9, η_m=37.331793912883825, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3785234459082
+Dict{Any, Any}(:N => 408, :η_cr => 44.65085001753224, :η_m => 37.331793912883825)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=348, η_cr=84.31083965087907, p_cr=0.9, η_m=22.516850881781437, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 794.3692670029483
+Dict{Any, Any}(:N => 348, :η_cr => 84.31083965087907, :η_m => 22.516850881781437)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=369, η_cr=87.52600583007768, p_cr=0.9, η_m=26.039656887312457, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 792.7629927996139
+Dict{Any, Any}(:N => 369, :η_cr => 87.52600583007768, :η_m => 26.039656887312457)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=23.673421269780604, p_cr=0.9, η_m=50.3691396116561, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 784.9806321991871
+Dict{Any, Any}(:N => 293, :η_cr => 23.673421269780604, :η_m => 50.3691396116561)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=258, η_cr=75.57919696839086, p_cr=0.9, η_m=36.032061797423886, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 803.1295621295882
+Dict{Any, Any}(:N => 258, :η_cr => 75.57919696839086, :η_m => 36.032061797423886)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=458, η_cr=80.83445470756259, p_cr=0.9, η_m=51.63753677178543, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 811.0395322628851
+Dict{Any, Any}(:N => 458, :η_cr => 80.83445470756259, :η_m => 51.63753677178543)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=22, η_cr=92.82476895249069, p_cr=0.9, η_m=55.782495224940945, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.5768478201676
+Dict{Any, Any}(:N => 22, :η_cr => 92.82476895249069, :η_m => 55.782495224940945)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=116, η_cr=12.227878834944693, p_cr=0.9, η_m=94.31242512381769, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.14737429135
+Dict{Any, Any}(:N => 116, :η_cr => 12.227878834944693, :η_m => 94.31242512381769)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=394, η_cr=98.60900332209496, p_cr=0.9, η_m=69.43159086775808, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 823.812188275167
+Dict{Any, Any}(:N => 394, :η_cr => 98.60900332209496, :η_m => 69.43159086775808)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=482, η_cr=88.11289017688435, p_cr=0.9, η_m=0.3138921946923112, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 811.9407721580404
+Dict{Any, Any}(:N => 482, :η_cr => 88.11289017688435, :η_m => 0.3138921946923112)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=332, η_cr=90.26970627538618, p_cr=0.9, η_m=25.011688878184557, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3811630990025
+Dict{Any, Any}(:N => 332, :η_cr => 90.26970627538618, :η_m => 25.011688878184557)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=270, η_cr=1.527673245867256, p_cr=0.9, η_m=91.98339690528982, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 824.8638994069328
+Dict{Any, Any}(:N => 270, :η_cr => 1.527673245867256, :η_m => 91.98339690528982)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=75, η_cr=17.209953829245407, p_cr=0.9, η_m=15.480855446914566, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 733.4647127547572
+Dict{Any, Any}(:N => 75, :η_cr => 17.209953829245407, :η_m => 15.480855446914566)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=416, η_cr=56.546475289080156, p_cr=0.9, η_m=13.567516717469974, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 805.8408497646982
+Dict{Any, Any}(:N => 416, :η_cr => 56.546475289080156, :η_m => 13.567516717469974)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=120, η_cr=21.06203132791854, p_cr=0.9, η_m=80.40084201791223, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 822.8980978330911
+Dict{Any, Any}(:N => 120, :η_cr => 21.06203132791854, :η_m => 80.40084201791223)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=218, η_cr=87.17525521092895, p_cr=0.9, η_m=79.52860392475999, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 752.6330328205177
+Dict{Any, Any}(:N => 218, :η_cr => 87.17525521092895, :η_m => 79.52860392475999)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=495, η_cr=0.5515449268950978, p_cr=0.9, η_m=67.37878379494316, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 706.4350700116818
+Dict{Any, Any}(:N => 495, :η_cr => 0.5515449268950978, :η_m => 67.37878379494316)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=500, η_cr=29.253770294785795, p_cr=0.9, η_m=19.462225119343167, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3114133475358
+Dict{Any, Any}(:N => 500, :η_cr => 29.253770294785795, :η_m => 19.462225119343167)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=493, η_cr=22.330510082401123, p_cr=0.9, η_m=89.4208421732961, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 804.0894959871961
+Dict{Any, Any}(:N => 493, :η_cr => 22.330510082401123, :η_m => 89.4208421732961)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=408, η_cr=25.560082284106088, p_cr=0.9, η_m=39.371775358060844, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3704528577723
+Dict{Any, Any}(:N => 408, :η_cr => 25.560082284106088, :η_m => 39.371775358060844)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=392, η_cr=55.55344729645903, p_cr=0.9, η_m=63.36562538735336, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 796.8516105341802
+Dict{Any, Any}(:N => 392, :η_cr => 55.55344729645903, :η_m => 63.36562538735336)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=69, η_cr=44.409442184419376, p_cr=0.9, η_m=22.865982280560704, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 691.1329490323263
+Dict{Any, Any}(:N => 69, :η_cr => 44.409442184419376, :η_m => 22.865982280560704)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=446, η_cr=59.133811595423204, p_cr=0.9, η_m=25.797103771970654, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3819527489247
+Dict{Any, Any}(:N => 446, :η_cr => 59.133811595423204, :η_m => 25.797103771970654)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=490, η_cr=78.29694774624818, p_cr=0.9, η_m=95.50149535722663, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3798901629414
+Dict{Any, Any}(:N => 490, :η_cr => 78.29694774624818, :η_m => 95.50149535722663)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=236, η_cr=18.511320341909876, p_cr=0.9, η_m=43.30753976293678, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3635059157086
+Dict{Any, Any}(:N => 236, :η_cr => 18.511320341909876, :η_m => 43.30753976293678)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=203, η_cr=88.63929494416605, p_cr=0.9, η_m=17.67168269746794, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 775.7447612294459
+Dict{Any, Any}(:N => 203, :η_cr => 88.63929494416605, :η_m => 17.67168269746794)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=30, η_cr=25.43751694897406, p_cr=0.9, η_m=87.4174005911466, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 620.625984820169
+Dict{Any, Any}(:N => 30, :η_cr => 25.43751694897406, :η_m => 87.4174005911466)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=278, η_cr=64.61143004103539, p_cr=0.9, η_m=51.37031584088063, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 777.5783042678972
+Dict{Any, Any}(:N => 278, :η_cr => 64.61143004103539, :η_m => 51.37031584088063)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=416, η_cr=3.3093100909831974, p_cr=0.9, η_m=9.246699910488221, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3510938549658
+Dict{Any, Any}(:N => 416, :η_cr => 3.3093100909831974, :η_m => 9.246699910488221)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=156, η_cr=86.03701767512467, p_cr=0.9, η_m=44.937747169152786, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 812.4630207216569
+Dict{Any, Any}(:N => 156, :η_cr => 86.03701767512467, :η_m => 44.937747169152786)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=112, η_cr=92.33589304891716, p_cr=0.9, η_m=52.77732860658069, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 813.29176829377
+Dict{Any, Any}(:N => 112, :η_cr => 92.33589304891716, :η_m => 52.77732860658069)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=43, η_cr=98.20126802757805, p_cr=0.9, η_m=24.214417190918127, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 695.1488114844017
+Dict{Any, Any}(:N => 43, :η_cr => 98.20126802757805, :η_m => 24.214417190918127)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=256, η_cr=97.8838085470227, p_cr=0.9, η_m=14.924904926948157, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 786.8766544259822
+Dict{Any, Any}(:N => 256, :η_cr => 97.8838085470227, :η_m => 14.924904926948157)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=494, η_cr=8.990622152151396, p_cr=0.9, η_m=5.216003424028659, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3789275304898
+Dict{Any, Any}(:N => 494, :η_cr => 8.990622152151396, :η_m => 5.216003424028659)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=40, η_cr=81.02022834892789, p_cr=0.9, η_m=16.486085901827952, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 784.3583896059663
+Dict{Any, Any}(:N => 40, :η_cr => 81.02022834892789, :η_m => 16.486085901827952)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=96, η_cr=50.18757334172707, p_cr=0.9, η_m=48.44440304517023, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 773.1216943751235
+Dict{Any, Any}(:N => 96, :η_cr => 50.18757334172707, :η_m => 48.44440304517023)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=160, η_cr=63.43198059896932, p_cr=0.9, η_m=0.5814887936260171, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 788.080605739203
+Dict{Any, Any}(:N => 160, :η_cr => 63.43198059896932, :η_m => 0.5814887936260171)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=382, η_cr=27.86135085422209, p_cr=0.9, η_m=11.415911478894225, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3618709281553
+Dict{Any, Any}(:N => 382, :η_cr => 27.86135085422209, :η_m => 11.415911478894225)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=130, η_cr=37.595704739633476, p_cr=0.9, η_m=62.022406264373096, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 793.5536783231255
+Dict{Any, Any}(:N => 130, :η_cr => 37.595704739633476, :η_m => 62.022406264373096)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=146, η_cr=89.12253536875123, p_cr=0.9, η_m=70.95736438298685, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 790.3950086658961
+Dict{Any, Any}(:N => 146, :η_cr => 89.12253536875123, :η_m => 70.95736438298685)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=132, η_cr=58.80946368872672, p_cr=0.9, η_m=24.780947900834306, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 779.1561800599812
+Dict{Any, Any}(:N => 132, :η_cr => 58.80946368872672, :η_m => 24.780947900834306)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=82, η_cr=98.41176258021848, p_cr=0.9, η_m=31.905566173114064, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 750.9147904415905
+Dict{Any, Any}(:N => 82, :η_cr => 98.41176258021848, :η_m => 31.905566173114064)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=458, η_cr=72.10631038363418, p_cr=0.9, η_m=82.03629277373359, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 819.467402679396
+Dict{Any, Any}(:N => 458, :η_cr => 72.10631038363418, :η_m => 82.03629277373359)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=316, η_cr=10.53927510224797, p_cr=0.9, η_m=52.21682492232683, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 825.3735967860234
+Dict{Any, Any}(:N => 316, :η_cr => 10.53927510224797, :η_m => 52.21682492232683)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=156, η_cr=11.473206374708035, p_cr=0.9, η_m=88.13376903665093, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 778.16659025981
+Dict{Any, Any}(:N => 156, :η_cr => 11.473206374708035, :η_m => 88.13376903665093)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=470, η_cr=19.57024753943023, p_cr=0.9, η_m=89.68076110390422, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 812.6683969440514
+Dict{Any, Any}(:N => 470, :η_cr => 19.57024753943023, :η_m => 89.68076110390422)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=79, η_cr=41.077753052706775, p_cr=0.9, η_m=22.753116652173034, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 685.618385424145
+Dict{Any, Any}(:N => 79, :η_cr => 41.077753052706775, :η_m => 22.753116652173034)
+
+vibrating_platform problem number 2 ---- Algorithm Parameters
+====================
+  NSGA2(N=393, η_cr=57.571778387057435, p_cr=0.9, η_m=51.18593615082558, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 747.9175698064474
+Dict{Any, Any}(:N => 393, :η_cr => 57.571778387057435, :η_m => 51.18593615082558)
+

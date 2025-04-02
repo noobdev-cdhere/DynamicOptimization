@@ -1,0 +1,110 @@
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=439, η_cr=76.53339076170919, p_cr=0.9, η_m=37.025111309109015, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.25540552460266064
+Dict{Any, Any}(:N => 439, :η_cr => 76.53339076170919, :η_m => 37.025111309109015)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=361, η_cr=94.48604317610472, p_cr=0.9, η_m=50.99401492259121, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.27487473514137595
+Dict{Any, Any}(:N => 361, :η_cr => 94.48604317610472, :η_m => 50.99401492259121)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=396, η_cr=31.00150216068024, p_cr=0.9, η_m=5.172852185749488, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.3164428998200407
+Dict{Any, Any}(:N => 396, :η_cr => 31.00150216068024, :η_m => 5.172852185749488)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=451, η_cr=50.40540867947241, p_cr=0.9, η_m=26.45893924645736, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.0877770071319886
+Dict{Any, Any}(:N => 451, :η_cr => 50.40540867947241, :η_m => 26.45893924645736)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=70, η_cr=96.98199078418595, p_cr=0.9, η_m=74.23724701301191, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.17818000665232134
+Dict{Any, Any}(:N => 70, :η_cr => 96.98199078418595, :η_m => 74.23724701301191)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=337, η_cr=94.73335536808177, p_cr=0.9, η_m=2.133166895504157, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.42848213344413416
+Dict{Any, Any}(:N => 337, :η_cr => 94.73335536808177, :η_m => 2.133166895504157)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=4, η_cr=55.87398890208427, p_cr=0.9, η_m=7.524567548405791, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.10006677382479706
+Dict{Any, Any}(:N => 4, :η_cr => 55.87398890208427, :η_m => 7.524567548405791)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=291, η_cr=32.2561121802325, p_cr=0.9, η_m=19.511942328449006, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.15156965303663994
+Dict{Any, Any}(:N => 291, :η_cr => 32.2561121802325, :η_m => 19.511942328449006)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=335, η_cr=76.99708052602989, p_cr=0.9, η_m=40.16027915708218, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.22799142296944042
+Dict{Any, Any}(:N => 335, :η_cr => 76.99708052602989, :η_m => 40.16027915708218)
+
+reactor_network_design problem number 23 ---- Algorithm Parameters
+====================
+  NSGA2(N=6, η_cr=12.615000307202562, p_cr=0.9, η_m=83.08806868963329, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 0.009760343681378732
+Dict{Any, Any}(:N => 6, :η_cr => 12.615000307202562, :η_m => 83.08806868963329)
+

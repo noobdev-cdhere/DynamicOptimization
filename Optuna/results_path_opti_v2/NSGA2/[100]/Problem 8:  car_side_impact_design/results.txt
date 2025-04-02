@@ -1,0 +1,1210 @@
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=151, η_cr=3.395885064855453, p_cr=0.9, η_m=72.92311510637828, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.65684456654527
+Dict{Any, Any}(:N => 151, :η_cr => 3.395885064855453, :η_m => 72.92311510637828)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=365, η_cr=18.033851478916706, p_cr=0.9, η_m=62.16314715786794, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.45352983938106
+Dict{Any, Any}(:N => 365, :η_cr => 18.033851478916706, :η_m => 62.16314715786794)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=218, η_cr=38.976112115610626, p_cr=0.9, η_m=49.629526298262874, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.562976964297675
+Dict{Any, Any}(:N => 218, :η_cr => 38.976112115610626, :η_m => 49.629526298262874)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=188, η_cr=60.048576526564055, p_cr=0.9, η_m=59.69820429254544, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.42599500898467
+Dict{Any, Any}(:N => 188, :η_cr => 60.048576526564055, :η_m => 59.69820429254544)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=347, η_cr=4.28926042160469, p_cr=0.9, η_m=60.7251613264038, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.4190603194451
+Dict{Any, Any}(:N => 347, :η_cr => 4.28926042160469, :η_m => 60.7251613264038)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=173, η_cr=22.23075871985517, p_cr=0.9, η_m=73.22538102604223, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.23011699831197
+Dict{Any, Any}(:N => 173, :η_cr => 22.23075871985517, :η_m => 73.22538102604223)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=110, η_cr=42.471371588381615, p_cr=0.9, η_m=30.20657118454696, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.39039043857747
+Dict{Any, Any}(:N => 110, :η_cr => 42.471371588381615, :η_m => 30.20657118454696)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=53, η_cr=74.42859533219453, p_cr=0.9, η_m=89.41118865728679, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 34.80048422611137
+Dict{Any, Any}(:N => 53, :η_cr => 74.42859533219453, :η_m => 89.41118865728679)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=251, η_cr=68.94180031421618, p_cr=0.9, η_m=58.09086626600878, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.6917115092189
+Dict{Any, Any}(:N => 251, :η_cr => 68.94180031421618, :η_m => 58.09086626600878)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=80, η_cr=74.52343625145585, p_cr=0.9, η_m=3.707392696988654, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 36.96753173418177
+Dict{Any, Any}(:N => 80, :η_cr => 74.52343625145585, :η_m => 3.707392696988654)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=101, η_cr=76.30016691224462, p_cr=0.9, η_m=64.49010416704932, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.491561595570516
+Dict{Any, Any}(:N => 101, :η_cr => 76.30016691224462, :η_m => 64.49010416704932)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=94, η_cr=97.69733003552219, p_cr=0.9, η_m=44.22572159922894, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 36.85612307940254
+Dict{Any, Any}(:N => 94, :η_cr => 97.69733003552219, :η_m => 44.22572159922894)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=64, η_cr=24.945005581034664, p_cr=0.9, η_m=99.66514875548033, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 33.38321494359688
+Dict{Any, Any}(:N => 64, :η_cr => 24.945005581034664, :η_m => 99.66514875548033)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=403, η_cr=7.983256828077224, p_cr=0.9, η_m=80.70235068882876, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.49167170972625
+Dict{Any, Any}(:N => 403, :η_cr => 7.983256828077224, :η_m => 80.70235068882876)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=415, η_cr=81.1179796416285, p_cr=0.9, η_m=44.85559352109001, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.40003881682173
+Dict{Any, Any}(:N => 415, :η_cr => 81.1179796416285, :η_m => 44.85559352109001)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=90, η_cr=98.95421112932577, p_cr=0.9, η_m=12.778632063599481, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.25949565653069
+Dict{Any, Any}(:N => 90, :η_cr => 98.95421112932577, :η_m => 12.778632063599481)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=190, η_cr=73.9239674272501, p_cr=0.9, η_m=14.089986100114881, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.77454274021731
+Dict{Any, Any}(:N => 190, :η_cr => 73.9239674272501, :η_m => 14.089986100114881)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=64.33187640102447, p_cr=0.9, η_m=5.1300257091630215, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.16007602403443
+Dict{Any, Any}(:N => 293, :η_cr => 64.33187640102447, :η_m => 5.1300257091630215)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=220, η_cr=82.63162266841321, p_cr=0.9, η_m=73.01647243227734, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.18263799309913
+Dict{Any, Any}(:N => 220, :η_cr => 82.63162266841321, :η_m => 73.01647243227734)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=268, η_cr=63.01927201802061, p_cr=0.9, η_m=51.95283383647266, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.91713998077122
+Dict{Any, Any}(:N => 268, :η_cr => 63.01927201802061, :η_m => 51.95283383647266)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=474, η_cr=46.96795018901447, p_cr=0.9, η_m=38.01341052728857, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.47745344112981
+Dict{Any, Any}(:N => 474, :η_cr => 46.96795018901447, :η_m => 38.01341052728857)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=499, η_cr=65.94164221014394, p_cr=0.9, η_m=70.3727068050481, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.33205284294166
+Dict{Any, Any}(:N => 499, :η_cr => 65.94164221014394, :η_m => 70.3727068050481)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=496, η_cr=2.927240625510419, p_cr=0.9, η_m=97.03806341697643, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.62806964064249
+Dict{Any, Any}(:N => 496, :η_cr => 2.927240625510419, :η_m => 97.03806341697643)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=316, η_cr=27.257040354345328, p_cr=0.9, η_m=36.512313401133156, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.963860521113865
+Dict{Any, Any}(:N => 316, :η_cr => 27.257040354345328, :η_m => 36.512313401133156)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=353, η_cr=73.84111241934816, p_cr=0.9, η_m=89.80604034762978, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.88948402179804
+Dict{Any, Any}(:N => 353, :η_cr => 73.84111241934816, :η_m => 89.80604034762978)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=463, η_cr=65.56957391022664, p_cr=0.9, η_m=71.15013653308861, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.280009944512905
+Dict{Any, Any}(:N => 463, :η_cr => 65.56957391022664, :η_m => 71.15013653308861)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=283, η_cr=55.25407200626675, p_cr=0.9, η_m=82.403170614472, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.63717528931336
+Dict{Any, Any}(:N => 283, :η_cr => 55.25407200626675, :η_m => 82.403170614472)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=62, η_cr=40.690437607021835, p_cr=0.9, η_m=95.58586445942416, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 35.00544123477428
+Dict{Any, Any}(:N => 62, :η_cr => 40.690437607021835, :η_m => 95.58586445942416)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=168, η_cr=94.07317635988528, p_cr=0.9, η_m=79.37963219574885, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.90735214362763
+Dict{Any, Any}(:N => 168, :η_cr => 94.07317635988528, :η_m => 79.37963219574885)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=93, η_cr=35.39882920240676, p_cr=0.9, η_m=67.20011879955798, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 36.95149694363265
+Dict{Any, Any}(:N => 93, :η_cr => 35.39882920240676, :η_m => 67.20011879955798)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=162, η_cr=94.46224924574248, p_cr=0.9, η_m=86.29436014439949, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.08415521966488
+Dict{Any, Any}(:N => 162, :η_cr => 94.46224924574248, :η_m => 86.29436014439949)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=234, η_cr=61.408729910532834, p_cr=0.9, η_m=72.6088729002727, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.4354630455136
+Dict{Any, Any}(:N => 234, :η_cr => 61.408729910532834, :η_m => 72.6088729002727)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=418, η_cr=6.69088862104209, p_cr=0.9, η_m=88.85935938255061, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.46909296799309
+Dict{Any, Any}(:N => 418, :η_cr => 6.69088862104209, :η_m => 88.85935938255061)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=84, η_cr=36.68731935500581, p_cr=0.9, η_m=14.864557092217535, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 34.69567673967765
+Dict{Any, Any}(:N => 84, :η_cr => 36.68731935500581, :η_m => 14.864557092217535)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=498, η_cr=76.801767871942, p_cr=0.9, η_m=76.62482407444959, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.40447079583332
+Dict{Any, Any}(:N => 498, :η_cr => 76.801767871942, :η_m => 76.62482407444959)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=364, η_cr=54.10627336093411, p_cr=0.9, η_m=37.164799869599804, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.35666523561002
+Dict{Any, Any}(:N => 364, :η_cr => 54.10627336093411, :η_m => 37.164799869599804)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=150, η_cr=96.80368741201461, p_cr=0.9, η_m=26.14633649030601, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.12785402543862
+Dict{Any, Any}(:N => 150, :η_cr => 96.80368741201461, :η_m => 26.14633649030601)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=172, η_cr=33.54762605675812, p_cr=0.9, η_m=18.49233720734612, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.49938403357859
+Dict{Any, Any}(:N => 172, :η_cr => 33.54762605675812, :η_m => 18.49233720734612)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=77, η_cr=10.889481288367131, p_cr=0.9, η_m=31.379839746991323, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.16370871178346
+Dict{Any, Any}(:N => 77, :η_cr => 10.889481288367131, :η_m => 31.379839746991323)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=171, η_cr=80.84478116484215, p_cr=0.9, η_m=70.79622112344387, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.07167240232302
+Dict{Any, Any}(:N => 171, :η_cr => 80.84478116484215, :η_m => 70.79622112344387)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=234, η_cr=35.49739190752758, p_cr=0.9, η_m=40.767549108843646, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.79083046719013
+Dict{Any, Any}(:N => 234, :η_cr => 35.49739190752758, :η_m => 40.767549108843646)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=39, η_cr=83.87904757989227, p_cr=0.9, η_m=33.21502985123056, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 34.96343097891239
+Dict{Any, Any}(:N => 39, :η_cr => 83.87904757989227, :η_m => 33.21502985123056)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=453, η_cr=49.637728388743426, p_cr=0.9, η_m=18.699634653417085, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.47150715040304
+Dict{Any, Any}(:N => 453, :η_cr => 49.637728388743426, :η_m => 18.699634653417085)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=332, η_cr=90.1322757739986, p_cr=0.9, η_m=31.426260346024215, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.138447317713414
+Dict{Any, Any}(:N => 332, :η_cr => 90.1322757739986, :η_m => 31.426260346024215)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=442, η_cr=98.96345774864065, p_cr=0.9, η_m=80.09319280751069, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.470770459609994
+Dict{Any, Any}(:N => 442, :η_cr => 98.96345774864065, :η_m => 80.09319280751069)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=32, η_cr=25.3561417556619, p_cr=0.9, η_m=58.25718841249069, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 33.79355996224055
+Dict{Any, Any}(:N => 32, :η_cr => 25.3561417556619, :η_m => 58.25718841249069)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=31, η_cr=26.001684302797344, p_cr=0.9, η_m=71.40489921584903, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 33.79936483778166
+Dict{Any, Any}(:N => 31, :η_cr => 26.001684302797344, :η_m => 71.40489921584903)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=435, η_cr=22.44062960500235, p_cr=0.9, η_m=55.838331610115375, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.49920506952308
+Dict{Any, Any}(:N => 435, :η_cr => 22.44062960500235, :η_m => 55.838331610115375)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=14, η_cr=49.56102129776575, p_cr=0.9, η_m=17.558140911478336, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 31.381419651911994
+Dict{Any, Any}(:N => 14, :η_cr => 49.56102129776575, :η_m => 17.558140911478336)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=445, η_cr=85.27564699009002, p_cr=0.9, η_m=18.82988798685503, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.409527632286675
+Dict{Any, Any}(:N => 445, :η_cr => 85.27564699009002, :η_m => 18.82988798685503)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=227, η_cr=44.03537809689716, p_cr=0.9, η_m=10.921764992497407, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.054176359266265
+Dict{Any, Any}(:N => 227, :η_cr => 44.03537809689716, :η_m => 10.921764992497407)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=84, η_cr=87.78693137791542, p_cr=0.9, η_m=82.24180152376574, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 33.81824994143212
+Dict{Any, Any}(:N => 84, :η_cr => 87.78693137791542, :η_m => 82.24180152376574)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=371, η_cr=45.99901914928216, p_cr=0.9, η_m=37.544732077471224, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.28922431904696
+Dict{Any, Any}(:N => 371, :η_cr => 45.99901914928216, :η_m => 37.544732077471224)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=286, η_cr=16.089045003249158, p_cr=0.9, η_m=93.02010509517014, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.01358634162526
+Dict{Any, Any}(:N => 286, :η_cr => 16.089045003249158, :η_m => 93.02010509517014)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=309, η_cr=89.84480609988995, p_cr=0.9, η_m=90.07038215133906, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.82693581647897
+Dict{Any, Any}(:N => 309, :η_cr => 89.84480609988995, :η_m => 90.07038215133906)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=417, η_cr=3.3385800339983285, p_cr=0.9, η_m=11.307322387919283, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.465127404095675
+Dict{Any, Any}(:N => 417, :η_cr => 3.3385800339983285, :η_m => 11.307322387919283)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=77.2495827532261, p_cr=0.9, η_m=93.01008646039978, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.540267693572375
+Dict{Any, Any}(:N => 293, :η_cr => 77.2495827532261, :η_m => 93.01008646039978)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=168, η_cr=70.83869287668821, p_cr=0.9, η_m=30.252808095449733, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.18616223215612
+Dict{Any, Any}(:N => 168, :η_cr => 70.83869287668821, :η_m => 30.252808095449733)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=39, η_cr=99.97681471258869, p_cr=0.9, η_m=52.235923537574756, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 33.88022030144237
+Dict{Any, Any}(:N => 39, :η_cr => 99.97681471258869, :η_m => 52.235923537574756)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=121, η_cr=74.38577848896567, p_cr=0.9, η_m=19.955746010325914, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.68889923596143
+Dict{Any, Any}(:N => 121, :η_cr => 74.38577848896567, :η_m => 19.955746010325914)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=113, η_cr=42.52367709428808, p_cr=0.9, η_m=88.86038137485322, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.325634930044444
+Dict{Any, Any}(:N => 113, :η_cr => 42.52367709428808, :η_m => 88.86038137485322)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=157, η_cr=35.109818252239776, p_cr=0.9, η_m=78.8811180838331, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.19282871059141
+Dict{Any, Any}(:N => 157, :η_cr => 35.109818252239776, :η_m => 78.8811180838331)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=11, η_cr=1.5348385408342935, p_cr=0.9, η_m=27.695278147982837, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 26.719081340093272
+Dict{Any, Any}(:N => 11, :η_cr => 1.5348385408342935, :η_m => 27.695278147982837)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=170, η_cr=31.407828162688634, p_cr=0.9, η_m=86.38280580779161, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.52932930337431
+Dict{Any, Any}(:N => 170, :η_cr => 31.407828162688634, :η_m => 86.38280580779161)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=295, η_cr=84.07409698802485, p_cr=0.9, η_m=89.7965962634338, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.938623043646324
+Dict{Any, Any}(:N => 295, :η_cr => 84.07409698802485, :η_m => 89.7965962634338)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=11, η_cr=43.7345517460909, p_cr=0.9, η_m=61.64502178355276, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 12.261025703339346
+Dict{Any, Any}(:N => 11, :η_cr => 43.7345517460909, :η_m => 61.64502178355276)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=206, η_cr=18.381283410092863, p_cr=0.9, η_m=8.801109355325087, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.458066285912544
+Dict{Any, Any}(:N => 206, :η_cr => 18.381283410092863, :η_m => 8.801109355325087)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=133, η_cr=83.49690226178565, p_cr=0.9, η_m=79.98427551329057, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.5623837028405
+Dict{Any, Any}(:N => 133, :η_cr => 83.49690226178565, :η_m => 79.98427551329057)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=371, η_cr=67.30882162934085, p_cr=0.9, η_m=56.23017319016397, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.195538727755405
+Dict{Any, Any}(:N => 371, :η_cr => 67.30882162934085, :η_m => 56.23017319016397)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=171, η_cr=78.14006802638747, p_cr=0.9, η_m=65.49356550585557, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.62336221405199
+Dict{Any, Any}(:N => 171, :η_cr => 78.14006802638747, :η_m => 65.49356550585557)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=3, η_cr=97.34111681020671, p_cr=0.9, η_m=38.635848732325364, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.211547322801042
+Dict{Any, Any}(:N => 3, :η_cr => 97.34111681020671, :η_m => 38.635848732325364)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=402, η_cr=76.95166040226798, p_cr=0.9, η_m=89.68471181389133, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.135013757044774
+Dict{Any, Any}(:N => 402, :η_cr => 76.95166040226798, :η_m => 89.68471181389133)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=205, η_cr=64.33042778408901, p_cr=0.9, η_m=78.09889022389945, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.434260739492444
+Dict{Any, Any}(:N => 205, :η_cr => 64.33042778408901, :η_m => 78.09889022389945)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=124, η_cr=1.9464319374448147, p_cr=0.9, η_m=74.73276190655362, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.51598346346822
+Dict{Any, Any}(:N => 124, :η_cr => 1.9464319374448147, :η_m => 74.73276190655362)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=382, η_cr=66.50696155053298, p_cr=0.9, η_m=79.21608702206782, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.141592837583296
+Dict{Any, Any}(:N => 382, :η_cr => 66.50696155053298, :η_m => 79.21608702206782)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=210, η_cr=79.24185496829466, p_cr=0.9, η_m=91.36757690656879, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.2275413114694
+Dict{Any, Any}(:N => 210, :η_cr => 79.24185496829466, :η_m => 91.36757690656879)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=159, η_cr=81.2779175265638, p_cr=0.9, η_m=70.95601267090984, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.37845096903889
+Dict{Any, Any}(:N => 159, :η_cr => 81.2779175265638, :η_m => 70.95601267090984)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=284, η_cr=5.201728929448857, p_cr=0.9, η_m=45.87678518632769, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.268192296565935
+Dict{Any, Any}(:N => 284, :η_cr => 5.201728929448857, :η_m => 45.87678518632769)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=101, η_cr=33.16211242840511, p_cr=0.9, η_m=9.635320605044795, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.011748840849926
+Dict{Any, Any}(:N => 101, :η_cr => 33.16211242840511, :η_m => 9.635320605044795)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=120, η_cr=3.8085673702395906, p_cr=0.9, η_m=48.39646004486495, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.05912919509969
+Dict{Any, Any}(:N => 120, :η_cr => 3.8085673702395906, :η_m => 48.39646004486495)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=300, η_cr=77.16773432472468, p_cr=0.9, η_m=50.87133869891147, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.05297940834709
+Dict{Any, Any}(:N => 300, :η_cr => 77.16773432472468, :η_m => 50.87133869891147)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=28, η_cr=0.5570684811258775, p_cr=0.9, η_m=73.3583466309122, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 28.08328071073184
+Dict{Any, Any}(:N => 28, :η_cr => 0.5570684811258775, :η_m => 73.3583466309122)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=404, η_cr=7.955657523679172, p_cr=0.9, η_m=99.7641656195732, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.47449231774217
+Dict{Any, Any}(:N => 404, :η_cr => 7.955657523679172, :η_m => 99.7641656195732)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=170, η_cr=2.360013066079014, p_cr=0.9, η_m=25.933143776459687, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.60328047910696
+Dict{Any, Any}(:N => 170, :η_cr => 2.360013066079014, :η_m => 25.933143776459687)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=179, η_cr=43.681852381896505, p_cr=0.9, η_m=88.00843530005868, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.57479250719159
+Dict{Any, Any}(:N => 179, :η_cr => 43.681852381896505, :η_m => 88.00843530005868)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=169, η_cr=71.87749225155655, p_cr=0.9, η_m=68.88579165177713, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.57678157406903
+Dict{Any, Any}(:N => 169, :η_cr => 71.87749225155655, :η_m => 68.88579165177713)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=311, η_cr=93.09307625730384, p_cr=0.9, η_m=50.63721517893589, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.942960798159525
+Dict{Any, Any}(:N => 311, :η_cr => 93.09307625730384, :η_m => 50.63721517893589)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=184, η_cr=33.476878154817236, p_cr=0.9, η_m=55.05351723252348, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.23227902410244
+Dict{Any, Any}(:N => 184, :η_cr => 33.476878154817236, :η_m => 55.05351723252348)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=399, η_cr=8.940026243120169, p_cr=0.9, η_m=73.80548387009857, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.486105002874886
+Dict{Any, Any}(:N => 399, :η_cr => 8.940026243120169, :η_m => 73.80548387009857)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=397, η_cr=89.67201116422481, p_cr=0.9, η_m=14.381107259377846, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.38726392046224
+Dict{Any, Any}(:N => 397, :η_cr => 89.67201116422481, :η_m => 14.381107259377846)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=351, η_cr=8.336932770857441, p_cr=0.9, η_m=23.424439490413107, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.431710673490144
+Dict{Any, Any}(:N => 351, :η_cr => 8.336932770857441, :η_m => 23.424439490413107)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=115, η_cr=46.99603370494534, p_cr=0.9, η_m=8.093564926808817, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.292614849337916
+Dict{Any, Any}(:N => 115, :η_cr => 46.99603370494534, :η_m => 8.093564926808817)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=53, η_cr=89.62482413340436, p_cr=0.9, η_m=8.45760028615291, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 35.619591792549045
+Dict{Any, Any}(:N => 53, :η_cr => 89.62482413340436, :η_m => 8.45760028615291)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=26, η_cr=79.45454191654355, p_cr=0.9, η_m=63.88352792832877, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 25.273306739473604
+Dict{Any, Any}(:N => 26, :η_cr => 79.45454191654355, :η_m => 63.88352792832877)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=39, η_cr=10.35220259105234, p_cr=0.9, η_m=35.65282004056345, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 36.09501530664207
+Dict{Any, Any}(:N => 39, :η_cr => 10.35220259105234, :η_m => 35.65282004056345)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=160, η_cr=2.4010657458751306, p_cr=0.9, η_m=7.0944950289631326, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.618325093648856
+Dict{Any, Any}(:N => 160, :η_cr => 2.4010657458751306, :η_m => 7.0944950289631326)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=150, η_cr=95.40305846296779, p_cr=0.9, η_m=81.12855304469883, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 37.41608156074121
+Dict{Any, Any}(:N => 150, :η_cr => 95.40305846296779, :η_m => 81.12855304469883)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=468, η_cr=50.3110106136556, p_cr=0.9, η_m=22.61685860484205, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.628761879929264
+Dict{Any, Any}(:N => 468, :η_cr => 50.3110106136556, :η_m => 22.61685860484205)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=33, η_cr=62.749217959843406, p_cr=0.9, η_m=48.11537346375082, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 31.83550087578749
+Dict{Any, Any}(:N => 33, :η_cr => 62.749217959843406, :η_m => 48.11537346375082)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=467, η_cr=55.29276366101128, p_cr=0.9, η_m=80.72398039563583, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.38255346177549
+Dict{Any, Any}(:N => 467, :η_cr => 55.29276366101128, :η_m => 80.72398039563583)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=392, η_cr=97.21283358238938, p_cr=0.9, η_m=77.33107895902532, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.30252633903088
+Dict{Any, Any}(:N => 392, :η_cr => 97.21283358238938, :η_m => 77.33107895902532)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=205, η_cr=85.46489881454758, p_cr=0.9, η_m=22.201788900916895, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.79924743096049
+Dict{Any, Any}(:N => 205, :η_cr => 85.46489881454758, :η_m => 22.201788900916895)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=44, η_cr=82.72334777958761, p_cr=0.9, η_m=33.91413304159621, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 30.756947170884853
+Dict{Any, Any}(:N => 44, :η_cr => 82.72334777958761, :η_m => 33.91413304159621)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=353, η_cr=86.84723860326801, p_cr=0.9, η_m=57.54226120874946, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.078846936044975
+Dict{Any, Any}(:N => 353, :η_cr => 86.84723860326801, :η_m => 57.54226120874946)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=309, η_cr=9.128504642000124, p_cr=0.9, η_m=71.67057869548815, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.3822786518004
+Dict{Any, Any}(:N => 309, :η_cr => 9.128504642000124, :η_m => 71.67057869548815)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=65, η_cr=35.42827926630863, p_cr=0.9, η_m=32.917490811902006, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 36.20833315528442
+Dict{Any, Any}(:N => 65, :η_cr => 35.42827926630863, :η_m => 32.917490811902006)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=222, η_cr=44.78562349796237, p_cr=0.9, η_m=65.73815737205196, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 38.43741023789594
+Dict{Any, Any}(:N => 222, :η_cr => 44.78562349796237, :η_m => 65.73815737205196)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=500, η_cr=57.11069577200374, p_cr=0.9, η_m=0.7343728801150307, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.643469252475676
+Dict{Any, Any}(:N => 500, :η_cr => 57.11069577200374, :η_m => 0.7343728801150307)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=464, η_cr=63.252448930846384, p_cr=0.9, η_m=35.179035226373166, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 39.58956007532785
+Dict{Any, Any}(:N => 464, :η_cr => 63.252448930846384, :η_m => 35.179035226373166)
+
+car_side_impact_design problem number 8 ---- Algorithm Parameters
+====================
+  NSGA2(N=59, η_cr=25.65659157836514, p_cr=0.9, η_m=80.10812369923298, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 30.121322925065662
+Dict{Any, Any}(:N => 59, :η_cr => 25.65659157836514, :η_m => 80.10812369923298)
+

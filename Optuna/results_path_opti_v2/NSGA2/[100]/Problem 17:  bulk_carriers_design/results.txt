@@ -1,0 +1,110 @@
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=82, η_cr=16.283824208468502, p_cr=0.9, η_m=86.62633123663416, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.4594568375627906e16
+Dict{Any, Any}(:N => 82, :η_cr => 16.283824208468502, :η_m => 86.62633123663416)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=400, η_cr=88.56389760497734, p_cr=0.9, η_m=62.95644289270036, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.5585579854846394e17
+Dict{Any, Any}(:N => 400, :η_cr => 88.56389760497734, :η_m => 62.95644289270036)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=341, η_cr=93.18827905782335, p_cr=0.9, η_m=80.82080098867725, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.110854268200415e16
+Dict{Any, Any}(:N => 341, :η_cr => 93.18827905782335, :η_m => 80.82080098867725)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=370, η_cr=63.12649050636217, p_cr=0.9, η_m=22.43429277683804, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 6.703029744889176e17
+Dict{Any, Any}(:N => 370, :η_cr => 63.12649050636217, :η_m => 22.43429277683804)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=499, η_cr=15.269656635445939, p_cr=0.9, η_m=71.12689128450586, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.211709498315333e18
+Dict{Any, Any}(:N => 499, :η_cr => 15.269656635445939, :η_m => 71.12689128450586)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=460, η_cr=45.09826407569225, p_cr=0.9, η_m=26.65766454552818, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.860181256625455e16
+Dict{Any, Any}(:N => 460, :η_cr => 45.09826407569225, :η_m => 26.65766454552818)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=286, η_cr=1.7131132512960279, p_cr=0.9, η_m=67.44137537732679, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 4.589165067165579e16
+Dict{Any, Any}(:N => 286, :η_cr => 1.7131132512960279, :η_m => 67.44137537732679)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=197, η_cr=88.08636618154225, p_cr=0.9, η_m=32.98839827237629, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.2793526428409216e18
+Dict{Any, Any}(:N => 197, :η_cr => 88.08636618154225, :η_m => 32.98839827237629)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=484, η_cr=33.667695514987706, p_cr=0.9, η_m=79.05786442480002, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 5.183448608523062e18
+Dict{Any, Any}(:N => 484, :η_cr => 33.667695514987706, :η_m => 79.05786442480002)
+
+bulk_carriers_design problem number 17 ---- Algorithm Parameters
+====================
+  NSGA2(N=372, η_cr=97.8564845486966, p_cr=0.9, η_m=4.1484453632052665, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 3.022515991184598e16
+Dict{Any, Any}(:N => 372, :η_cr => 97.8564845486966, :η_m => 4.1484453632052665)
+

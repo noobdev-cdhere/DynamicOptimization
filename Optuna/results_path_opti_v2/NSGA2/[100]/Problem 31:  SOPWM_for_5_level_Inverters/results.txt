@@ -1,0 +1,110 @@
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=489, η_cr=50.38554554375116, p_cr=0.9, η_m=43.26424175208773, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 288.61124919172795
+Dict{Any, Any}(:N => 489, :η_cr => 50.38554554375116, :η_m => 43.26424175208773)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=57, η_cr=85.06688777176589, p_cr=0.9, η_m=76.72541621567149, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 265.02225813774504
+Dict{Any, Any}(:N => 57, :η_cr => 85.06688777176589, :η_m => 76.72541621567149)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=143, η_cr=24.369802385817586, p_cr=0.9, η_m=88.52037339705838, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 272.74032655125694
+Dict{Any, Any}(:N => 143, :η_cr => 24.369802385817586, :η_m => 88.52037339705838)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=8, η_cr=66.4249753749565, p_cr=0.9, η_m=53.64066990069686, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 236.94785358772194
+Dict{Any, Any}(:N => 8, :η_cr => 66.4249753749565, :η_m => 53.64066990069686)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=463, η_cr=79.48540839239753, p_cr=0.9, η_m=44.721708687831274, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 287.95516943280114
+Dict{Any, Any}(:N => 463, :η_cr => 79.48540839239753, :η_m => 44.721708687831274)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=181, η_cr=82.78236441210318, p_cr=0.9, η_m=95.32590901049048, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 248.54242868180404
+Dict{Any, Any}(:N => 181, :η_cr => 82.78236441210318, :η_m => 95.32590901049048)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=125, η_cr=57.23215908055763, p_cr=0.9, η_m=21.386444091417044, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 245.0201798601853
+Dict{Any, Any}(:N => 125, :η_cr => 57.23215908055763, :η_m => 21.386444091417044)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=116, η_cr=12.835012330174733, p_cr=0.9, η_m=28.166816330454125, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 273.121080661868
+Dict{Any, Any}(:N => 116, :η_cr => 12.835012330174733, :η_m => 28.166816330454125)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=285, η_cr=33.09248543861404, p_cr=0.9, η_m=72.03310209804411, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 234.7821822076574
+Dict{Any, Any}(:N => 285, :η_cr => 33.09248543861404, :η_m => 72.03310209804411)
+
+SOPWM_for_5_level_Inverters problem number 31 ---- Algorithm Parameters
+====================
+  NSGA2(N=245, η_cr=28.545854650779447, p_cr=0.9, η_m=70.07214323933152, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 231.10814019716696
+Dict{Any, Any}(:N => 245, :η_cr => 28.545854650779447, :η_m => 70.07214323933152)
+

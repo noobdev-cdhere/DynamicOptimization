@@ -1,0 +1,110 @@
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=321, η_cr=75.03061610904467, p_cr=0.9, η_m=74.90584114448441, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.9876953748700234e13
+Dict{Any, Any}(:N => 321, :η_cr => 75.03061610904467, :η_m => 74.90584114448441)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=373, η_cr=93.34506466604111, p_cr=0.9, η_m=97.7123398430459, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.969983991009492e13
+Dict{Any, Any}(:N => 373, :η_cr => 93.34506466604111, :η_m => 97.7123398430459)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=126, η_cr=71.03993619779268, p_cr=0.9, η_m=73.00399587434117, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.8165611595246797e13
+Dict{Any, Any}(:N => 126, :η_cr => 71.03993619779268, :η_m => 73.00399587434117)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=81, η_cr=85.45773175322566, p_cr=0.9, η_m=31.041429064121296, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.767642901770753e13
+Dict{Any, Any}(:N => 81, :η_cr => 85.45773175322566, :η_m => 31.041429064121296)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=106, η_cr=31.169297945073048, p_cr=0.9, η_m=97.59052509668167, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.8015688283560305e13
+Dict{Any, Any}(:N => 106, :η_cr => 31.169297945073048, :η_m => 97.59052509668167)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=244, η_cr=6.252598201529724, p_cr=0.9, η_m=19.847708893744876, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.0084496621509543e13
+Dict{Any, Any}(:N => 244, :η_cr => 6.252598201529724, :η_m => 19.847708893744876)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=112, η_cr=63.76148400933148, p_cr=0.9, η_m=14.922744995048587, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.884106626410389e13
+Dict{Any, Any}(:N => 112, :η_cr => 63.76148400933148, :η_m => 14.922744995048587)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=347, η_cr=43.4756923179083, p_cr=0.9, η_m=67.88394171946625, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.0846522433427637e13
+Dict{Any, Any}(:N => 347, :η_cr => 43.4756923179083, :η_m => 67.88394171946625)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=293, η_cr=61.24482569097243, p_cr=0.9, η_m=45.0371273086393, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 1.9891687337709355e13
+Dict{Any, Any}(:N => 293, :η_cr => 61.24482569097243, :η_m => 45.0371273086393)
+
+multi_product_batch_plant problem number 19 ---- Algorithm Parameters
+====================
+  NSGA2(N=208, η_cr=5.393393524396439, p_cr=0.9, η_m=64.32283358907019, p_m=-1.0)
+
+Optimization Result
+===================
+  Empty status.
+ with 100 iterations
+Hypervolume: 2.0072819260388996e13
+Dict{Any, Any}(:N => 208, :η_cr => 5.393393524396439, :η_m => 64.32283358907019)
+
