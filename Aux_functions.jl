@@ -1,4 +1,4 @@
-module Aux_func_Hypertuning
+module Aux_functions
 
     using Plots
     using Metaheuristics

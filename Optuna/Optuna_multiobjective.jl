@@ -1,11 +1,11 @@
 using Pkg
 Pkg.activate(@__DIR__)
-include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/Hyperoptimization_intervals.jl")
+include("/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Hyperoptimization_intervals.jl")
 using .Hyperoptimization_intervals
-include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/utils.jl")
+include("/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/utils.jl")
 using .utils 
-include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/HyperTuning/Aux_func_Hypertuning.jl")
-using .Aux_func_Hypertuning
+include("/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Aux_functions.jl")
+using .Aux_functions
 using PyCall
 using Metaheuristics
 using Metaheuristics: TestProblems, optimize, SPEA2, get_non_dominated_solutions, pareto_front, Options
