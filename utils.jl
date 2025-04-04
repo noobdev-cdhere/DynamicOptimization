@@ -8,7 +8,7 @@ using Plots; gr()
 using Nonconvex
 using Hyperopt
 using DataStructures
-include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/Hyperoptimization_intervals.jl")
+include("/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Hyperoptimization_intervals.jl")
 using .Hyperoptimization_intervals
 
 
@@ -139,9 +139,10 @@ function detect_searchspaces(last_index:: Int)
 
             for (key, value) in current_searchspace
                 symbol = Symbol(key)
+                println("Key: $(key), Value: $(value)")
                 Algorithm_structure.Parameters_ranges[symbol] = [value[1], value[2], value[3]]
-            
             end
+            
             println(Algorithm_structure.Parameters_ranges)
         end
 

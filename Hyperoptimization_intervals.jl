@@ -8,8 +8,8 @@ module Hyperoptimization_intervals
     NSGA2_searchspace = OrderedDict(
         "N" => [0,500,100],
         "η_cr" => [0,100,100],
-        #"p_cr" => [0,1,0.1],
-        "η_m" => [0,100,100],
+        "p_cr" => [0, 1, 100],
+        "η_m" => [0,100,100]
         #p_m => 1.0 / D,
     )
 

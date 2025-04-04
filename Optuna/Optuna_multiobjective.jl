@@ -13,6 +13,7 @@ import Metaheuristics.PerformanceIndicators: hypervolume
 using HardTestProblems
 using DataStructures
 
+run(`clear`)
 
 #=
 Grid Search implemented in GridSampler
@@ -55,6 +56,10 @@ function getproblem(id)
 end
 
 
+println(Hyperoptimization_intervals.NSGA2_searchspace)
+println(keys(Hyperoptimization_intervals.NSGA2_searchspace))
+
+
 # Detect search spaces
 last_index = 1
 Algorithm_structure = utils.Algorithm(:none, OrderedDict(), OrderedDict())
@@ -88,7 +93,7 @@ run(`clear`)
 
 HyperTuning_configuration = utils.HyperTuning_Problems_config(1,50,100)
 
-path = Aux_func_Hypertuning.make_folder()
+path = Aux_functions.make_folder()
 
 function objective(trial, current_instance)
     params = set_configuration_optuna(trial)
@@ -103,15 +108,15 @@ function objective(trial, current_instance)
             return -Inf
         end
 
-        if haskey(Aux_func_Hypertuning.ref_points_offset, current_instance)
-            reference_point = Aux_func_Hypertuning.ref_points_offset[current_instance]
+        if haskey(Aux_functions.ref_points_offset, current_instance)
+            reference_point = Aux_functions.ref_points_offset[current_instance]
         end
 
         open(joinpath(path, "reference_points.txt"), "a") do file
             write(file, "$problem_name :::: $reference_point\n")
         end
 
-        hv_values = Aux_func_Hypertuning.run_optimization(
+        hv_values = Aux_functions.run_optimization(
             current_instance, problem_name, f, searchspace, reference_point,
             string(Algorithm_structure.Name), params, Algorithm_structure, path)
         println(@isdefined path)
