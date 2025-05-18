@@ -1,0 +1,52 @@
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8624.802676082263
+Dict{Any, Any}(:N => 19, :p_cr => 0.8475009354798794, :η_cr => 34.64657902853931, :η_m => 76.20991179053503)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8892.164738331468
+Dict{Any, Any}(:N => 494, :p_cr => 0.08318244940097341, :η_cr => 15.899699500684495, :η_m => 75.45265183121488)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 7588.116218873825
+Dict{Any, Any}(:N => 6, :p_cr => 0.2260767618228483, :η_cr => 53.09045287801942, :η_m => 69.9745960657256)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8729.995610110853
+Dict{Any, Any}(:N => 99, :p_cr => 0.29606915614748974, :η_cr => 60.865429758209245, :η_m => 96.08617027582818)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8892.451188370947
+Dict{Any, Any}(:N => 329, :p_cr => 0.9556856569568861, :η_cr => 45.09227491280937, :η_m => 37.80642276232749)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8893.484679583458
+Dict{Any, Any}(:N => 458, :p_cr => 0.2581768364703916, :η_cr => 59.37537412524598, :η_m => 22.880376002638535)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8829.751488609872
+Dict{Any, Any}(:N => 49, :p_cr => 0.11273294973597592, :η_cr => 23.276665831365328, :η_m => 60.285370186854934)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8806.72430429503
+Dict{Any, Any}(:N => 32, :p_cr => 0.9489664948590772, :η_cr => 0.9990949902893509, :η_m => 97.68689530801528)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8895.540217794489
+Dict{Any, Any}(:N => 487, :p_cr => 0.9918717367611255, :η_cr => 81.04152588149908, :η_m => 33.41602171270769)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8893.999686126052
+Dict{Any, Any}(:N => 442, :p_cr => 0.20268487413528047, :η_cr => 26.19805897683466, :η_m => 86.32264310594901)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8817.704069615624
+Dict{Any, Any}(:N => 43, :p_cr => 0.425983524688461, :η_cr => 58.04412370887954, :η_m => 51.00784299561798)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8894.016695403705
+Dict{Any, Any}(:N => 447, :p_cr => 0.8560671179359982, :η_cr => 63.65539097994167, :η_m => 46.00632392637455)
+
+two_bar_Truss_design_problems problem number 3 ---- NSGA2 with 100 iterations
+Hypervolume: 8894.331422238696
+Dict{Any, Any}(:N => 434, :p_cr => 0.9226587389643368, :η_cr => 60.850914137561176, :η_m => 45.343182789146596)
+

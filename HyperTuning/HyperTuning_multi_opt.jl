@@ -5,8 +5,8 @@ using Metaheuristics
 using Metaheuristics: TestProblems, optimize, SPEA2, get_non_dominated_solutions, pareto_front, Options
 import Metaheuristics.PerformanceIndicators: hypervolume
 include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/utils.jl")
-include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/HyperTuning/Aux_func_Hypertuning.jl")
-using .Aux_func_Hypertuning
+include("/home/afonso-meneses/Desktop/THESIS_ALGORITHM/HyperTuning/Aux_functions.jl")
+using .Aux_functions
 using .utils 
 using DataStructures
 using HyperTuning
@@ -60,11 +60,11 @@ function objective(trial)
             return -Inf
         end
 
-        if haskey(Aux_func_Hypertuning.ref_points_offset, current_instance)
-            reference_point = Aux_func_Hypertuning.ref_points_offset[current_instance]
+        if haskey(Aux_functions.ref_points_offset, current_instance)
+            reference_point = Aux_functions.ref_points_offset[current_instance]
         end
                
-        hv_values = Aux_func_Hypertuning.run_optimization(trial.instance_id, problem_name, f, searchspace, reference_point, string(Algorithm_structure.Name), params, Algorithm_structure)
+        hv_values = Aux_functions.run_optimization(trial.instance_id, problem_name, f, searchspace, reference_point, string(Algorithm_structure.Name), params, Algorithm_structure)
 
         return isempty(hv_values) ? -Inf : -maximum(values(hv_values))
     catch e
@@ -88,7 +88,7 @@ function set_configuration()
         elseif param_type == Bool
             "[true, false]"
         else
-            continue  # Skip unsupported types
+            continue  
         end
 
         push!(config_parts, "$hyperparam = $param_value")

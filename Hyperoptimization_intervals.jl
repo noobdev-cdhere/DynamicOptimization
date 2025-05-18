@@ -63,4 +63,10 @@ module Hyperoptimization_intervals
         #options = Options())
     )
 
+
+    #NelderMead_searchspace  = OrderedDict(;
+    # parameters = AdaptiveParameters(),
+    # initial_simplex = AffineSimplexer()
+    # )
+
 end

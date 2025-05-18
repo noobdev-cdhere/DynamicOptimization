@@ -1,0 +1,400 @@
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608972803940924
+Dict{Any, Any}(:N => 399, :p_cr => 0.54989540792106, :η_cr => 61.9819958718654, :η_m => 16.026523129994953)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.4279480204005015
+Dict{Any, Any}(:N => 221, :p_cr => 0.7762179568858261, :η_cr => 66.80967046107013, :η_m => 60.90565783882836)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.471229482497012
+Dict{Any, Any}(:N => 164, :p_cr => 0.7707509115837842, :η_cr => 69.89119562194617, :η_m => 68.32842849509197)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 9, :p_cr => 0.3043926964138862, :η_cr => 91.58670239972002, :η_m => 27.547721911284196)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.5050576511966165
+Dict{Any, Any}(:N => 327, :p_cr => 0.5859362116674742, :η_cr => 98.83101078215174, :η_m => 56.35163377189002)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 21, :p_cr => 0.11656364119523499, :η_cr => 16.961671629540053, :η_m => 69.59037402846263)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.048251848205196
+Dict{Any, Any}(:N => 83, :p_cr => 0.8993013829721747, :η_cr => 41.42086879546044, :η_m => 76.09838445132543)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.862317089170862
+Dict{Any, Any}(:N => 298, :p_cr => 0.4430055843492061, :η_cr => 39.35747522705244, :η_m => 68.873593172534)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.266977143913159
+Dict{Any, Any}(:N => 328, :p_cr => 0.2070578313425675, :η_cr => 0.9239145411651162, :η_m => 57.275804245254704)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.324249803866959
+Dict{Any, Any}(:N => 256, :p_cr => 0.5139230008343687, :η_cr => 16.889486237094975, :η_m => 85.17306495844703)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.587654540387621
+Dict{Any, Any}(:N => 58, :p_cr => 0.8567522716928608, :η_cr => 3.7407049976244777, :η_m => 40.32106352440661)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.9815414015157202
+Dict{Any, Any}(:N => 394, :p_cr => 0.08668463932188397, :η_cr => 31.121553280260517, :η_m => 60.056649890694345)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.605844929775153
+Dict{Any, Any}(:N => 459, :p_cr => 0.6580000007104668, :η_cr => 92.24125561082464, :η_m => 33.93447335798554)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607814099667615
+Dict{Any, Any}(:N => 435, :p_cr => 0.3017790656873989, :η_cr => 38.01798823277477, :η_m => 32.63849214856367)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.8327424145455558
+Dict{Any, Any}(:N => 199, :p_cr => 0.7786414748527728, :η_cr => 63.28916623376809, :η_m => 3.173359663637232)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.1489338313418584
+Dict{Any, Any}(:N => 375, :p_cr => 0.4252287915110553, :η_cr => 65.0621860688829, :η_m => 99.00258181244203)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607925538929548
+Dict{Any, Any}(:N => 487, :p_cr => 0.4781925071404233, :η_cr => 91.54781235107592, :η_m => 24.102538069618397)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.328468781558523
+Dict{Any, Any}(:N => 224, :p_cr => 0.05477084346469152, :η_cr => 39.29775669723728, :η_m => 56.67327104637801)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.604762200103545
+Dict{Any, Any}(:N => 377, :p_cr => 0.6904936809545613, :η_cr => 58.02490617094076, :η_m => 54.78123109027339)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 56, :p_cr => 0.3969794665247408, :η_cr => 93.5495908576555, :η_m => 72.17161280856875)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.590237385056776
+Dict{Any, Any}(:N => 282, :p_cr => 0.033898538436317405, :η_cr => 61.74911295917883, :η_m => 71.36725045140365)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.28032029733783
+Dict{Any, Any}(:N => 235, :p_cr => 0.5566617615921247, :η_cr => 98.438376472861, :η_m => 99.6836273767049)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.3633267600269074
+Dict{Any, Any}(:N => 370, :p_cr => 0.8155517204124707, :η_cr => 70.4190380715105, :η_m => 56.94230063426414)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.1140757773556036
+Dict{Any, Any}(:N => 348, :p_cr => 0.6333213780479635, :η_cr => 47.53928511250455, :η_m => 64.35747699843894)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607575967719518
+Dict{Any, Any}(:N => 419, :p_cr => 0.8960930467263774, :η_cr => 64.91657823878701, :η_m => 18.96765025160283)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.6046895907926277
+Dict{Any, Any}(:N => 216, :p_cr => 0.6461317099258607, :η_cr => 52.18631422426464, :η_m => 84.2997340014593)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.6073091583917645
+Dict{Any, Any}(:N => 445, :p_cr => 0.6927758240744675, :η_cr => 24.635549743456487, :η_m => 82.92406471599966)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.257928881537374
+Dict{Any, Any}(:N => 430, :p_cr => 0.019801702070354588, :η_cr => 36.43789991296875, :η_m => 7.910969489418962)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608535895303779
+Dict{Any, Any}(:N => 403, :p_cr => 0.4872518305383101, :η_cr => 59.89620216724448, :η_m => 80.05504136264399)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.5567305904348405
+Dict{Any, Any}(:N => 79, :p_cr => 0.35156470742313783, :η_cr => 64.67695962060458, :η_m => 40.446150755360364)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.7800699525736823
+Dict{Any, Any}(:N => 337, :p_cr => 0.46534481072664835, :η_cr => 86.44568475280131, :η_m => 25.332865082130752)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 23, :p_cr => 0.5928752742582425, :η_cr => 72.64289567093255, :η_m => 84.37392605244575)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.557684687939163
+Dict{Any, Any}(:N => 385, :p_cr => 0.8729150961085037, :η_cr => 13.967567827609429, :η_m => 30.736999428482225)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.9787892837147887
+Dict{Any, Any}(:N => 416, :p_cr => 0.1268940496416595, :η_cr => 17.958440653639673, :η_m => 6.765503904779324)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.2438324893220125
+Dict{Any, Any}(:N => 402, :p_cr => 0.28890612528138604, :η_cr => 20.90086929053747, :η_m => 22.4504200126422)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.6824013801518385
+Dict{Any, Any}(:N => 79, :p_cr => 0.7008137212295816, :η_cr => 95.77313175077599, :η_m => 36.97488177423105)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.5007960691160642
+Dict{Any, Any}(:N => 384, :p_cr => 0.366814557909636, :η_cr => 0.37935053363384874, :η_m => 38.46231161828905)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.8714090142762405
+Dict{Any, Any}(:N => 166, :p_cr => 0.8029615210707566, :η_cr => 97.46136358548783, :η_m => 16.618609096616098)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.6979705062368957
+Dict{Any, Any}(:N => 234, :p_cr => 0.5785410745200666, :η_cr => 19.045834986081832, :η_m => 87.99468176661533)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608645707261148
+Dict{Any, Any}(:N => 483, :p_cr => 0.3670336212563603, :η_cr => 22.669528658669613, :η_m => 34.51640164818252)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.340402850824602
+Dict{Any, Any}(:N => 372, :p_cr => 0.17440286451275244, :η_cr => 56.7144871839666, :η_m => 10.7916315312932)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608544859573453
+Dict{Any, Any}(:N => 439, :p_cr => 0.5977368390361124, :η_cr => 10.516904370754322, :η_m => 38.246188314485664)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 19, :p_cr => 0.04157945017158149, :η_cr => 2.6827655487415614, :η_m => 77.00757726510078)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.2649058808397653
+Dict{Any, Any}(:N => 9, :p_cr => 0.3389886520302988, :η_cr => 99.12990771345432, :η_m => 33.436263722928125)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.598714354951257
+Dict{Any, Any}(:N => 287, :p_cr => 0.7978615493210269, :η_cr => 91.9602454409842, :η_m => 71.94292995696023)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.560738175990172
+Dict{Any, Any}(:N => 445, :p_cr => 0.5306707585144358, :η_cr => 57.177688871483234, :η_m => 73.97636783023003)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607398760052019
+Dict{Any, Any}(:N => 349, :p_cr => 0.6236347852172908, :η_cr => 99.4422814352694, :η_m => 97.26649488672163)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.7966153532170317
+Dict{Any, Any}(:N => 233, :p_cr => 0.12499105146503553, :η_cr => 83.74535369549271, :η_m => 8.564450876356233)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608693176783325
+Dict{Any, Any}(:N => 426, :p_cr => 0.9169333809527604, :η_cr => 81.29570906326961, :η_m => 93.80883728222781)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.3041102281781902
+Dict{Any, Any}(:N => 119, :p_cr => 0.7039906033332142, :η_cr => 62.625054363003194, :η_m => 93.73067704885104)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.081262426657286
+Dict{Any, Any}(:N => 134, :p_cr => 0.6196493238317035, :η_cr => 13.449868878825066, :η_m => 83.6946136825924)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 125, :p_cr => 0.9102644516962901, :η_cr => 28.849458064326562, :η_m => 91.76320993320695)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.2545868948486414
+Dict{Any, Any}(:N => 47, :p_cr => 0.579126431032747, :η_cr => 4.666724741005934, :η_m => 65.7016452887164)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607809789393603
+Dict{Any, Any}(:N => 220, :p_cr => 0.7525958734606204, :η_cr => 56.85040891890755, :η_m => 45.363505148270555)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.6061586916429995
+Dict{Any, Any}(:N => 455, :p_cr => 0.7567757379485478, :η_cr => 99.01984669321892, :η_m => 93.66045753978706)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608049734588056
+Dict{Any, Any}(:N => 379, :p_cr => 0.8125706734950382, :η_cr => 64.63650313865101, :η_m => 85.07728289425131)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.111126984039947
+Dict{Any, Any}(:N => 85, :p_cr => 0.7682639465807899, :η_cr => 98.35139199259585, :η_m => 94.06991254802558)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.9841111490928816
+Dict{Any, Any}(:N => 249, :p_cr => 0.1744698282525028, :η_cr => 92.54198703934455, :η_m => 69.10867403030397)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607765525104877
+Dict{Any, Any}(:N => 249, :p_cr => 0.25096839391919656, :η_cr => 95.63222351457274, :η_m => 2.884198060395815)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.002099967846346
+Dict{Any, Any}(:N => 107, :p_cr => 0.33982906124027945, :η_cr => 73.06708376804744, :η_m => 45.208164330194876)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.7484010570983002
+Dict{Any, Any}(:N => 475, :p_cr => 0.8478510893076037, :η_cr => 1.1319318766562336, :η_m => 97.90824082922136)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.57724738950256
+Dict{Any, Any}(:N => 111, :p_cr => 0.3932660150895192, :η_cr => 1.5708225946587828, :η_m => 68.65455936862719)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.537471538307049
+Dict{Any, Any}(:N => 76, :p_cr => 0.6454103179273997, :η_cr => 36.70783696224675, :η_m => 61.65748427071301)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.602501462293735
+Dict{Any, Any}(:N => 326, :p_cr => 0.995969361119775, :η_cr => 64.35077030313089, :η_m => 96.57425373764026)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.8179840916088676
+Dict{Any, Any}(:N => 327, :p_cr => 0.7512819331857978, :η_cr => 67.39389578690307, :η_m => 80.7917337695135)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.507228769702643
+Dict{Any, Any}(:N => 346, :p_cr => 0.9704897328383401, :η_cr => 62.10120944316202, :η_m => 45.728472852471484)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.3057569529731623
+Dict{Any, Any}(:N => 160, :p_cr => 0.07283694134389784, :η_cr => 39.968918436114606, :η_m => 83.7586260050505)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.9660378566102599
+Dict{Any, Any}(:N => 91, :p_cr => 0.21185898848193796, :η_cr => 76.66678489523278, :η_m => 95.79005685389028)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.518332906468567
+Dict{Any, Any}(:N => 175, :p_cr => 0.7308794694998678, :η_cr => 26.693646831003647, :η_m => 32.903255701980974)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.604619566800834
+Dict{Any, Any}(:N => 289, :p_cr => 0.05106882796940104, :η_cr => 45.02432650105408, :η_m => 21.863441210385414)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.1807616135861805
+Dict{Any, Any}(:N => 393, :p_cr => 0.5124183098307498, :η_cr => 59.95948828730195, :η_m => 83.09203192158661)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.60647508546861
+Dict{Any, Any}(:N => 387, :p_cr => 0.11360597384731397, :η_cr => 82.84867564530502, :η_m => 41.80941305682484)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.850350353237454
+Dict{Any, Any}(:N => 137, :p_cr => 0.12335306817442726, :η_cr => 31.725402718755447, :η_m => 65.38373918173923)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.603306311996001
+Dict{Any, Any}(:N => 200, :p_cr => 0.5648424490617754, :η_cr => 79.95847254152547, :η_m => 88.70691999627716)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.605631804097468
+Dict{Any, Any}(:N => 302, :p_cr => 0.8581622171702004, :η_cr => 37.65493340538168, :η_m => 35.746215219205155)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.855265829677902
+Dict{Any, Any}(:N => 224, :p_cr => 0.4759636053557341, :η_cr => 26.264817030066755, :η_m => 1.7575186554776634)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 9, :p_cr => 0.11077129677914532, :η_cr => 14.81291171273843, :η_m => 57.358876030853324)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.6081968831936697
+Dict{Any, Any}(:N => 283, :p_cr => 0.8127249798270211, :η_cr => 3.695548006446958, :η_m => 53.40998148178405)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.857929350078467
+Dict{Any, Any}(:N => 37, :p_cr => 0.44631247046992817, :η_cr => 56.33254098851307, :η_m => 17.724585003955173)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.607926007327376
+Dict{Any, Any}(:N => 446, :p_cr => 0.15444074784919226, :η_cr => 1.4410833870272644, :η_m => 83.714858876096)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 70, :p_cr => 0.19513396927109083, :η_cr => 69.13694887936315, :η_m => 85.81509126195314)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.501409963255154
+Dict{Any, Any}(:N => 357, :p_cr => 0.3018508837774093, :η_cr => 14.693966039179706, :η_m => 97.66488819235299)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.6085449954530855
+Dict{Any, Any}(:N => 380, :p_cr => 0.9887730554032218, :η_cr => 88.40755951159464, :η_m => 63.52714241719447)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.7812548684960674
+Dict{Any, Any}(:N => 318, :p_cr => 0.2538794447793915, :η_cr => 57.81961447790492, :η_m => 61.876965669729124)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 0.0
+Dict{Any, Any}(:N => 102, :p_cr => 0.4203530006825231, :η_cr => 10.567658071517915, :η_m => 24.046058321338492)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.781231354280048
+Dict{Any, Any}(:N => 291, :p_cr => 0.7960268603977325, :η_cr => 27.39043925980119, :η_m => 16.278399506713846)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.7637454614719745
+Dict{Any, Any}(:N => 357, :p_cr => 0.9653305739401755, :η_cr => 17.4406878843237, :η_m => 90.3305497170014)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.4312409143256217
+Dict{Any, Any}(:N => 284, :p_cr => 0.5845082370849575, :η_cr => 38.635592994952404, :η_m => 59.56508162034972)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.259741729362768
+Dict{Any, Any}(:N => 346, :p_cr => 0.9717260442567448, :η_cr => 56.32313275399588, :η_m => 90.96371181825874)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 2.8889139510073676
+Dict{Any, Any}(:N => 128, :p_cr => 0.0031362286245325555, :η_cr => 15.9579398122483, :η_m => 11.298468032042553)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.606880375331618
+Dict{Any, Any}(:N => 247, :p_cr => 0.9214117398531209, :η_cr => 19.334886860904177, :η_m => 78.1423356014624)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 1.30604521110163
+Dict{Any, Any}(:N => 140, :p_cr => 0.2634886315478089, :η_cr => 58.650098695296535, :η_m => 40.47514136966123)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.1079685264091643
+Dict{Any, Any}(:N => 379, :p_cr => 0.9132188544137828, :η_cr => 69.28780462049376, :η_m => 94.40646284905827)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.283314504620277
+Dict{Any, Any}(:N => 35, :p_cr => 0.6594386148633617, :η_cr => 18.716574499574044, :η_m => 77.16462451895542)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.608311286104721
+Dict{Any, Any}(:N => 433, :p_cr => 0.8549600998169793, :η_cr => 11.090839382526852, :η_m => 67.16868803470419)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.606367880683095
+Dict{Any, Any}(:N => 281, :p_cr => 0.34476988046952006, :η_cr => 30.67444223071547, :η_m => 87.41466590397586)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.9328930277545973
+Dict{Any, Any}(:N => 140, :p_cr => 0.7514088218460182, :η_cr => 17.382647554531296, :η_m => 73.69637018816745)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 3.536531112429783
+Dict{Any, Any}(:N => 485, :p_cr => 0.32222793232307767, :η_cr => 95.54205622008907, :η_m => 66.17183659184735)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.531311077935007
+Dict{Any, Any}(:N => 483, :p_cr => 0.9607334904912541, :η_cr => 82.59500977979913, :η_m => 32.615334771266234)
+
+vibrating_platform problem number 2 ---- NSGA2 with 100 iterations
+Hypervolume: 4.605600094564207
+Dict{Any, Any}(:N => 498, :p_cr => 0.6344019659164917, :η_cr => 11.123167563872316, :η_m => 54.62840912877181)
+

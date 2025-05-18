@@ -5,11 +5,13 @@ module Aux_functions
     using Metaheuristics: optimize, get_non_dominated_solutions, pareto_front, Options
     import Metaheuristics.PerformanceIndicators: hypervolume
     using DataStructures
-
+    using Distributed  # For @spawn and fetch
+    using Dates        # For timeout tracking
+    
     export ref_points_offset, run_optimization, make_folder
-
+#=
     ref_points_offset = Dict(
-        1 => [370000, -7330],
+        #1 => [370000, -7330],
         2 => [1, 1000], 
         4 => [40, 0.2],
         7 => [4, 50],
@@ -48,7 +50,7 @@ module Aux_functions
         49 => [100, 100, 100],
         50 => [100000, 2000]
     )
-
+=#
     function make_folder()
         global path
     
@@ -68,6 +70,7 @@ module Aux_functions
                 error("No optimization library detected!")
             end
         catch e
+            println("Error $e")
             println("You can't have two optimization libraries in use in the same script")
             return
         end
@@ -106,46 +109,91 @@ module Aux_functions
         end
     end
 
-    function run_optimization(current_inst, problem_name, f, searchspace, reference_point, metaheuristic_str, params, Algorithm_structure, path)
-        
-        hv_values = Dict()
-        problem_folder_name = "Problem $(current_inst):  $problem_name"
-        iteration_counts = [100]
-        
-        println(path)
-        problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
-        
-        open(joinpath(path, "reference_points.txt"), "a") do file
-             write(file, "$problem_name :::: $reference_point\n")
-        end
 
 
-        p = plot(title="Pareto Front for $problem_name", xlabel="Objective 1", ylabel="Objective 2")
-        
-        i = 1
-        for num_ite in iteration_counts
-            i+=1 
-            println("Running $metaheuristic_str with $num_ite iterations for $problem_name: problem number: $(current_inst)")
-
-            algorithm_instance = Algorithm_structure.Name
-            options = Metaheuristics.Options(; iterations = num_ite)
-            metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
-
-            metaheuristic_str = string(metaheuristic)
-            status = optimize(f, searchspace, metaheuristic)
-            approx_front = get_non_dominated_solutions(status.population)
-            hv_values[num_ite] = hypervolume(approx_front, reference_point)
-
-            println("Hypervolume so far: $(hv_values)")
-            write_results(joinpath(problem_dir, "results.txt"), problem_name, current_inst, num_ite, hv_values[num_ite], params, metaheuristic_str)
-
-            plot_pareto_front!(p, approx_front, reference_point, i, num_ite)
-        end
-
-        finalize_plot(p, reference_point, problem_dir, params)
-
-        return hv_values
+function run_optimization(current_inst, iteration_counts, problem_name, f, searchspace, 
+                         reference_point, metaheuristic_str, params, 
+                         Algorithm_structure, path;
+                         max_retries=3, 
+                         timeout_seconds=60)
+    
+    hv_values = Dict()
+    problem_folder_name = "Problem $(current_inst):  $problem_name"
+    problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
+    
+    open(joinpath(path, "reference_points.txt"), "a") do file
+        write(file, "$problem_name :::: $reference_point\n")
     end
+
+    for num_ite in iteration_counts
+        retry_count = 0
+        success = false
+        
+        while !success && retry_count < max_retries
+            try
+                println("Attempt $(retry_count+1)/$max_retries - Running $metaheuristic_str with $num_ite iterations")
+                
+                algorithm_instance = Algorithm_structure.Name
+                options = Metaheuristics.Options(; iterations=num_ite)
+                metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+
+                # Timeout-protected optimization
+                result_channel = RemoteChannel(1)
+                start_time = now()
+                
+                # Start the optimization in a separate task
+                @spawn begin
+                    try
+                        put!(result_channel, optimize(f, searchspace, metaheuristic))
+                    catch e
+                        put!(result_channel, (error=e, backtrace=catch_backtrace()))
+                    end
+                end
+                
+                # Wait for result with timeout
+                while true
+                    if isready(result_channel)
+                        status = take!(result_channel)
+                        if hasproperty(status, :error)
+                            @error "Optimization failed" exception=(status.error, status.backtrace)
+                            break
+                        else
+                            approx_front = get_non_dominated_solutions(status.population)
+                            hv_values[num_ite] = hypervolume(approx_front, reference_point)
+                            println("Hypervolume: $(hv_values[num_ite])")
+                            success = true
+                            break
+                        end
+                    elseif (now() - start_time).value/1000 > timeout_seconds
+                        @warn "Timeout after $timeout_seconds seconds, retrying..."
+                        break
+                    end
+                    sleep(1)  # Check every second
+                end
+                
+            catch e
+                @error "Unexpected error during optimization attempt" exception=(e, catch_backtrace())
+            end
+            
+            retry_count += 1
+            if !success && retry_count < max_retries
+                println("Waiting 5 seconds before retry...")
+                sleep(5)
+            end
+        end
+        
+        if !success
+            @warn "Failed to complete optimization after $max_retries attempts"
+            hv_values[num_ite] = -Inf  # Or some other failure indicator
+        end
+        
+        # Save results even if failed
+        write_results(joinpath(problem_dir, "results.txt"), problem_name, current_inst, 
+                     num_ite, hv_values[num_ite], params, metaheuristic_str)
+    end
+    
+    return hv_values
+end
 
     function plot_pareto_front!(p, approx_front, reference_point, color_index, num_ite)
         if isempty(approx_front)
@@ -249,3 +297,45 @@ module Aux_functions
 
     
 end
+
+
+function get_samplers(optuna)
+    Samplers_list = []
+
+    for samplers in keys(optuna[:samplers])
+        samplers_txt = string(samplers)
+        if occursin("Sampler", samplers_txt)
+            push!(Samplers_list, samplers)
+        end
+    end
+    return Samplers_list
+end;
+
+
+
+function apply_surrogate(f, bounds, model)
+
+    Surrogate_model = getproperty(Surrogates, Symbol(model))
+
+    lower_bound = bounds[:,1]
+    upper_bound = bounds[:,2]
+    n_samples = 100 # TODO:: VER A QUESTÃO DO SAMPLE POINTS E POPULAÇÃO DO ALGORITMO
+
+    X = Surrogates.sample(n_samples, lower_bound, upper_bound, LatinHypercubeSample())  
+    Y = f.(X) 
+
+    n_obj = length(Y[1])
+    Ys = [Any[] for _ in 1:n_obj]
+    
+    for y in Y
+        for (i, yi) in enumerate(y)
+            push!(Ys[i], yi)
+        end
+    end
+
+    surrogates = [
+        Surrogate_model(X, Ys[i], lower_bound, upper_bound) for i in 1:n_obj
+    ]
+
+    return x -> tuple([s(x) for s in surrogates]...)
+end;

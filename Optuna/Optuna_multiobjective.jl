@@ -12,6 +12,13 @@ using Metaheuristics: TestProblems, optimize, SPEA2, get_non_dominated_solutions
 import Metaheuristics.PerformanceIndicators: hypervolume
 using HardTestProblems
 using DataStructures
+using Surrogates
+using CSV
+using DataFrames
+using Distributed  # For @spawn and fetch
+using Dates        # For timeout tracking
+
+
 
 run(`clear`)
 
@@ -26,26 +33,7 @@ Nondominated Sorting Genetic Algorithm II implemented in NSGAIISampler
 A Quasi Monte Carlo sampling algorithm implemented in QMCSampler
 =#
 
-# Import Optuna
-optuna = pyimport("optuna")
-
-# Create an Optuna study
-study = optuna.create_study(sampler=optuna.samplers.RandomSampler())
-
-# List available samplers
-function get_samplers(optuna)
-    Samplers_list = []
-
-    for samplers in keys(optuna[:samplers])
-        samplers_txt = string(samplers)
-        if occursin("Sampler", samplers_txt)
-            push!(Samplers_list, samplers)
-        end
-    end
-    return Samplers_list
-end
-
-Samplers_list = get_samplers(optuna)
+optuna = pyimport("optuna");
 
 # Retrieve problem instance
 function getproblem(id)
@@ -53,19 +41,13 @@ function getproblem(id)
     reference_point = conf[:nadir]  
     bounds = hcat(conf[:xmin], conf[:xmax])
     return f, bounds, reference_point 
-end
-
-
-println(Hyperoptimization_intervals.NSGA2_searchspace)
-println(keys(Hyperoptimization_intervals.NSGA2_searchspace))
-
+end;
 
 # Detect search spaces
 last_index = 1
 Algorithm_structure = utils.Algorithm(:none, OrderedDict(), OrderedDict())
 Algorithm_structure, last_index = utils.detect_searchspaces(last_index)
 
-# Correct function to set Optuna configuration
 function set_configuration_optuna(trial)
     params = Dict()
 
@@ -87,42 +69,51 @@ function set_configuration_optuna(trial)
     return params
 end
 
-
 run(`clear`)
-
 
 HyperTuning_configuration = utils.HyperTuning_Problems_config(1,50,100)
 
 path = Aux_functions.make_folder()
+
+iteration_counts = [100]
 
 function objective(trial, current_instance)
     params = set_configuration_optuna(trial)
     try
         problem_name = HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[current_instance]
         println("Optimizing problem: ", problem_name)
-
+        
+        #Surrogate_flag = true
+        
         f, searchspace, reference_point = try
             getproblem(current_instance)  
         catch e
             @warn "Error retrieving problem for trial $trial: $e"
             return -Inf
         end
+        #f = apply_surrogate(f, bounds)
+        #if haskey(Aux_functions.ref_points_offset, current_instance)
+        #    reference_point = Aux_functions.ref_points_offset[current_instance]
+        #end
 
-        if haskey(Aux_functions.ref_points_offset, current_instance)
-            reference_point = Aux_functions.ref_points_offset[current_instance]
-        end
+        #if Surrogate_flag === true
+        #    f_surrogate = apply_surrogate(f, searchspace, RadialBasis)
+        #else
+        #    f_surrogate = f
+        #end
 
-        open(joinpath(path, "reference_points.txt"), "a") do file
-            write(file, "$problem_name :::: $reference_point\n")
-        end
+        #open(joinpath(path, "reference_points.txt"), "a") do file
+        #    write(file, "$problem_name :::: $reference_point\n")
+        #end
 
+        
         hv_values = Aux_functions.run_optimization(
-            current_instance, problem_name, f, searchspace, reference_point,
+            current_instance, iteration_counts, problem_name, f, searchspace, reference_point,
             string(Algorithm_structure.Name), params, Algorithm_structure, path)
-        println(@isdefined path)
+        
         println("HV Values: ", hv_values)
 
-        return isempty(hv_values) ? -Inf : -maximum(values(hv_values))
+        return isempty(hv_values) ? -Inf : maximum(values(hv_values))
     catch e
         @warn "Unexpected error in objective function: $e"
         return -Inf
@@ -131,18 +122,74 @@ end
 
 run(`clear`)
 
-db_path = joinpath(path, "db.sqlite3")
+print(path)
+
+db_path = joinpath(path, "db_$(string(Algorithm_structure.Name))_$(string(iteration_counts[1])).sqlite3")
+
+results = []
+
+#rm(joinpath(pwd(), "$(db_path)"), recursive=true)
+
+current_instance = 1
 
 for current_instance in HyperTuning_configuration.lb_instaces:HyperTuning_configuration.max_instace
+    name = HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[current_instance]
 
+    study = optuna.create_study(
+        storage="sqlite:///$db_path",
+        study_name=name,
+        direction="maximize", 
+        sampler=optuna.samplers.RandomSampler()
+    )
 
-    study = optuna.create_study( storage="sqlite:///$db_path",study_name="$(HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[current_instance])", sampler=optuna.samplers.RandomSampler())
-
+    try
     study.optimize(trial -> objective(trial, current_instance), n_trials=100)
+    catch e
+        @warn "Optuna crashed during optimization: $e"
+        continue
+    end
 
-    #study.optimize(objective, n_trials=100)
-    print("Best value: $(study.best_value) (params: $(study.best_params))")
+
+
+    println("[$name] Best value: $(study.best_value) (params: $(study.best_params))")
+    
+    push!(results, (
+        algorithm_name = Algorithm_structure.Name,
+        sampler = study[:sampler][:__class__][:__name__], 
+        name = name,
+        value = study.best_value,
+        params = study.best_params
+    ))
 end
 
 
-print(study.best_trial.value, study.best_trial.params)
+result_df = DataFrame(
+    algorithm_name = Symbol[],
+    name = String[],
+    hv_value = Float64[],
+    params = Any[] 
+)
+
+result_df
+
+run(`clear`)
+
+println("\n📊 Summary of best trials:")
+
+length(results)
+
+
+for r in range(1, length(results))
+    println(r)
+    println("🧪 $(results[r].algorithm_name) :: $(results[r].name): value = $(results[r].value), params = $(results[r].params)")
+
+    push!(result_df, (results[r][:algorithm_name],results[r][:name], results[r][:hv_value], results[r][:params]))
+    CSV.write("$(Algorithm_structure.Name)_$(results[r].sampler)_nadir.csv", result_df)
+
+end
+
+
+
+
+
+ 

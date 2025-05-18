@@ -106,24 +106,19 @@ function create_file(Algorithm_structure::Algorithm, dirpath::String, fname:: St
     return txt_path
 end
 
-
-#txt_path = create_file(Algorithm_structure)
-
-function warning_txt_file(txt_path)
-    println("Please modify `$txt_path` with hyperparameter ranges.")
-    println("Use the format: `param_name = lb - hb - num_elements")
-    
+function getproblem(id)
+    f, conf = HardTestProblems.get_RW_MOP_problem(id)
+    reference_point = conf[:nadir]  
+    bounds = hcat(conf[:xmin], conf[:xmax])
+    return f, bounds, reference_point 
 end
-
-#warning_txt_file(txt_path)
-
 
 # ---------------------
 # Get Hyperparameters values from Hyperoptimization_intervals
 # ---------------------
 
 function detect_searchspaces(last_index:: Int)
-    
+
 
     for (i, searchspace) in enumerate(names(Hyperoptimization_intervals))
         
@@ -229,6 +224,8 @@ end
 
 
 #set_parameters_hyperopt()
+
+
 
 #expr = Meta.parse(hyperopti_in_text) 
 #eval(expr)  
