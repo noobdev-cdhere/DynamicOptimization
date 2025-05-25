@@ -1,0 +1,5 @@
+[deps]
+HardTestProblems = "017f2a17-63a9-4ea1-9ce1-f7de69e6e227"
+NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
+Nonconvex = "01bcebdf-4d21-426d-b5c4-6132c1619978"
+NonconvexNLopt = "b43a31b8-ff9b-442d-8e31-c163daa8ab75"

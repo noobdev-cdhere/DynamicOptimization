@@ -15,12 +15,15 @@ using DataStructures
 using Surrogates
 using CSV
 using DataFrames
-using Distributed  # For @spawn and fetch
-using Dates        # For timeout tracking
-
 
 
 run(`clear`)
+
+#base = pwd()
+#base_dir =joinpath(base, "Optuna")
+#base_dir
+
+
 
 #=
 Grid Search implemented in GridSampler
@@ -42,6 +45,10 @@ function getproblem(id)
     bounds = hcat(conf[:xmin], conf[:xmax])
     return f, bounds, reference_point 
 end;
+
+#methods(HardTestProblems.process_synthesis)
+
+
 
 # Detect search spaces
 last_index = 1
@@ -157,7 +164,7 @@ for current_instance in HyperTuning_configuration.lb_instaces:HyperTuning_config
         algorithm_name = Algorithm_structure.Name,
         sampler = study[:sampler][:__class__][:__name__], 
         name = name,
-        value = study.best_value,
+        hv_value = study.best_value,
         params = study.best_params
     ))
 end
@@ -167,7 +174,7 @@ result_df = DataFrame(
     algorithm_name = Symbol[],
     name = String[],
     hv_value = Float64[],
-    params = Any[] 
+    params = String[] 
 )
 
 result_df
@@ -178,18 +185,17 @@ println("\n📊 Summary of best trials:")
 
 length(results)
 
-
 for r in range(1, length(results))
     println(r)
-    println("🧪 $(results[r].algorithm_name) :: $(results[r].name): value = $(results[r].value), params = $(results[r].params)")
+    println("🧪 $(results[r].algorithm_name) :: $(results[r].name): value = $(results[r].hv_value), params = $(results[r].params)")
+    if occursin("Dict{Any, Any}", string(results[r][:params]))
+        
+        params_str = replace(string(results[r][:params]), r"Dict\{Any, Any\}\(" => "", ")" => "", "\"" => "")
+    end
+    push!(result_df, (results[r][:algorithm_name],results[r][:name], results[r][:hv_value], params_str))
+    CSV_NAME = "$(Algorithm_structure.Name)_$(results[r].sampler)_nadir.csv"
+    CSV.write(CSV_NAME, result_df)
 
-    push!(result_df, (results[r][:algorithm_name],results[r][:name], results[r][:hv_value], results[r][:params]))
-    CSV.write("$(Algorithm_structure.Name)_$(results[r].sampler)_nadir.csv", result_df)
 
-end
-
-
-
-
-
+end 
  

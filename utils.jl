@@ -5,7 +5,7 @@ using Metaheuristics.PerformanceIndicators: hypervolume, Δₚ
 using Metaheuristics: TestProblems, optimize, SPEA2, get_non_dominated_solutions, pareto_front, Options
 using Plots
 using Plots; gr()
-using Nonconvex
+#using Nonconvex
 using Hyperopt
 using DataStructures
 include("/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Hyperoptimization_intervals.jl")

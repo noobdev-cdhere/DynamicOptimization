@@ -6,7 +6,9 @@ module Aux_functions
     import Metaheuristics.PerformanceIndicators: hypervolume
     using DataStructures
     using Distributed  # For @spawn and fetch
-    using Dates        # For timeout tracking
+    using Dates
+    using Distributed
+    using SharedArrays
     
     export ref_points_offset, run_optimization, make_folder
 #=
@@ -110,7 +112,6 @@ module Aux_functions
     end
 
 
-
 function run_optimization(current_inst, iteration_counts, problem_name, f, searchspace, 
                          reference_point, metaheuristic_str, params, 
                          Algorithm_structure, path;
@@ -120,10 +121,6 @@ function run_optimization(current_inst, iteration_counts, problem_name, f, searc
     hv_values = Dict()
     problem_folder_name = "Problem $(current_inst):  $problem_name"
     problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
-    
-    open(joinpath(path, "reference_points.txt"), "a") do file
-        write(file, "$problem_name :::: $reference_point\n")
-    end
 
     for num_ite in iteration_counts
         retry_count = 0
@@ -137,38 +134,53 @@ function run_optimization(current_inst, iteration_counts, problem_name, f, searc
                 options = Metaheuristics.Options(; iterations=num_ite)
                 metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
 
-                # Timeout-protected optimization
-                result_channel = RemoteChannel(1)
-                start_time = now()
+                # Create channels for communication
+                result_channel = Channel(1)
+                timeout_channel = Channel(1)
                 
-                # Start the optimization in a separate task
-                @spawn begin
+                # Start the optimization task
+                opt_task = @async begin
                     try
-                        put!(result_channel, optimize(f, searchspace, metaheuristic))
+                        result = optimize(f, searchspace, metaheuristic)
+                        put!(result_channel, (result, :success))
                     catch e
-                        put!(result_channel, (error=e, backtrace=catch_backtrace()))
+                        put!(result_channel, (e, :error))
                     end
                 end
                 
-                # Wait for result with timeout
+                # Start timeout watcher
+                @async begin
+                    sleep(timeout_seconds)
+                    if !istaskdone(opt_task)
+                        put!(timeout_channel, :timeout)
+                        schedule(opt_task, InterruptException(), error=true)
+                    end
+                end
+                
+                # Wait for result or timeout
+                start_time = time()
                 while true
                     if isready(result_channel)
-                        status = take!(result_channel)
-                        if hasproperty(status, :error)
-                            @error "Optimization failed" exception=(status.error, status.backtrace)
-                            break
-                        else
+                        status, result_type = take!(result_channel)
+                        
+                        if result_type == :success
                             approx_front = get_non_dominated_solutions(status.population)
                             hv_values[num_ite] = hypervolume(approx_front, reference_point)
                             println("Hypervolume: $(hv_values[num_ite])")
                             success = true
-                            break
+                        else
+                            @error "Optimization failed" exception=(status, catch_backtrace())
                         end
-                    elseif (now() - start_time).value/1000 > timeout_seconds
+                        break
+                        
+                    elseif isready(timeout_channel)
+                        take!(timeout_channel)  # Clear the channel
                         @warn "Timeout after $timeout_seconds seconds, retrying..."
                         break
                     end
-                    sleep(1)  # Check every second
+                    
+                    # Check every 0.1 seconds (more responsive than 1 second)
+                    sleep(0.1)
                 end
                 
             catch e
@@ -184,12 +196,12 @@ function run_optimization(current_inst, iteration_counts, problem_name, f, searc
         
         if !success
             @warn "Failed to complete optimization after $max_retries attempts"
-            hv_values[num_ite] = -Inf  # Or some other failure indicator
+            hv_values[num_ite] = -Inf  # Failure indicator
         end
         
-        # Save results even if failed
+        # Save results
         write_results(joinpath(problem_dir, "results.txt"), problem_name, current_inst, 
-                     num_ite, hv_values[num_ite], params, metaheuristic_str)
+                    num_ite, hv_values[num_ite], params, metaheuristic_str)
     end
     
     return hv_values
@@ -295,47 +307,47 @@ end
 
     end
 
+
+    function get_samplers(optuna)
+        Samplers_list = []
+
+        for samplers in keys(optuna[:samplers])
+            samplers_txt = string(samplers)
+            if occursin("Sampler", samplers_txt)
+                push!(Samplers_list, samplers)
+            end
+        end
+        return Samplers_list
+    end;
+
+
+
+    function apply_surrogate(f, bounds, model)
+
+        Surrogate_model = getproperty(Surrogates, Symbol(model))
+
+        lower_bound = bounds[:,1]
+        upper_bound = bounds[:,2]
+        n_samples = 100 # TODO:: VER A QUESTÃO DO SAMPLE POINTS E POPULAÇÃO DO ALGORITMO
+
+        X = Surrogates.sample(n_samples, lower_bound, upper_bound, LatinHypercubeSample())  
+        Y = f.(X) 
+
+        n_obj = length(Y[1])
+        Ys = [Any[] for _ in 1:n_obj]
+        
+        for y in Y
+            for (i, yi) in enumerate(y)
+                push!(Ys[i], yi)
+            end
+        end
+
+        surrogates = [
+            Surrogate_model(X, Ys[i], lower_bound, upper_bound) for i in 1:n_obj
+        ]
+
+        return x -> tuple([s(x) for s in surrogates]...)
+    end;
     
 end
 
-
-function get_samplers(optuna)
-    Samplers_list = []
-
-    for samplers in keys(optuna[:samplers])
-        samplers_txt = string(samplers)
-        if occursin("Sampler", samplers_txt)
-            push!(Samplers_list, samplers)
-        end
-    end
-    return Samplers_list
-end;
-
-
-
-function apply_surrogate(f, bounds, model)
-
-    Surrogate_model = getproperty(Surrogates, Symbol(model))
-
-    lower_bound = bounds[:,1]
-    upper_bound = bounds[:,2]
-    n_samples = 100 # TODO:: VER A QUESTÃO DO SAMPLE POINTS E POPULAÇÃO DO ALGORITMO
-
-    X = Surrogates.sample(n_samples, lower_bound, upper_bound, LatinHypercubeSample())  
-    Y = f.(X) 
-
-    n_obj = length(Y[1])
-    Ys = [Any[] for _ in 1:n_obj]
-    
-    for y in Y
-        for (i, yi) in enumerate(y)
-            push!(Ys[i], yi)
-        end
-    end
-
-    surrogates = [
-        Surrogate_model(X, Ys[i], lower_bound, upper_bound) for i in 1:n_obj
-    ]
-
-    return x -> tuple([s(x) for s in surrogates]...)
-end;
