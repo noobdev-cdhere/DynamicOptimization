@@ -1,0 +1,6 @@
+algorithm_name,sampler,solutions
+process_synthesis_problem,RandomSampler,"Any[2.3068523194401798, 2.25190819231815]"
+process_synthesis_problem,RandomSampler,"Any[0.30685231944017965, 3.278024587769843]"
+process_synthesis_problem,RandomSampler,"Any[-0.6931476805598203, 5.507049666287147]"
+process_synthesis_problem,RandomSampler,"Any[1.3068523194401798, 2.2520301224883124]"
+process_synthesis_problem,RandomSampler,"Any[2.9999990000005, 2.059817558349614]"

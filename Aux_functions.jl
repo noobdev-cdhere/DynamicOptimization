@@ -111,101 +111,170 @@ module Aux_functions
         end
     end
 
-
-function run_optimization(current_inst, iteration_counts, problem_name, f, searchspace, 
-                         reference_point, metaheuristic_str, params, 
-                         Algorithm_structure, path;
-                         max_retries=3, 
-                         timeout_seconds=60)
-    
-    hv_values = Dict()
-    problem_folder_name = "Problem $(current_inst):  $problem_name"
-    problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
-
-    for num_ite in iteration_counts
-        retry_count = 0
-        success = false
+    function run_opt(current_inst, iteration_counts, problem_name, f, searchspace, 
+                            reference_point, metaheuristic_str, params, 
+                            Algorithm_structure, path;
+                            max_retries=3, 
+                            timeout_seconds=60)
         
-        while !success && retry_count < max_retries
-            try
-                println("Attempt $(retry_count+1)/$max_retries - Running $metaheuristic_str with $num_ite iterations")
-                
-                algorithm_instance = Algorithm_structure.Name
-                options = Metaheuristics.Options(; iterations=num_ite)
-                metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+        hv_values = Dict()
+        problem_folder_name = "Problem $(current_inst):  $problem_name"
+        problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
 
-                # Create channels for communication
-                result_channel = Channel(1)
-                timeout_channel = Channel(1)
+        for num_ite in iteration_counts
+            retry_count = 0
+            success = false
+            
+            while !success && retry_count < max_retries
+                try
+                    println("Attempt $(retry_count+1)/$max_retries - Running $metaheuristic_str with $num_ite iterations")
+                    
+                    algorithm_instance = Algorithm_structure.Name
+                    options = Metaheuristics.Options(; iterations=num_ite, time_limit = 20.0)
+                    #println("options:: $options")
                 
-                # Start the optimization task
-                opt_task = @async begin
-                    try
-                        result = optimize(f, searchspace, metaheuristic)
-                        put!(result_channel, (result, :success))
-                    catch e
-                        put!(result_channel, (e, :error))
-                    end
-                end
-                
-                # Start timeout watcher
-                @async begin
-                    sleep(timeout_seconds)
-                    if !istaskdone(opt_task)
-                        put!(timeout_channel, :timeout)
-                        schedule(opt_task, InterruptException(), error=true)
-                    end
-                end
-                
-                # Wait for result or timeout
-                start_time = time()
-                while true
-                    if isready(result_channel)
-                        status, result_type = take!(result_channel)
-                        
-                        if result_type == :success
-                            approx_front = get_non_dominated_solutions(status.population)
-                            hv_values[num_ite] = hypervolume(approx_front, reference_point)
-                            println("Hypervolume: $(hv_values[num_ite])")
-                            success = true
-                        else
-                            @error "Optimization failed" exception=(status, catch_backtrace())
+                    metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+
+                    # Create channels for communication
+                    result_channel = Channel(1)
+                    timeout_channel = Channel(1)
+                    
+                    # Start the optimization task
+                    opt_task = @async begin
+                        try 
+                            #println("hey2")
+                            #flush(stdout)
+                            println("Starting task...")
+                            result = optimize(f, searchspace, metaheuristic) ## fica preso aqui 
+                            println("task Finished...")
+                            put!(result_channel, (result, :success))
+                        catch e
+                            put!(result_channel, (e, :error))
                         end
-                        break
-                        
-                    elseif isready(timeout_channel)
-                        take!(timeout_channel)  # Clear the channel
-                        @warn "Timeout after $timeout_seconds seconds, retrying..."
-                        break
                     end
                     
-                    # Check every 0.1 seconds (more responsive than 1 second)
-                    sleep(0.1)
+                    # Start timeout watcher
+                    @async begin
+                        sleep(timeout_seconds)
+                        if !istaskdone(opt_task)
+                            put!(timeout_channel, :timeout)
+                            schedule(opt_task, InterruptException(), error=true)
+                        end
+                    end
+                    
+                    # Wait for result or timeout
+                    start_time = time()
+                    while true
+                        if isready(result_channel)
+                            status, result_type = take!(result_channel)
+                            
+                            if result_type == :success
+                                approx_front = get_non_dominated_solutions(status.population)
+                                hv_values[num_ite] = hypervolume(approx_front, reference_point)
+                                println("Hypervolume: $(hv_values[num_ite])")
+                                success = true
+                                close_result_channel(result_channel)
+                            else
+                                
+                                @error "Optimization failed" exception=(status, catch_backtrace())
+                                close_result_channel(result_channel)
+                            end
+                            break
+                            
+                        elseif isready(timeout_channel)
+                            take!(timeout_channel)  # Clear the channel
+                            close_timeout_channel(timeout_channel)
+                            @warn "Timeout after $timeout_seconds seconds, retrying..."
+                            break
+                        end
+                        
+                        # Check every 0.1 seconds (more responsive than 1 second)
+                        sleep(1)
+                    end
+                    
+                catch e
+                    @error "Unexpected error during optimization attempt" exception=(e, catch_backtrace())
                 end
                 
-            catch e
-                @error "Unexpected error during optimization attempt" exception=(e, catch_backtrace())
+                retry_count += 1
+                if !success && retry_count < max_retries
+                    close_result_channel(result_channel)
+                    close_timeout_channel(timeout_channel)
+                    println("Waiting 5 seconds before retry...")
+                    sleep(5)
+                end
             end
             
-            retry_count += 1
-            if !success && retry_count < max_retries
-                println("Waiting 5 seconds before retry...")
-                sleep(5)
+            if !success
+                close_result_channel(result_channel)
+                close_timeout_channel(timeout_channel)
+                @warn "Failed to complete optimization after $max_retries attempts"
+                hv_values[num_ite] = -Inf  # Failure indicator
             end
+            
+            # Save results
+            write_results(joinpath(problem_dir, "results.txt"), problem_name, current_inst, 
+                        num_ite, hv_values[num_ite], params, metaheuristic_str)
         end
         
-        if !success
-            @warn "Failed to complete optimization after $max_retries attempts"
-            hv_values[num_ite] = -Inf  # Failure indicator
-        end
+        return hv_values
+    end
+
+
+
+
+    function main_optimization_routine(algorithm_instance, f, searchspace, num_ite,  params, reference_point, hv_values)
         
+        options = Metaheuristics.Options(; iterations = num_ite, time_limit = 20.0)
+        metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+        
+        println("Starting task...")
+        status = optimize(f, searchspace, metaheuristic) ## fica preso aqui 
+        println("Task Finished...")
+        approx_front = get_non_dominated_solutions(status.population)
+        hv_values[num_ite] = hypervolume(approx_front, reference_point)
+        println("Hypervolume: $(hv_values[num_ite])")
+
+        return hv_values
+
+    end
+
+
+    function run_optimization(current_inst, iteration_counts, problem_name, f, searchspace, 
+                            reference_point, metaheuristic_str, params, 
+                            Algorithm_structure, path)
+        
+        hv_values = Dict()
+        problem_folder_name = "Problem $(current_inst):  $problem_name"
+        problem_dir = create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
+
+        num_ite = 100
+                
+        try
+            #println("Attempt $(retry_count+1)/$max_retries - Running $metaheuristic_str with $num_ite iterations")
+            
+            algorithm_instance = Algorithm_structure.Name
+            options = Metaheuristics.Options(; iterations = num_ite, time_limit = 20.0)
+            metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+            println("Starting task...")
+            status = optimize(f, searchspace, metaheuristic) ## fica preso aqui 
+            println("Task Finished...")
+            approx_front = get_non_dominated_solutions(status.population)
+            hv_values[num_ite] = hypervolume(approx_front, reference_point)
+            println("Hypervolume: $(hv_values[num_ite])")
+
+        catch e
+            @error "Unexpected error during optimization attempt" exception=(e, catch_backtrace())
+
+        end
+ 
         # Save results
         write_results(joinpath(problem_dir, "results.txt"), problem_name, current_inst, 
                     num_ite, hv_values[num_ite], params, metaheuristic_str)
+
+        
+        return hv_values
     end
-    
-    return hv_values
-end
 
     function plot_pareto_front!(p, approx_front, reference_point, color_index, num_ite)
         if isempty(approx_front)

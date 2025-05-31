@@ -1,0 +1,2 @@
+algorithm_name,sampler,solutions
+optimal_power_flow_5,RandomSampler,"Any[3.683842168547061, 6.342490168852208, 9.05368822377118]"

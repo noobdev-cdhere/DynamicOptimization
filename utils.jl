@@ -10,7 +10,7 @@ using Hyperopt
 using DataStructures
 include("/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Hyperoptimization_intervals.jl")
 using .Hyperoptimization_intervals
-
+using HardTestProblems
 
 export Problem, Algorithm, create_file, warning_txt_file, create_intervals, set_parameters_hyperopt
 export init_algorithm_structure
@@ -113,18 +113,16 @@ function getproblem(id)
     return f, bounds, reference_point 
 end
 
+
+
 # ---------------------
 # Get Hyperparameters values from Hyperoptimization_intervals
 # ---------------------
 
-function detect_searchspaces(last_index:: Int)
+function detect_searchspaces(searchspace::String)
 
 
-    for (i, searchspace) in enumerate(names(Hyperoptimization_intervals))
-        
-        if i ≤ last_index
-            continue 
-        end
+    if in(Symbol(searchspace), names(Hyperoptimization_intervals))
         
         if occursin("_searchspace", string(searchspace))
             Algorithm_structure = utils.init_algorithm_structure(string(split(string(searchspace), "_searchspace")[1]))
@@ -143,10 +141,9 @@ function detect_searchspaces(last_index:: Int)
 
         Algorithm_structure.Parameters_ranges
         
-        last_index = i
-        return Algorithm_structure, last_index
-        break
-        
+        return Algorithm_structure
+    else
+        println("Searchspace is not in Hyperoptimization_intervals")
     end
 
 end
