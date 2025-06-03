@@ -10,7 +10,7 @@ using HardTestProblems
 using DataStructures
 using CSV
 using DataFrames
-
+using Statistics
 
 run(`clear`)
 
@@ -34,7 +34,7 @@ Algorithm_structure = detect_searchspaces("NSGA2_searchspace")
 
 optuna = pyimport("optuna")
 
-HyperTuning_configuration4 = HyperTuning_Problems_config(1,2,100)
+HyperTuning_configuration4 = HyperTuning_Problems_config(1,1,100)
 
 Algorithm_structure
 
@@ -47,16 +47,26 @@ function objective(trial, current_instance)
 
     hv_values, PF = run_optimization(f, searchspace, reference_point, params, Algorithm_structure)
     
-    PF = [sol.f for sol in PF]  
 
-    pf_matrix = hcat(PF...)'
+    println("PF:: $(typeof(PF))")
+    data_for_csv = []
+    for (idx, front) in enumerate(PF)
+        for points in front
+            push!(data_for_csv, points)
+        end
+        filler = []
+        filler = fill(NaN, size(front[1]))
+        push!(data_for_csv, filler)
 
+    end
+
+    println("data_for_csv:: $(typeof(data_for_csv))")
     isempty(hv_values) && return -Inf
 
     hv_max = maximum(values(hv_values))
 
     trial.set_user_attr("problem_name", problem_name)
-    trial.set_user_attr("PF", pf_matrix)
+    trial.set_user_attr("PF", data_for_csv)
     trial.set_user_attr("hv_max", hv_max)
 
     return hv_max
@@ -88,21 +98,18 @@ for current_instance in HyperTuning_configuration4.lb_instaces:HyperTuning_confi
         #storage = "db_path",
         study_name = problem_name,
         direction = "maximize",
-        sampler = optuna.samplers.TPESampler(seed = 42)
+        sampler = optuna.samplers.TPESampler(seed = 80)
         #RandomSampler(seed = 42)
     )
 
-    initial_time = time()
 
-    study.optimize(trial -> objective(trial, current_instance), n_trials=5)
-    
-    final_time = time() - initial_time
-
+    study.optimize(trial -> objective(trial, current_instance), n_trials=1)
+  
 
     println("[$problem_name] Best value: $(study.best_value) (params: $(study.best_params))")
     
     PF_best = study.best_trial.user_attrs["PF"]
-
+    
     problem_folder_name = "Problem_$(current_instance)_$(problem_name)"
     
     problem_dir, iter_dir = create_directories(String(Algorithm_structure.Name), iteration_counts, problem_folder_name, results_path)
@@ -110,6 +117,7 @@ for current_instance in HyperTuning_configuration4.lb_instaces:HyperTuning_confi
 
      
     for row in eachrow(PF_best)
+        
         push!(opt_results_df, (algorithm_name = Symbol(problem_name), sampler = study[:sampler][:__class__][:__name__],
          solutions = row,))
     end
@@ -151,8 +159,6 @@ println("\n📊 Summary of best trials:")
 
 
 length(results)
-
-
 
 
 for r in range(1, length(results))

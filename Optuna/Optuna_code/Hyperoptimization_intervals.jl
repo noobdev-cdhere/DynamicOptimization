@@ -5,11 +5,10 @@
 
 
     NSGA2_searchspace = OrderedDict(
-        "N" => [1,500,100],
-        "η_cr" => [0,100,100],
-        "p_cr" => [0, 1, 100],
-        "η_m" => [0,100,100]
-        #p_m => 1.0 / D,
+        "N" => [5, 500, 100],        # Changed lower from 1 to 10
+        "η_cr" => [1, 100, 100],       # Changed lower from 0 to 1
+        "p_cr" => [0.1, 1, 100],       # Changed lower from 0 to 0.5
+        "η_m" => [1, 100, 100]         # Changed lower from 0 to 1
     )
 
     NSGA3_searchspace = OrderedDict(

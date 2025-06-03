@@ -131,16 +131,36 @@ num_ite = 100
 
 
 algorithm_instance = Algorithm_structure.Name
+
+
+
 println("Using algorithm: $algorithm_instance")
 options = Metaheuristics.Options(; iterations = num_ite)
 metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
-println("Starting task...")
-status = optimize(f, searchspace, metaheuristic)
-println("Task Finished...")
-approx_front = get_non_dominated_solutions(status.population)
-hv_values[num_ite] = hypervolume(approx_front, reference_point)
+
+hv_values_mean = []
+data_for_csv = []
+all_pareto_fronts = []
+num_runs = 5
+
+for i in 1:num_runs
+    println("Starting task...")
+    status = optimize(f, searchspace, metaheuristic)
+    println("Task Finished...")
+    approx_front = get_non_dominated_solutions(status.population)
+    push!(hv_values_mean, hypervolume(approx_front, reference_point))
+    front_objectives = [sol.f for sol in approx_front]
+    push!(all_pareto_fronts, front_objectives)
+end
+
+
+hv_values[num_ite] = mean(hv_values_mean)
+
+
 println("Hypervolume: $(hv_values[num_ite])")
 
 
-return hv_values, approx_front
+return hv_values, all_pareto_fronts 
+
 end
+

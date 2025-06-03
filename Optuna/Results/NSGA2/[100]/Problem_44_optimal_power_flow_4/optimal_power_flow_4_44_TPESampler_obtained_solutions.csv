@@ -1,0 +1,2 @@
+algorithm_name,sampler,solutions
+optimal_power_flow_4,TPESampler,"Any[1.6299935079273666, 6.281977756309733, 20.335963947887556]"
