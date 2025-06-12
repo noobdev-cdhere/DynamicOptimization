@@ -1,5 +1,9 @@
 [deps]
+BayesOpt = "8b8fa57b-2f72-5ccd-8d28-750de228707b"
+BayesianOptimization = "4c6ed407-134f-591c-93fa-e0f7c164a0ec"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 HardTestProblems = "017f2a17-63a9-4ea1-9ce1-f7de69e6e227"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 NLopt = "76087f3c-5699-56af-9a33-bf431cd00edd"
 Nonconvex = "01bcebdf-4d21-426d-b5c4-6132c1619978"
 NonconvexMetaheuristics = "ece49558-7bf7-4b1b-9202-b5cfb4999bf7"

@@ -1,2 +1,3 @@
 algorithm_name,sampler,solutions
-process_sythesis_and_design,TPESampler,"Any[2.7604926574460333, -1.7647569892626138]"
+process_sythesis_and_design,TPESampler,"Any[[2.7607594356322562, -1.7650566522272637]]"
+process_sythesis_and_design,TPESampler,"Any[[NaN, NaN]]"

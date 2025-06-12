@@ -1,2 +1,3 @@
 algorithm_name,sampler,solutions
-SOPWM_for_11_level_inverters,TPESampler,"Any[6.458519123023895, 12.106441453898006]"
+SOPWM_for_11_level_inverters,TPESampler,"Any[[5.5247382736279285, 3.6569492661336183]]"
+SOPWM_for_11_level_inverters,TPESampler,"Any[[NaN, NaN]]"

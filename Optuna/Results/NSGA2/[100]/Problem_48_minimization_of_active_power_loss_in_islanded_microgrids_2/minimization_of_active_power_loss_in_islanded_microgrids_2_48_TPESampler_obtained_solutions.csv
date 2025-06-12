@@ -1,2 +1,3 @@
 algorithm_name,sampler,solutions
-minimization_of_active_power_loss_in_islanded_microgrids_2,TPESampler,"Any[7.251447903582137, 0.6611469134716775]"
+minimization_of_active_power_loss_in_islanded_microgrids_2,TPESampler,"Any[[6.5656571087357305, 0.7174278292990263]]"
+minimization_of_active_power_loss_in_islanded_microgrids_2,TPESampler,"Any[[NaN, NaN]]"

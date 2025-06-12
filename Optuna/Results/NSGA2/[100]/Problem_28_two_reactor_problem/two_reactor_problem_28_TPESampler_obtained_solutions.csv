@@ -1,2 +1,3 @@
 algorithm_name,sampler,solutions
-two_reactor_problem,TPESampler,"Any[105.37168854245832, 11.86751962333149]"
+two_reactor_problem,TPESampler,"Any[[120.93574684375997, 11.46289916712558]]"
+two_reactor_problem,TPESampler,"Any[[NaN, NaN]]"

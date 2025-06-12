@@ -5,6 +5,49 @@ using Metaheuristics
 using Metaheuristics: pareto_front
 using HardTestProblems
 
+
+    ref_points_offset = Dict(
+        #1 => [370000, -7330],
+        2 => [1, 1000], 
+        4 => [40, 0.2],
+        7 => [4, 50],
+        9 =>[3200, 0.05],
+        11 =>  [93450.511, 2000, 4.853469e6, 9.620032e6, 25000.0],
+        12 => [1200, 0.1],
+        13 => [6500, 1300.0, 2000],
+        14 => [2, 0.02],
+        15 => [35, 190000],
+        16 => [20, 0.0020408763],
+        17 => [1000000, 1000000, 10000],
+        20 =>[10000, 5e-5],
+        #22 => [-9000.90871, -20000.0],
+        24 => [8000, 400000, 100000000],
+        27 => [1, 0],
+        28 => [300, 50],
+        29 => [10, 25],
+        30 => [10, 30],
+        31 => [10, 30],
+        32 => [10, 30],
+        33 => [10, 30],
+        34 => [10, 30],
+        35 => [5, 30],
+        36 => [1000, 3000],
+        37 => [1000, 3000],
+        38 => [3000, 3000],
+        39 => [1000, 3000, 3000],
+        40 => [40, 40],
+        41 => [40, 40, 40],
+        42 => [40, 40],
+        43 => [40, 40],
+        44 => [40, 40, 60], #[5.720257, 1.0231384, 4.0471196]
+        45 => [40, 40, 40],
+        46 => [80, 80, 80, 80],  #[5.7381081, 2.3578333, 8.1909894, 3.9032935] 
+        47 => [100, 100],
+        48 => [100, 100],
+        49 => [100, 100, 100],
+        50 => [100000, 2000]
+    )
+
 mutable struct Algorithm
     Name::Symbol
     Parameters::OrderedDict{Symbol, Any}
@@ -18,10 +61,6 @@ mutable struct HyperTuning_Problems_config
     max_trials::Int
 end
 
-    
-
-
-
 function getproblem(id)
     f, conf = HardTestProblems.get_RW_MOP_problem(id)
     reference_point = conf[:nadir]  
@@ -32,7 +71,28 @@ function getproblem(id)
     return f, bounds, reference_point 
 end
 
+function remove_existing_csv(base_dir, CSV_RUNS_FILE_NAME)
+    if ispath(joinpath(base_dir,"Optuna/Results/$CSV_RUNS_FILE_NAME"))
+        println("It exists")
+        rm(joinpath(base_dir,"Optuna/Results/$CSV_RUNS_FILE_NAME"))
+    end
+end
 
+function check_CSV(searchspace; test)
+    
+    println("Currently using $searchspace")
+    split_str = split(searchspace, "_searchspace")
+    if test == true
+        println("Making test CSV for $(split_str[1])")
+        CSV_RUNS_FILE_NAME = "minimum_runs_test_$(split_str[1]).csv"
+        remove_existing_csv(base_dir, CSV_RUNS_FILE_NAME)
+        return CSV_RUNS_FILE_NAME
+    else
+        CSV_RUNS_FILE_NAME = "minimum_runs_$(split_str[1]).csv"
+        remove_existing_csv(base_dir, CSV_RUNS_FILE_NAME)
+        return CSV_RUNS_FILE_NAME
+    end
+end
 
 function init_algorithm_structure(Name_algorithm::String)
     Algorithm_structure = Algorithm(:none, OrderedDict(), OrderedDict())
@@ -46,10 +106,8 @@ end
 
 function get_default_kwargs(algorithm)
     if algorithm == MOEAD_DE
-        nobjectives = 2   # TODO: improve this 
-        npartitions = 50
-        weights = gen_ref_dirs(nobjectives, npartitions)
-        instance = algorithm(weights;)
+        weights = set_up_weights_MOEAD_DE(algorithm)
+        instance = algorithm(weights;) # TODO:: Melhorar estes unecessary checks 
         return OrderedDict(fields => getfield(instance.parameters, fields) for fields in fieldnames(algorithm))
     else
         try
@@ -99,6 +157,7 @@ function detect_searchspaces(searchspace::String)
     return Algorithm_structure
 end
 
+
 function set_configuration_optuna(trial, Algorithm_structure)
     params = Dict()
 
@@ -121,46 +180,194 @@ function set_configuration_optuna(trial, Algorithm_structure)
 end
 
 
+minimum_runs(z, stdev, ϵ) = 
+    ceil((z * stdev / ϵ)^2)
+
+
+function get_minimum_runs(All_HV, problem_name, current_instance, CSV_RUNS_FILE_NAME)
+    mean_hv = mean(All_HV)
+    all_std = std(All_HV)
+    
+    if all_std == 0
+        @warn "All HV values are identical (std=0), using default runs"
+        all_std = eps() # Use smallest positive float to avoid division by zero
+    end
+    
+    CONFIDENCE_LEVELS = [
+        (90, 1.645),
+        (95, 1.96),
+        (98, 2.33),
+        (99, 2.575)
+    ]
+    
+    function soft_penalty(scaling_factor::Float64)
+        ϵ = scaling_factor * mean_hv
+        upper_threshold = 40.0
+        total_penalty = 0.0
+        
+        for (_, z) in CONFIDENCE_LEVELS
+            runs = minimum_runs(z, all_std, ϵ)
+            total_penalty += max(runs - upper_threshold, 0.0)
+        end
+        
+        return total_penalty 
+    end
+
+    config = ConfigParameters()
+    set_kernel!(config, "kMaternARD5")
+    config.n_iterations = 50
+    config.sc_type = SC_MAP  
+
+    optimizer, optimum = bayes_optimization(
+        x -> soft_penalty(x[1]), 
+        [0.0], 
+        [0.1], 
+        config
+    )
+    
+    optimal_scaling = optimizer[1]
+    ϵ = optimal_scaling * mean_hv
+    
+    # Calculate all runs once with safety checks
+    runs_dict = Dict{Int,Union{Int,String}}()  # Allow both Int and String values
+    for (level, z) in CONFIDENCE_LEVELS
+        runs = minimum_runs(z, all_std, ϵ)
+        if isfinite(runs)
+            runs_dict[level] = Int(floor(runs))  # Convert to Int safely
+        else
+            runs_dict[level] = "Inf"  # Store as string if infinite
+            @warn "Infinite runs calculated for $level% confidence level"
+        end
+    end
+
+    println("Optimum: $optimum")
+    println("Optimizer: $optimizer")
+    println("Desired margin of error (ϵ): $ϵ")
+    for (level, _) in CONFIDENCE_LEVELS
+        println("- $(level)% confidence interval: $(runs_dict[level])")
+    end
+    println()
+
+    df = DataFrame(
+        problem_name = problem_name,
+        best_HV = maximum(All_HV), 
+        error = ϵ/mean_hv,
+        current_instance = current_instance,
+        confidence_interval_90 = runs_dict[90],
+        confidence_interval_95 = runs_dict[95],
+        confidence_interval_98 = runs_dict[98],
+        confidence_interval_99 = runs_dict[99],
+    )
+   
+    write_header = !isfile(CSV_RUNS_FILE_NAME)
+    CSV.write(CSV_RUNS_FILE_NAME, df; append=true, writeheader=write_header)
+    
+    All_HV_df = DataFrame(All_HV = [JSON.json(All_HV)])
+    CSV.write(CSV_RUNS_FILE_NAME, All_HV_df, append=true)
+    
+    empty_row = DataFrame(
+        problem_name = [""],
+        error = [""],
+        confidence_interval_90 = [""],
+        confidence_interval_95 = [""],
+        confidence_interval_98 = [""],
+        confidence_interval_99 = [""]
+    )
+    CSV.write(CSV_RUNS_FILE_NAME, empty_row, append=true)
+
+    println("min: $(minimum(All_HV))")
+    println("max: $(maximum(All_HV))")
+    println("std: $(all_std)")
+    println("mean: $(mean_hv)")
+end
+
+
+function set_up_weights_MOEAD_DE(algorithm_instance)
+
+    if algorithm_instance == MOEAD_DE || algorithm_instance == Symbol("MOEAD_DE") 
+        nobjectives = 2   # TODO: improve this 
+        npartitions = 50
+        weights = gen_ref_dirs(nobjectives, npartitions)
+        return weights
+    end
+     
+end
+
+
+function set_up_algorithm(algorithm_instance, num_ite; params = NamedTuple(), HPO=false)
+    options = Metaheuristics.Options(; iterations = num_ite, time_limit = 4.0)
+    weights = set_up_weights_MOEAD_DE(algorithm_instance)
+    if HPO == true
+        if @isdefined weights
+            metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(weights; params..., options)
+        else
+            metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+        end
+    else
+        if @isdefined weights
+            metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(weights; options)
+        else
+            metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; options)
+        end
+    end
+    return metaheuristic
+    
+end
+
+
+function unravel_PF(PF::Vector{Metaheuristics.xFgh_solution{Vector{Float64}}}) # So far is only usable for length(PF) == 1 
+    println("PF:: $(typeof(PF))")
+    data = []
+
+    for (idx, sol) in enumerate(PF)
+        push!(data, sol.f)  
+    end
+
+    return data
+end
+
+
 function run_optimization(f, searchspace, 
                     reference_point, params, 
-                    Algorithm_structure)
+                    Algorithm_structure, problem_name)
 
 hv_values = Dict()
 
 num_ite = 100
-
+ 
 
 algorithm_instance = Algorithm_structure.Name
 
-
-
 println("Using algorithm: $algorithm_instance")
-options = Metaheuristics.Options(; iterations = num_ite)
-metaheuristic = getproperty(Metaheuristics, Symbol(algorithm_instance))(; params..., options)
+metaheuristic = set_up_algorithm(algorithm_instance, num_ite; params, HPO = true)
 
-hv_values_mean = []
-data_for_csv = []
+result_dir = "/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Optuna/Results"
+
+if pwd() !== result_dir
+    cd(result_dir)
+end
+All_HV = Float64[]
+
 all_pareto_fronts = []
-num_runs = 5
+num_runs = csv_data
 
 for i in 1:num_runs
     println("Starting task...")
     status = optimize(f, searchspace, metaheuristic)
     println("Task Finished...")
     approx_front = get_non_dominated_solutions(status.population)
-    push!(hv_values_mean, hypervolume(approx_front, reference_point))
-    front_objectives = [sol.f for sol in approx_front]
-    push!(all_pareto_fronts, front_objectives)
+    push!(All_HV, hypervolume(approx_front, reference_point))
+    #front_objectives get_non_dominated_solutions= [sol.f for sol in approx_front]
+    #push!(all_pareto_fronts, front_objectives)
 end
 
-
-hv_values[num_ite] = mean(hv_values_mean)
+hv_values[num_ite] = mean(All_HV)
 
 
 println("Hypervolume: $(hv_values[num_ite])")
 
 
-return hv_values, all_pareto_fronts 
+return hv_values, All_HV
 
 end
 

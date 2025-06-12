@@ -1,2 +1,3 @@
 algorithm_name,sampler,solutions
-reactor_network_design,TPESampler,"Any[-0.2983870316989137, 2.4305552190958633]"
+reactor_network_design,TPESampler,"Any[[-0.26503501135623897, 2.338880679938156]]"
+reactor_network_design,TPESampler,"Any[[NaN, NaN]]"
