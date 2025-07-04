@@ -1,0 +1,6 @@
+algorithm_name,sampler,problem_instance,problem_name,hv_value,params
+SMS_EMOA,NSGAIIISampler,1,pressure_vessel,1.108071457977077e13,"p_cr = 0.7947470601786435, n_samples = 112223, N = 126, η_m = 83.42251357573052, η_cr = 59.97194255031243"
+SMS_EMOA,NSGAIIISampler,2,vibrating_platform,763.4824513272123,"p_cr = 0.3032598787433848, n_samples = 763835, N = 216, η_m = 93.851353505864, η_cr = 98.92598930074546"
+SMS_EMOA,NSGAIIISampler,3,two_bar_Truss_design_problems,8890.976634942077,"p_cr = 0.5834655852560213, n_samples = 818544, N = 217, η_m = 5.94290206674456, η_cr = 30.159389147152282"
+SMS_EMOA,NSGAIIISampler,4,weldan_beam_design,7.560328197011251,"p_cr = 0.3394952653440694, n_samples = 861015, N = 461, η_m = 56.30565774810429, η_cr = 31.911088520912003"
+SMS_EMOA,NSGAIIISampler,5,disc_brake_design,6.090392723819246,"p_cr = 0.6437958506525869, n_samples = 748472, N = 154, η_m = 11.855111206876801, η_cr = 98.1667257265633"

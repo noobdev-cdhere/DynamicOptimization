@@ -1,3 +1,0 @@
-algorithm_name,sampler,solutions
-heat_exchanger_network_design,TPESampler,"Any[[873.7335580914323, 63959.31621252453, 1.6087701118907904e7]]"
-heat_exchanger_network_design,TPESampler,"Any[[NaN, NaN, NaN]]"

@@ -1,3 +1,0 @@
-algorithm_name,sampler,solutions
-optimal_power_flow_2,TPESampler,"Any[[6.14739893817157, 10.25674357332099]]"
-optimal_power_flow_2,TPESampler,"Any[[NaN, NaN]]"

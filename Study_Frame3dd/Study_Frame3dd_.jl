@@ -9,7 +9,7 @@ Pkg.add("Plots")
 =#
 
 using Pkg
-Pkg.activate("Study_Frame3dd")
+Pkg.activate("DynamicOptimization")
 Pkg.status()
 # Truss Geometry ---------------------------------------------------------------
 using KhepriFrame3DD
@@ -192,6 +192,15 @@ pop_ini = create_initial_population(vars_bounds, pop_size)
 #problem(pop_ini[:, 1])
 
 # Run Optimization -------------------------------------------------------------
+
+alg =["NSGA2_searchspace","SPEA2_searchspace","SMS_EMOA_searchspace","MOEAD_DE_searchspace"]
+
+println("number of iterations: $n_iterations")
+
+
+CSV_RUNS_FILE_NAME = check_CSV(searchspace; test = false)
+
+
 options = Options(iterations=n_iterations)
 spea2 = SPEA2(N=pop_size, options=options)
 set_user_solutions!(spea2, pop_ini, problem)
