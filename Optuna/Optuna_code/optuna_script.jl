@@ -1,11 +1,13 @@
 
 using Distributed
 addprocs(3)
+
+
+
 @everywhere begin
-    
     using Pkg
-    #ENV["PYTHON"] = "/home/afonso-meneses/Desktop/GitHub/python_env/bin/python" 
-    #Pkg.build("PyCall")
+    ENV["PYTHON"] = "/home/afonso-meneses/Desktop/GitHub/python_env/bin/python" 
+    Pkg.build("PyCall")
     using Metaheuristics
     using Metaheuristics: optimize, get_non_dominated_solutions, pareto_front, Options
     import Metaheuristics.PerformanceIndicators: hypervolume
@@ -17,13 +19,13 @@ addprocs(3)
     using JSON
     using PyCall
     include(joinpath(@__DIR__, "Hyperoptimization_intervals.jl"))
-    include(joinpath(@__DIR__, "example_utils.jl"))
+    include(joinpath(@__DIR__, "optuna_utils.jl"))
     optuna = pyimport("optuna")
-    optuna_configuration = Optimization_configuration(1,5,5) ##[LOW BOUND PROBLEM INSTANCE, HIGHER BOUND PROBLEM INSTANCE, NUM OF HP CONFIGURATIONS TO BE TESTED]
-    
+    optuna_configuration = Optimization_configuration(1,50,100) ##[LB PROBLEM INSTANCE, HB PROBLEM INSTANCE, NUM OF HP CONFIGURATIONS TO BE TESTED]
+                                                        
 end
 
-PyCall.python
+PyCall.python 
 
 
 basedir = pwd()
@@ -32,98 +34,92 @@ if !occursin("Results", basedir)
     cd(results_path)
 end
 
-
-
-
 @everywhere begin
     alg = ["MOEAD_DE_searchspace","NSGA2_searchspace", "SPEA2_searchspace", "SMS_EMOA_searchspace"]
     n_trials =  optuna_configuration.max_trials
     All_Algorithm_structure = Any[]
     runs_dicts = Dict()
-
 end
  
 
-    
-    for searchspace in alg
+for searchspace in alg
        
-        Algorithm_structure = detect_searchspaces(searchspace)
-        push!(All_Algorithm_structure, Algorithm_structure)
-        df = CSV.read("minimum_runs_$(Algorithm_structure.Name).csv", DataFrame; header=false)
-        runs_dicts = get_df_column_values(df, 6, 10, Algorithm_structure.Name, runs_dicts)
+    Algorithm_structure = detect_searchspaces(searchspace)
+    push!(All_Algorithm_structure, Algorithm_structure)
+    df = CSV.read("minimum_runs_$(Algorithm_structure.Name).csv", DataFrame; header=false)
+    runs_dicts = get_df_column_values(df, 6, 10, Algorithm_structure.Name, runs_dicts)
 
-    end
+end
 
 
 @everywhere begin
 
     function run_trial(alg_instance::Int, All_Algorithm_structure, sampler_constructor, sampler_name, results_path::String, iteration_counts, problem_instance, runs_dicts)
-    println("Current sampler :: $(sampler_name)")
-    Algorithm_structure = All_Algorithm_structure[alg_instance]
-    println("$Algorithm_structure :: $alg_instance")
-    length_of_runs_array = runs_dicts[Algorithm_structure.Name]
-    problem_name = HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[problem_instance]
-    study = optuna.create_study(
-        study_name = problem_name,
-        direction = "maximize",
-        sampler = sampler_constructor()
-    )
+       
+        println("Current sampler :: $(sampler_name)")
+        Algorithm_structure = All_Algorithm_structure[alg_instance];
+        length_of_runs_array = runs_dicts[Algorithm_structure.Name]
+        problem_name = HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[problem_instance]
+        study = optuna.create_study(
+            study_name = problem_name,
+            direction = "maximize",
+            sampler = sampler_constructor()
+        )
 
-    study.optimize(trial -> objective(trial, problem_instance, Algorithm_structure, length_of_runs_array), n_trials = n_trials)
+        study.optimize(trial -> objective(trial, problem_instance, sampler_constructor, Algorithm_structure, length_of_runs_array), n_trials = n_trials)
 
-    if isnan(study.best_value) || study.best_value == -Inf || !haskey(study.best_trial.user_attrs, "All_HV")
-        println("No valid result for $problem_name")
-        return nothing
+        if isnan(study.best_value) || study.best_value == -Inf || !haskey(study.best_trial.user_attrs, "All_HV")
+            println("No valid result for $problem_name")
+            return nothing
+        end
+
+        All_HV = study.best_trial.user_attrs["All_HV"]
+        PF_best = study.best_trial.user_attrs["PF"]
+
+        opt_results_df = DataFrame(
+            algorithm_name = Symbol[],
+            sampler = String[],
+            solutions = Vector{Any}[],
+        )
+        for (key, PF) in PF_best
+        
+            push!(opt_results_df, (algorithm_name = Symbol(key), sampler = study[:sampler][:__class__][:__name__], solutions = PF,))
+        end
+
+        problem_folder_name = "Problem_$(problem_instance)_$(problem_name)"
+        problem_dir, iter_dir = create_directories(String(Algorithm_structure.Name), iteration_counts, problem_folder_name, results_path)
+        cd(problem_dir)
+
+        CSV_NAME = "$(Symbol(problem_name))_$(problem_instance)_$(study[:sampler][:__class__][:__name__])_$(Algorithm_structure.Name)_obtained_solutions.csv"
+        CSV.write(CSV_NAME, opt_results_df)
+
+        return (
+            algorithm_name = Algorithm_structure.Name,
+            sampler = study[:sampler][:__class__][:__name__],
+            problem_name = problem_name,
+            problem_instance = problem_instance,
+            hv_value = study.best_value,
+            params = study.best_params,
+            #all_hv = [JSON.json(All_HV)]
+        )
+
     end
 
-    All_HV = study.best_trial.user_attrs["All_HV"]
-    PF_best = study.best_trial.user_attrs["PF"]
-
-    opt_results_df = DataFrame(
-        algorithm_name = Symbol[],
-        sampler = String[],
-        solutions = Vector{Any}[],
-    )
-    for (key, PF) in PF_best
-    
-        push!(opt_results_df, (algorithm_name = Symbol(key), sampler = study[:sampler][:__class__][:__name__], solutions = PF,))
-    end
-
-    problem_folder_name = "Problem_$(problem_instance)_$(problem_name)"
-    problem_dir, iter_dir = create_directories(String(Algorithm_structure.Name), iteration_counts, problem_folder_name, results_path)
-    cd(problem_dir)
-
-    CSV_NAME = "$(Symbol(problem_name))_$(problem_instance)_$(study[:sampler][:__class__][:__name__])_$(Algorithm_structure.Name)_obtained_solutions.csv"
-    CSV.write(CSV_NAME, opt_results_df)
-
-    return (
-        algorithm_name = Algorithm_structure.Name,
-        sampler = study[:sampler][:__class__][:__name__],
-        problem_name = problem_name,
-        problem_instance = problem_instance,
-        hv_value = study.best_value,
-        params = study.best_params,
-        #all_hv = [JSON.json(All_HV)]
-    )
-
-    end
 
 
-
-    function run_HPO(optuna_sampler_dict,   optuna_configuration, iteration_counts, All_Algorithm_structure, results_path, runs_dicts)
+    function run_HPO(optuna_sampler_dict, optuna_configuration, iteration_counts, All_Algorithm_structure, results_path, runs_dicts)
 
         results = []
         problem_instances_array, algo_instances_array = init_parallel_arrays(optuna_configuration, All_Algorithm_structure)
         #@distributed
         #println("Currently Testing : $sampler_name")
-                        
-    
-        #@sync @distributed
-        for (sampler_name, sampler_constructor) in collect(optuna_sampler_dict)        
-            
+
+        
+        results = @distributed (vcat) for (sampler_name, sampler_constructor) in collect(optuna_sampler_dict)
             println("Currently Testing : $sampler_name")
-            task = (alg, prob) -> run_trial(alg, All_Algorithm_structure, sampler_constructor, sampler_name, results_path, iteration_counts, prob, runs_dicts)        
-            pmap(task, algo_instances_array, problem_instances_array)
+            task = (alg, prob) -> run_trial(alg, All_Algorithm_structure, sampler_constructor, sampler_name, results_path, iteration_counts, prob, runs_dicts)
+            pmap_results = pmap(task, algo_instances_array, problem_instances_array)
+            [pmap_results]
         end
 
         return results
@@ -132,11 +128,8 @@ end
 
 
     iteration_counts = [100]
-    #=
-    optuna_sampler_dict = Dict(
-        "NSGAIIISampler" => optuna.samplers.NSGAIIISampler,
-    )
-    =#
+    
+
     
     optuna_sampler_dict = Dict(
     "NSGAIISampler" => optuna.samplers.NSGAIISampler,
@@ -146,11 +139,9 @@ end
     "QMCSampler" => optuna.samplers.QMCSampler,
     "NSGAIIISampler" => optuna.samplers.NSGAIIISampler,
     "GPSampler" => optuna.samplers.GPSampler,
-    #"BruteForceSampler" => optuna.samplers.BruteForceSampler,
+    "BruteForceSampler" => optuna.samplers.BruteForceSampler,
     "GridSampler" => () -> optuna.samplers.GridSampler(Algorithm_structure.Parameters_ranges)
     )
-    
-    #sampler_instances = 1:length(optuna_sampler_dict)
 
     function init_parallel_arrays(optuna_configuration, All_Algorithm_structure)
 
@@ -172,15 +163,13 @@ end
     ########### HPO
     ###########
 
-
     results = []
-
+    run(`clear`)
     @time results = run_HPO(optuna_sampler_dict, optuna_configuration, iteration_counts, All_Algorithm_structure, results_path, runs_dicts)
     # pmap -- 25.687724 seconds (2.98 M allocations: 203.145 MiB, 0.33% gc time, 8.33% compilation time: 4% of which was recompilation)
     # map -- 38.523086 seconds (38.27 M allocations: 14.290 GiB, 5.12% gc time, 25.31% compilation time: 18% of which was recompilation)
-    results
 
-
+   
 
     result_df = DataFrame(
         algorithm_name = Symbol[],
@@ -192,7 +181,7 @@ end
     )
 
     println("Summary of best trials:")
-
+    results = results[1]
     for r in range(1, length(results))
        
         if !isnothing(results[r]) 
@@ -208,9 +197,7 @@ end
             )
 
 
-            println(results[r])
-
-            println("Separation------------$r")
+      
             println("$(results[r].algorithm_name) :: $(results[r].problem_name): value = $(results[r].hv_value), params = $(results[r].params)")
             if occursin("Dict{Any, Any}", string(results[r][:params]))    
                 params_str = replace(string(results[r][:params]), r"Dict\{Any, Any\}\(" => "", ")" => "", "\"" => "", "=>" => "=")
@@ -229,10 +216,8 @@ end
             
 
             write_header = !isfile(CSV_NAME)
-            println(write_header)
+
             if occursin(string(results[r].sampler),CSV_NAME)
-                println("$(results[r].sampler) HERE")
-                
                 CSV.write(CSV_NAME, result_df, append = true, writeheader = write_header)
             end
         end

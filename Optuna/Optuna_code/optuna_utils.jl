@@ -76,46 +76,10 @@ function getproblem(id::Int)
     return f, bounds, reference_point 
 end
 
-function remove_existing_csv(base_dir, CSV_RUNS_FILE_NAME, CSV_LENGTH_RESULTS_NAME, split_str)
-    if ispath(joinpath(base_dir,"Optuna/Results/$CSV_RUNS_FILE_NAME"))
-        println("Eliminating previous CSV for $(split_str[1])")
-        rm(joinpath(base_dir,"Optuna/Results/$CSV_RUNS_FILE_NAME"))
-    end
-
-    if ispath(joinpath(base_dir,"Optuna/Results/$CSV_LENGTH_RESULTS_NAME"))
-        println("Eliminating previous CSV for $(split_str[1])")
-        rm(joinpath(base_dir,"Optuna/Results/$CSV_LENGTH_RESULTS_NAME"))
-    end
-
-end
-
-function check_CSV(searchspace, name_of_script ; test)
-    
-    println("Currently using $searchspace")
-    split_str = split(searchspace, "_searchspace")
-
-    name_of_script = split(name_of_script, ".jl")
-
-    println(name_of_script)
-
-    if test == true
-        CSV_RUNS_FILE_NAME = "$(name_of_script[1])_$(split_str[1]).csv"
-    else
-        CSV_RUNS_FILE_NAME = "$(name_of_script[1])_$(split_str[1]).csv"
-    end
-
-    CSV_LENGTH_RESULTS_NAME = "length_results_$CSV_RUNS_FILE_NAME.csv"
-    remove_existing_csv(base_dir, CSV_RUNS_FILE_NAME, CSV_LENGTH_RESULTS_NAME, split_str )
-    return CSV_RUNS_FILE_NAME, CSV_LENGTH_RESULTS_NAME
-
-end
-
 function init_algorithm_structure(Name_algorithm::String)
     Algorithm_structure = Algorithm(:none, OrderedDict(), OrderedDict())
-
     Algorithm_structure.Name = Symbol(Name_algorithm)
     algorithm_instance = getfield(Metaheuristics, Symbol(Algorithm_structure.Name))
-    println(algorithm_instance)
     Algorithm_structure.Parameters = get_default_kwargs(algorithm_instance)
     return Algorithm_structure
 end
@@ -163,7 +127,8 @@ function detect_searchspaces(searchspace::String)
         for (key, value) in current_searchspace
             symbol = Symbol(key)
             println("Key: $(key), Value: $(value)")
-            Algorithm_structure.Parameters_ranges[symbol] = [value[1], value[2]]
+            length(value) > 2 ? arr_range = [value[1], value[2], value[3]] : arr_range = [value[1], value[2]]
+            Algorithm_structure.Parameters_ranges[symbol] = arr_range
         end
         
         println(Algorithm_structure.Parameters_ranges)
@@ -174,20 +139,26 @@ function detect_searchspaces(searchspace::String)
 end
 
 
-function set_configuration_optuna(trial, Algorithm_structure,reference_point)
+function set_configuration_optuna(trial, Algorithm_structure, sampler_constructor,reference_point)
     params = Dict()
     MOEAD_HP = Dict() 
     weights = nothing
 
     for (hyperparam, range_vals) in Algorithm_structure.Parameters_ranges
-        lb, hb = range_vals[1:2]  
+        
+        lb, hb = range_vals[1:2]
 
         if hyperparam == :npartitions
             MOEAD_HP[hyperparam] = trial.suggest_int(hyperparam, lb, hb)
         else
             param_type = typeof(Algorithm_structure.Parameters[hyperparam])
             params[hyperparam] = if param_type == Float64
-                trial.suggest_float(hyperparam, lb, hb)
+                if !(sampler_constructor == optuna.samplers.BruteForceSampler)            
+                    trial.suggest_float(hyperparam, lb, hb)
+                else
+                    step = range_vals[3]   
+                    trial.suggest_float(hyperparam, lb, hb, step = step)
+                end
             elseif param_type == Int64
                 trial.suggest_int(hyperparam, lb, hb)
             elseif param_type == Bool
@@ -227,93 +198,6 @@ function get_df_column_values(df::DataFrame, column::Int, array_position::Int, A
     run_dict[Alg_Name] = collumn_array
     return run_dict
 
-end
-
-
-minimum_runs(z, stdev, ϵ) = 
-    ceil((z * stdev / ϵ)^2)
-
-
-function get_minimum_runs(results, problem_name, current_instance, CSV_RUNS_FILE_NAME)
-
-    type_of_result = first(keys(results))
-    typed_results = results[type_of_result]
-
-    mean_hv = mean(typed_results)
-    all_std = std(typed_results)
-
-    if all_std < 0.001
-         @warn "All HV values are nearly identical (std < 0.001), using fallback"
-         all_std = 0.001
-    end
-
-    CONFIDENCE_LEVELS = [
-        (90, 1.645),
-        (95, 1.96),
-        (98, 2.33),
-        (99, 2.575)
-    ]
-
-    runs_dict = Dict{Int, Vector{Union{Int, String}}}()
-    error = 0.0
-
-    for (level, z) in CONFIDENCE_LEVELS
-        temp = []
-        for ϵ in 0.01:0.01:0.1
-            error = ϵ * mean_hv
-            runs = minimum_runs(z, all_std, error)
-            if isfinite(runs)
-                push!(temp,Int(floor(runs)))
-            else
-                push!(temp,"Inf")
-                @warn "Runs too large or infinite for $level% confidence level: $runs"
-            end
-        end
-        runs_dict[level] = temp
-    end
-
-    println("Desired margin of error (ϵ): $error")
-    for (level, _) in CONFIDENCE_LEVELS
-        println("- $(level)% confidence interval: $(runs_dict[level])")
-    end
-
-    df = DataFrame(
-        problem_name = problem_name,
-        best_HV = maximum(typed_results),
-        error = error / mean_hv,
-        current_instance = current_instance,
-        confidence_interval_90 = [JSON.json(runs_dict[90])],
-        confidence_interval_95 = [JSON.json(runs_dict[95])],
-        confidence_interval_98 = [JSON.json(runs_dict[98])],
-        confidence_interval_99 = [JSON.json(runs_dict[99])]
-    )
-
-    write_header = !isfile(CSV_RUNS_FILE_NAME)
-    CSV.write(CSV_RUNS_FILE_NAME, df; append=true, writeheader=write_header)
-
-    println("Result type key: $type_of_result")
-    println("Raw results: $typed_results")
-
-    All_HV_df = DataFrame(All_HV = [JSON.json(typed_results)])
-    CSV.write(CSV_RUNS_FILE_NAME, All_HV_df; append=true)
-
-    # Create a visually separating empty row with same columns
-    empty_row = DataFrame(
-        problem_name = [""],
-        best_HV = [""],
-        error = [""],
-        current_instance = [""],
-        confidence_interval_90 = [""],
-        confidence_interval_95 = [""],
-        confidence_interval_98 = [""],
-        confidence_interval_99 = [""]
-    )
-    CSV.write(CSV_RUNS_FILE_NAME, empty_row; append=true)
-
-    println("min: $(minimum(typed_results))")
-    println("max: $(maximum(typed_results))")
-    println("std: $(all_std)")
-    println("mean: $(mean_hv)")
 end
 
 function set_up_weights_MOEAD_DE(nobjectives = nothing , npartitions = nothing)
@@ -361,17 +245,8 @@ function set_up_algorithm(algorithm_instance, num_ite; params=Dict(), HPO=false,
     return metaheuristic
 end
 
-
-function unravel_PF(PF::Vector{Metaheuristics.xFgh_solution{Vector{Float64}}}) # So far is only usable for length(PF) == 1 
-    data = []
-    for (idx, sol) in enumerate(PF)
-        push!(data, sol.f)  
-    end
-    return data
-end
-
 function run_optimization(f, searchspace, 
-                    reference_point, params, 
+                    reference_point, params,
                     Algorithm_structure, current_instance, 
                     problem_name, length_of_runs_array; MOEAD_WEIGHTS = nothing)
 
@@ -390,9 +265,6 @@ function run_optimization(f, searchspace,
     if pwd() !== result_dir
         cd(result_dir)
     end
- 
-    println(pwd())
-
  
 
     num_runs = length_of_runs_array[current_instance]
@@ -426,7 +298,7 @@ function run_optimization(f, searchspace,
 
 end
 
-function objective(trial, current_instance, Algorithm_structure, length_of_runs_array)
+function objective(trial, current_instance, sampler_constructor,Algorithm_structure, length_of_runs_array)
     
 
     problem_name = HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[current_instance]
@@ -438,7 +310,7 @@ function objective(trial, current_instance, Algorithm_structure, length_of_runs_
             reference_point = ref_points_offset[current_instance]
     end
     
-    params, weights = set_configuration_optuna(trial, Algorithm_structure, reference_point)
+    params, weights = set_configuration_optuna(trial, Algorithm_structure, sampler_constructor, reference_point)
     
     hv_value, All_HV, all_pareto_fronts = run_optimization(f, searchspace, reference_point, params, 
                                                             Algorithm_structure, current_instance, 
