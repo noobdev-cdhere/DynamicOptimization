@@ -58,13 +58,11 @@ mutable struct Algorithm
     Parameters_ranges::OrderedDict{Symbol, Any}    
 end
 
-
 mutable struct Optimization_configuration
     lb_instaces::Int
-    max_instace::Int
+    hb_instace::Int
     max_trials::Int
 end
-
 
 function getproblem(id::Int)
     f, conf = HardTestProblems.get_RW_MOP_problem(id)
@@ -99,39 +97,39 @@ function get_default_kwargs(algorithm)
                 return OrderedDict()
             end
         catch err
-            println("Error creating instance: ", err)
+            #println("Error creating instance: ", err)
             return OrderedDict()
         end
     end
 end
 
-function create_directories(metaheuristic_str, iteration_counts, problem_folder_name, path)
-algorithm_dir = joinpath(string(path), metaheuristic_str)
-mkpath(algorithm_dir)
+function create_directories(metaheuristic_str::String, iteration_counts::Int64, problem_folder_name::String, path::String)
+    algorithm_dir = joinpath(string(path), metaheuristic_str)
+    mkpath(algorithm_dir)
 
-iter_dir = joinpath(algorithm_dir, string(iteration_counts))
-mkpath(iter_dir)
+    iter_dir = joinpath(algorithm_dir, string(iteration_counts))
+    mkpath(iter_dir)
 
-problem_dir = joinpath(iter_dir, problem_folder_name)
-mkpath(problem_dir)
+    problem_dir = joinpath(iter_dir, problem_folder_name)
+    mkpath(problem_dir)
 
-return problem_dir, iter_dir
+    return problem_dir, iter_dir
 end
 
 function detect_searchspaces(searchspace::String)
     if occursin("_searchspace", string(searchspace))
         Algorithm_structure = init_algorithm_structure(string(split(string(searchspace), "_searchspace")[1]))
         current_searchspace = getfield(@__MODULE__, Symbol(searchspace))
-        println( "Algorithm to be used for optimization::: $(Algorithm_structure.Name)")
-        println("Searchspace in consideration::")
+        #println( "Algorithm to be used for optimization::: $(Algorithm_structure.Name)")
+        #println("Searchspace in consideration::")
         for (key, value) in current_searchspace
             symbol = Symbol(key)
-            println("Key: $(key), Value: $(value)")
+            #println("Key: $(key), Value: $(value)")
             length(value) > 2 ? arr_range = [value[1], value[2], value[3]] : arr_range = [value[1], value[2]]
             Algorithm_structure.Parameters_ranges[symbol] = arr_range
         end
         
-        println(Algorithm_structure.Parameters_ranges)
+        #println(Algorithm_structure.Parameters_ranges)
     end
     Algorithm_structure.Parameters_ranges
     
@@ -139,7 +137,7 @@ function detect_searchspaces(searchspace::String)
 end
 
 
-function set_configuration_optuna(trial, Algorithm_structure, sampler_constructor,reference_point)
+function set_configuration_optuna(trial, Algorithm_structure, sampler_func,reference_point)
     params = Dict()
     MOEAD_HP = Dict() 
     weights = nothing
@@ -153,7 +151,7 @@ function set_configuration_optuna(trial, Algorithm_structure, sampler_constructo
         else
             param_type = typeof(Algorithm_structure.Parameters[hyperparam])
             params[hyperparam] = if param_type == Float64
-                if !(sampler_constructor == optuna.samplers.BruteForceSampler)            
+                if !(sampler_func == optuna.samplers.BruteForceSampler)            
                     trial.suggest_float(hyperparam, lb, hb)
                 else
                     step = range_vals[3]   
@@ -206,13 +204,12 @@ function set_up_weights_MOEAD_DE(nobjectives = nothing , npartitions = nothing)
         npartitions = 50
     end
     weights = gen_ref_dirs(nobjectives, npartitions)
-    println("Weights generated")
+    #println("Weights generated")
     return weights
    
 end
 
-function set_up_algorithm(algorithm_instance, num_ite; params=Dict(), HPO=false, CCMO=false, MOEAD_WEIGHTS=nothing)
-    options = Metaheuristics.Options(; iterations=num_ite, time_limit=4.0)
+function set_up_algorithm(algorithm_instance, options:: Options; params=Dict(), HPO=false, CCMO=false, MOEAD_WEIGHTS=nothing)
     base_algo = getproperty(Metaheuristics, Symbol(algorithm_instance))
     
     if CCMO
@@ -229,8 +226,8 @@ function set_up_algorithm(algorithm_instance, num_ite; params=Dict(), HPO=false,
             T = max(3, round(Int, 0.2*length(MOEAD_WEIGHTS)))
             n_r = max(2, round(Int, 0.05*length(MOEAD_WEIGHTS)))
 
-            println("T :: $T")
-            println("n_r :: $n_r")
+            #println("T :: $T")
+            #println("n_r :: $n_r")
 
             metaheuristic = base_algo(MOEAD_WEIGHTS; params..., T, n_r, options)
 
@@ -248,7 +245,7 @@ end
 function run_optimization(f, searchspace, 
                     reference_point, params,
                     Algorithm_structure, current_instance, 
-                    problem_name, length_of_runs_array; MOEAD_WEIGHTS = nothing)
+                    problem_name, length_of_runs_array, result_dir; MOEAD_WEIGHTS = nothing)
 
     hv_values = Dict()
     All_HV = Float64[]
@@ -257,24 +254,20 @@ function run_optimization(f, searchspace,
 
     algorithm_instance = Algorithm_structure.Name
 
-    println("Using algorithm: $algorithm_instance")
-    metaheuristic = set_up_algorithm(algorithm_instance, num_ite; params, HPO = true, MOEAD_WEIGHTS)#, CCMO = true) ### CCMO parameter
-
-    result_dir = "/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Optuna/Results"
-
-    if pwd() !== result_dir
-        cd(result_dir)
-    end
- 
+    #println("Using algorithm: $algorithm_instance")
+    options = Metaheuristics.Options(; iterations=num_ite, time_limit=4.0)
+    metaheuristic = set_up_algorithm(algorithm_instance, options; params, HPO = true, MOEAD_WEIGHTS)#, CCMO = true) ### CCMO parameter
+    
+    cd(result_dir)
 
     num_runs = length_of_runs_array[current_instance]
-    println(num_runs)
+    #println(num_runs)
     if length_of_runs_array[current_instance] == "Inf" || length_of_runs_array[current_instance] > 100
         println("Skipping instance $current_instance due to invalid run length.")
         return -Inf, -Inf, -Inf
     end
 
-    println("$(Algorithm_structure.Name) :: $(current_instance)")
+    #println("$(Algorithm_structure.Name) :: $(current_instance)")
     for i in 1:num_runs
         println("Starting task...")
         status = optimize(f, searchspace, metaheuristic)
@@ -291,30 +284,30 @@ function run_optimization(f, searchspace,
     hv_values[num_ite] = mean(All_HV)
 
 
-    println("Hypervolume: $(hv_values[num_ite])")
+    #println("Hypervolume: $(hv_values[num_ite])")
 
 
     return hv_values, All_HV, all_pareto_fronts
 
 end
 
-function objective(trial, current_instance, sampler_constructor,Algorithm_structure, length_of_runs_array)
+function objective(trial, current_instance, sampler_func,Algorithm_structure, length_of_runs_array, result_dir)
     
 
     problem_name = HardTestProblems.NAME_OF_PROBLEMS_RW_MOP_2021[current_instance]
-    println("Optimizing problem: ", problem_name)
+    #println("Optimizing problem: ", problem_name)
     f, searchspace, reference_point = getproblem(current_instance)  
-    println(searchspace)
+    #println(searchspace)
 
     if haskey(ref_points_offset, current_instance)
             reference_point = ref_points_offset[current_instance]
     end
     
-    params, weights = set_configuration_optuna(trial, Algorithm_structure, sampler_constructor, reference_point)
+    params, weights = set_configuration_optuna(trial, Algorithm_structure, sampler_func, reference_point)
     
     hv_value, All_HV, all_pareto_fronts = run_optimization(f, searchspace, reference_point, params, 
                                                             Algorithm_structure, current_instance, 
-                                                            problem_name, length_of_runs_array; MOEAD_WEIGHTS = weights)
+                                                            problem_name, length_of_runs_array, result_dir; MOEAD_WEIGHTS = weights)
 
                                                             
     if hv_value == -Inf && All_HV == -Inf
@@ -330,4 +323,41 @@ function objective(trial, current_instance, sampler_constructor,Algorithm_struct
     trial.set_user_attr("All_HV", All_HV)
 
     return hv_max
+end
+
+
+function init_parallel_arrays(; sampler_vector, lb_instaces::Int64, hb_instaces::Int64)
+    if 0 < lb_instaces < 51 || 0 < hb_instaces < 51
+        problem_instances = lb_instaces:hb_instaces
+        algo_instances = 1:length(sampler_vector)
+        algo_instances_array = vcat([algo_instances for _  in problem_instances]...)    
+        problem_instances_array = [prob_i for prob_i in problem_instances for _ in algo_instances]
+        return problem_instances_array, algo_instances_array
+    else
+        error("Please make sure the lower bound and the higher bound cover an interval between 1 and 50")
+    end
+end
+
+function initialize_algorithm_structures(alg)
+        
+        All_Algorithm_structure = Any[]
+
+        for searchspace in alg
+            
+            Algorithm_structure = detect_searchspaces(searchspace)
+            push!(All_Algorithm_structure, Algorithm_structure)
+           
+        end
+
+    return All_Algorithm_structure
+end
+
+function initialize_runs_dicts(All_Algorithm_structure)
+
+    runs_dicts = Dict()
+    for Algorithm_structure in All_Algorithm_structure
+        df = CSV.read("minimum_runs_$(Algorithm_structure.Name).csv", DataFrame; header=false)
+        runs_dicts = get_df_column_values(df,6, 10, Algorithm_structure.Name, runs_dicts)
+    end
+    return runs_dicts
 end

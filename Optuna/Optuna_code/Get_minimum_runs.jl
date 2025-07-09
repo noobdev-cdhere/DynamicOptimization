@@ -31,15 +31,11 @@ for searchspace in alg
 
     CSV_RUNS_FILE_NAME, CSV_LENGTH_RESULTS_NAME = check_CSV(searchspace, main_script_name; test = false)
 
-    #if occursin("CCMO_", searchspace)
-    #   searchspace = String(searchspace[2])
-    #    println("Searchspace is $(searchspace[2])")
-    #end
     Algorithm_structure = detect_searchspaces(searchspace)
 
     optuna_configuration = Optimization_configuration(1,50,100)
 
-    iteration_counts = [100] #preguntar á Ines como modificar isto 
+    iteration_counts = [100] 
 
     results_path = joinpath(splitdir(@__DIR__)[1], "Results")
 
@@ -71,7 +67,9 @@ for searchspace in alg
             algorithm_instance = Algorithm_structure.Name
 
             println("Using algorithm: $algorithm_instance")
-            metaheuristic = set_up_algorithm(algorithm_instance, num_ite)
+            options = Metaheuristics.Options(; iterations=num_ite, time_limit=4.0)
+
+            metaheuristic = set_up_algorithm(algorithm_instance, options)
 
             result_dir = "/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Optuna/Results"
 

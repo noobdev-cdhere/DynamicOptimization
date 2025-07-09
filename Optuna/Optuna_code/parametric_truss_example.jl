@@ -1,9 +1,40 @@
 #using KhepriAutoCAD
-using Pkg
-Pkg.add(url="https://github.com/aptmcl/KhepriFrame3DD.jl")
-using KhepriFrame3DD
+#using Distributed
+#addprocs(2)
+#@everywhere begin
+    #using Pkg
+    #Pkg.add(url="https://github.com/aptmcl/KhepriFrame3DD.jl")
+    using KhepriFrame3DD
+
+    include(joinpath(@__DIR__, "Hyperoptimization_intervals.jl"))
+    include(joinpath(@__DIR__, "utils_minimum_runs.jl"))
+    include(joinpath(@__DIR__, "optuna_utils.jl"))
+    #ENV["PYTHON"] = "/home/afonso-meneses/Desktop/GitHub/python_env/bin/python" 
+    #Pkg.build("PyCall")
+    using Metaheuristics
+    using Metaheuristics: optimize, get_non_dominated_solutions, pareto_front, Options
+    import Metaheuristics.PerformanceIndicators: hypervolume
+    using HardTestProblems
+    using DataStructures
+    using CSV
+    using DataFrames
+    using Statistics
+    using JSON
+    using PyCall
+    optuna = pyimport("optuna")
+    optuna_configuration = Optimization_configuration(1,50,100) ##[LB PROBLEM INSTANCE, HB PROBLEM INSTANCE, NUM OF HP CONFIGURATIONS TO BE TESTED]
+#end
+
+
+
+
+
+
 
 # Truss Geometry ---------------------------------------------------------------
+#@everywhere begin
+    
+
 my_free_truss_node_family = truss_node_family_element(default_truss_node_family(), support=false)
 free_node(pt) = truss_node(pt, family=my_free_truss_node_family)
 fixed_node(pt) = truss_node(pt, family=fixed_truss_node_family)
@@ -188,17 +219,18 @@ problem(x) =
     [0.0], [0.0])
 =#
 
+
 problem(x) =
-    (objectives(
-            x[:integer][1], x[:integer][2],
-            x[:continuous][1], x[:continuous][2], x[:continuous][3],
-            x[:continuous][4], x[:continuous][5], x[:continuous][6],
-            x[:continuous][7], x[:continuous][8], x[:continuous][9],
-            x[:continuous][10], x[:continuous][11], x[:continuous][12], 
-            x[:continuous][13], x[:continuous][14], x[:continuous][15],
-            x[:continuous][16], x[:continuous][17], x[:continuous][18],
-            x[:continuous][19], x[:continuous][20], x[:continuous][21]),
-        [0.0], [0.0])
+(objectives(
+        x[:integer][1], x[:integer][2],
+        x[:continuous][1], x[:continuous][2], x[:continuous][3],
+        x[:continuous][4], x[:continuous][5], x[:continuous][6],
+        x[:continuous][7], x[:continuous][8], x[:continuous][9],
+        x[:continuous][10], x[:continuous][11], x[:continuous][12], 
+        x[:continuous][13], x[:continuous][14], x[:continuous][15],
+        x[:continuous][16], x[:continuous][17], x[:continuous][18],
+        x[:continuous][19], x[:continuous][20], x[:continuous][21]),
+    [0.0], [0.0])
 
 ## Variables
 n_vars = 23
@@ -243,7 +275,7 @@ points_ub = [p[end] for p in points]
 integer_space = BoxConstrainedSpace([material_idx[1], bar_radius[1]], [material_idx[end], bar_radius[end]])
 continuous_space = BoxConstrainedSpace(points_lb, points_ub)
 mixed_space = MixedSpace(:integer => integer_space, :continuous => continuous_space)
-
+#end 
 #=
 vars_bounds =
     [material_idx[1] bar_radius[1] x12[1] y12[1] z12[1] [
@@ -257,11 +289,101 @@ vars_bounds =
 =#
 
 ## Test Optimization
+
+
+#@everywhere begin
+    base_dir = pwd()
+    main_script_name = basename(abspath(@__FILE__))
+    searchspace = ["SMS_EMOA_searchspace"]
+    CSV_RUNS_FILE_NAME, CSV_LENGTH_RESULTS_NAME = check_CSV(searchspace[1], main_script_name; test = false)
+    Algorithm_structure = detect_searchspaces(searchspace[1])
+    results_path = joinpath(splitdir(@__DIR__)[1], "Results")
+    pop_size = Algorithm_structure.Parameters[:N]
+    n_iterations = 20
+    max_evals = pop_size * n_iterations
+    results = []
+    hv_values = Dict()
+#end
+
+
+
+
+
+run(`clear`)
+
+
+
+
+
+#for current_instance in optuna_configuration.lb_instaces:optuna_configuration.max_instace
+    
+
+#options = Options(iterations = n_iterations, f_calls_limit = 3 * max_evals)
+#nsga2 = MixedInteger(NSGA2(N = pop_size, options = options))
+#results = optimize(problem, mixed_space, nsga2)
+
+#@everywhere begin
+    
+ algorithm_instance = Algorithm_structure.Name
+
+ println("Using algorithm: $algorithm_instance")
+ options = Metaheuristics.Options(iterations = n_iterations, f_calls_limit = 3 * max_evals)
+ #options = Metaheuristics.Options(; iterations=num_ite, time_limit=4.0)
+ metaheuristic = set_up_algorithm(algorithm_instance, options)
+ metaheuristic = MixedInteger(metaheuristic)
+ result_dir = "/home/afonso-meneses/Desktop/GitHub/DynamicOptimization/Optuna/Results"
+ All_HV = Dict(:Hypervolumes => Float64[])
+ num_runs = 100
+ reference_point = [10000, 30000]
+#end
+
+if pwd() !== result_dir
+    cd(result_dir)
+end
+
+
+
+
+#All_HV = @sync @distributed (vcat)
+  @time for i in 1:num_runs
+        println("Starting task...")
+        status = optimize(problem, mixed_space, metaheuristic)
+        println("Task Finished... iteration : $i")
+        approx_front = get_non_dominated_solutions(status.population)
+        HV = hypervolume(approx_front, reference_point) 
+        push!(All_HV[:Hypervolumes], HV) 
+    end
+
+results = All_HV
+type_of_result = first(keys(results))                
+
+
+println("Results::$results")
+
+hv_values[n_iterations] = mean(results[type_of_result])
+
+
+println("Hypervolume: $(hv_values[n_iterations])")
+
+problem_name = "parametric_truss_example"
+current_instance = 0
+get_minimum_runs(results, problem_name, current_instance, CSV_RUNS_FILE_NAME)
+
+#end
+
+
+
+
+
+
+
+
+
 pop_size = 15
 n_iterations = 20
 max_evals = pop_size * n_iterations
 
-options = Options(iterations=n_iterations, f_calls_limit=3*max_evals)
-nsga2 = MixedInteger(NSGA2(N=pop_size, options=options))
+options = Options( f_calls_limit = 20)
+nsga2 = MixedInteger(NSGA2(N = pop_size, options = options))
 
 results = optimize(problem, mixed_space, nsga2)
